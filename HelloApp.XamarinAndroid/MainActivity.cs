@@ -58,7 +58,7 @@ namespace HelloApp.XamarinAndroid
             var inputName = this.FindViewById<EditText>(Resource.Id.inputName).Text;
             var helloButton = this.FindViewById<Button>(Resource.Id.helloButton);
             helloButton.Click += (sender, e) => {
-                Toast.MakeText(this, $"Hello {inputName} !!!", ToastLength.Short);
+                Toast.MakeText(this, $"Hello {inputName} !!!", ToastLength.Short).Show();
             };
         }
 
