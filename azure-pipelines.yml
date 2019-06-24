@@ -22,6 +22,10 @@ stages:
   - job:
     pool:
       vmImage: 'windows-2019'
+      demands:
+      - 'MSBuild'
+      - 'Xamarin.Android'
+      - 'JDK'
 
     steps:
     - task: NuGetToolInstaller@0
