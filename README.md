@@ -1,7 +1,7 @@
 # Build Status
 
 ## azure-pipeline.yml
-[![Build Status](https://dev.azure.com/ainaba-mscom/AzureSamples/_apis/build/status/ayuina.xamarin-android-cicd?branchName=master)](https://dev.azure.com/ainaba-mscom/AzureSamples/_build/latest?definitionId=17&branchName=master)
+[![Build Status](https://dev.azure.com/ainaba-mscom/AzureSamples/_apis/build/status/ayuina.xamarin-android-cicd?branchName=merge)](https://dev.azure.com/ainaba-mscom/AzureSamples/_build/latest?definitionId=17&branchName=merge)
 
 ## azure-pipeline-multi.yml
 [![Build Status](https://dev.azure.com/ainaba-mscom/AzureSamples/_apis/build/status/parallel-demo_ayuina.xamarin-android-cicd?branchName=master)](https://dev.azure.com/ainaba-mscom/AzureSamples/_build/latest?definitionId=18&branchName=master)
