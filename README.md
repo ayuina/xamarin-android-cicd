@@ -1,6 +1,10 @@
 # Build Status
 
+## azure-pipeline.yml
 [![Build Status](https://dev.azure.com/ainaba-mscom/AzureSamples/_apis/build/status/ayuina.xamarin-android-cicd?branchName=master)](https://dev.azure.com/ainaba-mscom/AzureSamples/_build/latest?definitionId=17&branchName=master)
+
+## azure-pipeline-multi.yml
+[![Build Status](https://dev.azure.com/ainaba-mscom/AzureSamples/_apis/build/status/parallel-demo_ayuina.xamarin-android-cicd?branchName=master)](https://dev.azure.com/ainaba-mscom/AzureSamples/_build/latest?definitionId=18&branchName=master)
 
 # Introduction 
 TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
