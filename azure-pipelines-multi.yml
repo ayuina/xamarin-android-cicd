@@ -1,0 +1,125 @@
+# Xamarin.Android
+# Build a Xamarin.Android project.
+# Add steps that test, sign, and distribute an app, save build artifacts, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/xamarin
+
+name: $(BuildDefinitionName)_$(Date:yyyyMMdd)$(Rev:.r)
+
+variables:
+  buildConfiguration: 'Release'
+  outputDirectory: '$(build.ArtifactStagingDirectory)/$(buildConfiguration)'
+
+trigger:
+- master
+
+stages:
+- stage: 
+  displayName: 'Prep Stage'
+  jobs:
+
+  - job:
+    displayName: 'prep job'
+    pool:
+      vmImage: 'windows-2019'
+    steps:
+    - powershell: echo $env:JAVA_HOME
+    - script: set
+      displayName: echo env
+    - script: dir "%ProgramFiles(x86)%"
+      displayName: list x86 prog
+    - script: dir "%ProgramFiles%"
+      displayName: list x64 prog
+
+- stage: 
+  displayName: 'Build Stage'
+  jobs:
+
+  - job: 
+    displayName: 'matrixed build job'
+    pool:
+      vmImage: 'windows-2019'
+      demands:
+      - 'MSBuild'
+      - 'Xamarin.Android'
+      - 'JDK'
+    strategy:
+      matrix:
+        Red:
+          Color: Red
+        Blue:
+          Color: Blue
+        Green:
+          Color: Green
+
+    steps:
+    - task: NuGetToolInstaller@0
+      displayName: 'Install NuGet tool version 4.4.1'
+      inputs:
+        versionSpec: 4.4.1
+
+    - task: NuGetCommand@2
+      displayName: 'Restore NuGet packages'
+      inputs:
+        restoreSolution: '**/*.sln'
+
+    - task: 'richardfennellBM.BM-VSTS-Versioning-Task.Version-AndroidManifest-Task.VersionAndroidManifest@2'
+      displayName: 'Define apk version'
+      inputs:
+        VersionNumber: "DummyVersion_1.0.0"
+        Injectversioncode: true
+        VersionCode: '$(Build.BuildId)'
+
+    - task: XamarinAndroid@1
+      displayName: 'Build Xamarin.Android project'
+      inputs:
+        projectFile: '**/*droid*.csproj'
+        outputDirectory: '$(outputDirectory)/$(Color)'
+        configuration: '$(buildConfiguration)'
+        jdkVersionOption: 1.8
+
+    - task: PublishBuildArtifacts@1
+      displayName: 'publish before sined apk'
+      inputs:
+        pathtoPublish: '$(outputDirectory)'
+        artifactName: '$(Color)'
+        
+- stage: 
+  displayName: 'Sign and Publish Stage'
+  jobs:
+
+  - job: 
+    displayName: 'sign and release'
+    pool:
+      vmImage: 'windows-2019'
+      demands:  
+      - 'MSBuild'
+      - 'Xamarin.Android'
+      - 'JDK'
+
+    steps:
+    - task: DownloadPipelineArtifact@2
+      inputs:
+        patterns: '**/*.apk'
+
+    - task: DownloadSecureFile@1
+      displayName: 'Download keytore'
+      inputs:
+        secureFile: 'ayuina-hello-app-keystore.keystore'
+
+    - task: AndroidSigning@3
+      displayName: 'Sign and Zipalign apk'
+      inputs:
+        apkFiles: '$(Pipeline.Workspace)/**/*.apk'
+        apksign: true
+        apksignerKeystoreFile: 'ayuina-hello-app-keystore.keystore'
+        apksignerKeystorePassword: '$(apksignerKeystorePassword)'
+        apksignerKeystoreAlias: 'ayuina-hello-app-keystore'
+        apksignerKeyPassword: '$(apksignerKeyPassword)'
+        zipalign: true
+
+    - task: PublishBuildArtifacts@1
+      displayName: 'Publish Signed APK'
+      inputs:
+        pathtoPublish: '$(Pipeline.Workspace)'
+        artifactName: 'signed-apk'
+

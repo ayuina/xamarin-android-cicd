@@ -1,0 +1,87 @@
+# Xamarin.Android
+# Build a Xamarin.Android project.
+# Add steps that test, sign, and distribute an app, save build artifacts, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/xamarin
+
+name: $(TeamProject)_$(BuildDefinitionName)_$(SourceBranchName)_$(Date:yyyyMMdd)$(Rev:.r)
+
+variables:
+  buildConfiguration: 'Release'
+  outputDirectory: '$(build.binariesDirectory)/$(buildConfiguration)'
+
+trigger:
+- none
+
+stages:
+
+- stage:
+  displayName: "Stage 1"
+
+  jobs:
+
+  - job:
+    displayName: "Job 1"
+
+    pool:
+      vmImage: 'windows-2019'
+      demands:
+      - 'MSBuild'
+      - 'Xamarin.Android'
+      - 'JDK'
+
+    steps:
+    - task: NuGetToolInstaller@0
+      displayName: 'Install NuGet tool version 4.4.1'
+      inputs:
+        versionSpec: 4.4.1
+
+    - task: NuGetCommand@2
+      displayName: 'Restore NuGet packages'
+      inputs:
+        restoreSolution: '**/*.sln'
+
+    - task: 'richardfennellBM.BM-VSTS-Versioning-Task.Version-AndroidManifest-Task.VersionAndroidManifest@2'
+      displayName: 'Define apk version'
+      inputs:
+        VersionNumber: "DummyVersion_1.0.0"
+        Injectversioncode: true
+        VersionCode: '$(Build.BuildId)'
+
+    - task: XamarinAndroid@1
+      displayName: 'Build Xamarin.Android project'
+      inputs:
+        projectFile: '**/*droid*.csproj'
+        outputDirectory: '$(outputDirectory)'
+        configuration: '$(buildConfiguration)'
+
+    - task: DownloadSecureFile@1
+      displayName: 'Download keytore'
+      inputs:
+        secureFile: 'ayuina-hello-app-keystore.keystore'
+
+    - task: AndroidSigning@3
+      displayName: 'Sign and Zipalign apk'
+      inputs:
+        apkFiles: '$(outputDirectory)/**/*.apk'
+        apksign: true
+        apksignerKeystoreFile: 'ayuina-hello-app-keystore.keystore'
+        apksignerKeystorePassword: '$(apksignerKeystorePassword)'
+        apksignerKeystoreAlias: 'ayuina-hello-app-keystore'
+        apksignerKeyPassword: '$(apksignerKeyPassword)'
+        zipalign: true
+
+    - task: PublishBuildArtifacts@1
+      displayName: 'Publish Build Artifact'
+      inputs:
+        PathtoPublish: '$(outputDirectory)'
+
+    - task: AppCenterDistribute@2
+      displayName: 'Push to AppCenter Release'
+      inputs: 
+        serverEndpoint: 'appcenter-connection-ainaba-mscom-pipeline'
+        appSlug: 'ayuina-demo1/MyFirstApp'
+        appFile: '$(outputDirectory)/**/*.apk'
+        symbolsIncludeParentDirectory: false
+        releaseNotesInput: 'Builded By Azure Pipeline - $(Build.BuildNumber)'
+        isMandatory: true
+        distributionGroupId: 'b9b01d0d-098a-4d75-b416-99f6590ed25b'
