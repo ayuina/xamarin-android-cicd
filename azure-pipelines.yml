@@ -24,6 +24,16 @@ stages:
       vmImage: 'windows-2019'
 
     steps:
+    - task: NuGetToolInstaller@0
+      displayName: 'Install NuGet tool version 4.4.1'
+      inputs:
+        versionSpec: 4.4.1
+
+    - task: NuGetCommand@2
+      displayName: 'Restore NuGet packages'
+      inputs:
+        restoreSolution: '**/*.sln'
+
     - task: VisualStudioTestPlatformInstaller@1
       displayName: 'install vstest platform'
 
