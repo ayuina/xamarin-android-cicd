@@ -55,9 +55,10 @@ namespace HelloApp.XamarinAndroid
             var verinfoText = FindViewById<TextView>(Resource.Id.verinfoTextView);
             verinfoText.Text = $"{pack.VersionName}({pack.VersionCode})";
 
-            var name = this.FindViewById<EditText>(Resource.Id.inputName).Text;
+            var inputName = this.FindViewById<EditText>(Resource.Id.inputName);
             var helloButton = this.FindViewById<Button>(Resource.Id.helloButton);
             helloButton.Click += (sender, e) => {
+                var name = inputName.Text;
                 var message = string.IsNullOrEmpty(name) ? "Input Your Name" : $"Hello {name} !!!";
                 Toast.MakeText(this, message, ToastLength.Long).Show();
             };
