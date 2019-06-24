@@ -16,16 +16,37 @@
         android:layout_centerInParent="true"
         android:text="Hello World!"
         android:textSize="32sp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputName" />
+    <Button
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/helloButton" />
+
+
+    <TextView
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="32sp" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:id="@+id/appinfoTextView"
         android:text="application_info"
-        android:textSize="32sp" />
-
+        android:textSize="24sp" />
     <TextView
-        android:text="Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/verinfoTextView"
+        android:text="version_Info"
+        android:textSize="24sp" />
+    <TextView
+        android:text="timer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/timerTextView"

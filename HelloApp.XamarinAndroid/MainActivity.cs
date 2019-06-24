@@ -1,6 +1,4 @@
-﻿using System;
-using System.Timers;
-using Android.App;
+﻿using Android.App;
 using Android.OS;
 using Android.Runtime;
 using Android.Support.Design.Widget;
@@ -11,6 +9,8 @@ using Microsoft.AppCenter;
 using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
 using Microsoft.AppCenter.Distribute;
+using System;
+using System.Timers;
 
 namespace HelloApp.XamarinAndroid
 {
@@ -47,19 +47,21 @@ namespace HelloApp.XamarinAndroid
                 });
             };
 
-            var appinfoText = FindViewById<TextView>(Resource.Id.appinfoTextView);
-            appinfoText.Text = GetAppVersion();
-
-
-
-        }
-
-        private string GetAppVersion()
-        {
             var appctx = this.ApplicationContext;
+            var appinfoText = FindViewById<TextView>(Resource.Id.appinfoTextView);
+            appinfoText.Text = appctx.PackageName;
+
             var pack = appctx.PackageManager.GetPackageInfo(appctx.PackageName, 0);
-            return string.Format("{0} - {1} - {2}", pack.PackageName, pack.VersionName, pack.VersionCode);
+            var verinfoText = FindViewById<TextView>(Resource.Id.verinfoTextView);
+            verinfoText.Text = $"{pack.VersionName}({pack.VersionCode})";
+
+            var inputName = this.FindViewById<EditText>(Resource.Id.inputName).Text;
+            var helloButton = this.FindViewById<Button>(Resource.Id.helloButton);
+            helloButton.Click += (sender, e) => {
+                Toast.MakeText(this, $"Hello {inputName} !!!", ToastLength.Short);
+            };
         }
+
 
         private Timer timer;
 
