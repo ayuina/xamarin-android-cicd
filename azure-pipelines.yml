@@ -38,7 +38,8 @@ stages:
       displayName: 'run unit test'
       inputs:
         testSelector: 'testAssemblies'
-        testAssemblyVer2: '$(build.binariesdirectory)/**/*.Tests.dll'
+        testAssemblyVer2: |
+            '$(build.binariesdirectory)/**/*.Tests.dll'
 
 
 - stage:
