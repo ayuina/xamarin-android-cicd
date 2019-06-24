@@ -40,9 +40,10 @@ stages:
     - task: MSBuild@1
       displayName: 'build test project'
       inputs:
-        solution: '**/*.Tests.csproj'
+        solution: '**/HelloApp.ClassLibrary.Tests.csproj'
         configuration : $(buildConfiguration)
         msbuildArguments: '/p:OutputPath="$(build.binariesdirectory)/$(BuildConfiguration)/test-assembly"'
+        jdkVersionOption: 1.8
 
     - task: VSTest@2
       displayName: 'run unit test'
