@@ -47,6 +47,18 @@ namespace HelloApp.XamarinAndroid
                 });
             };
 
+            var appinfoText = FindViewById<TextView>(Resource.Id.appinfoTextView);
+            appinfoText.Text = GetAppVersion();
+
+
+
+        }
+
+        private string GetAppVersion()
+        {
+            var appctx = this.ApplicationContext;
+            var pack = appctx.PackageManager.GetPackageInfo(appctx.PackageName, 0);
+            return string.Format("{0} - {1} - {2}", pack.PackageName, pack.VersionName, pack.VersionCode);
         }
 
         private Timer timer;
