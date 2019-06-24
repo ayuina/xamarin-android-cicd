@@ -17,6 +17,31 @@ pr:
 stages:
 
 - stage:
+  displayName: UnitTest Stage
+  jobs:
+  - job:
+    pool:
+      vmImage: 'windows-2019'
+
+    steps:
+    - task: VisualStudioTestPlatformInstaller@1
+      displayName: 'install vstest platform'
+
+    - task: MSBuild@1
+      displayName: 'build test project'
+      inputs:
+        solution: '**/*.Tests.csproj'
+        configuration : $(buildConfiguration)
+        msbuildArguments: '/p:OutputPath="$(build.binariesdirectory)/$(BuildConfiguration)/test-assembly"'
+
+    - task:VSTest@2
+      displayName: 'run unit test'
+      inputs:
+        testSelector: 'testAssemblies'
+        testAssemblyVer2: '$(build.binariesdirectory)/**/*.Tests.dll'
+
+
+- stage:
   displayName: "Stage 1"
 
   jobs:

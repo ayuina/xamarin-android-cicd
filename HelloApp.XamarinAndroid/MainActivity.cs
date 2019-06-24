@@ -59,7 +59,7 @@ namespace HelloApp.XamarinAndroid
             var helloButton = this.FindViewById<Button>(Resource.Id.helloButton);
             helloButton.Click += (sender, e) => {
                 var name = inputName.Text;
-                var message = string.IsNullOrEmpty(name) ? "Input Your Name" : $"Hello {name} !!!";
+                var message = string.IsNullOrEmpty(name) ? "Input Your Name" : HelloApp.ClassLibrary.Class1.Hello(name);
                 Toast.MakeText(this, message, ToastLength.Long).Show();
             };
         }
