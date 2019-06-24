@@ -104,14 +104,14 @@ stages:
     - task: DownloadSecureFile@1
       displayName: 'Download keytore'
       inputs:
-        secureFile: 'ayuina-hello-app-keystore.keystore'
+        secureFile: '.keystore'
 
     - task: AndroidSigning@3
       displayName: 'Sign and Zipalign apk'
       inputs:
         apkFiles: '$(Pipeline.Workspace)/**/*.apk'
         apksign: true
-        apksignerKeystoreFile: 'ayuina-hello-app-keystore.keystore'
+        apksignerKeystoreFile: '.keystore'
         apksignerKeystorePassword: '$(apksignerKeystorePassword)'
         apksignerKeystoreAlias: 'ayuina-hello-app-keystore'
         apksignerKeyPassword: '$(apksignerKeyPassword)'
