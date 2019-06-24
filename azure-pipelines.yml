@@ -41,13 +41,13 @@ stages:
     - task: VisualStudioTestPlatformInstaller@1
       displayName: 'install vstest platform'
 
-    - task: XamarinAndroid@1
+    - task: MSBuild@1
       displayName: 'build test project'
       inputs:
-        projectFile: '**/HelloApp.ClassLibrary.Tests.csproj'
+        solution: '**/HelloApp.ClassLibrary.Tests.csproj'
         configuration : $(buildConfiguration)
-        msbuildArguments: '/p:OutputPath="$(build.binariesdirectory)/$(BuildConfiguration)/test-assembly"'
-        jdkVersionOption: 1.8
+        msbuildArguments: '/p:OutputPath="$(build.binariesdirectory)/$(BuildConfiguration)/test-assembly" /p:JavaSdkDirectory="$(JAVA_HOME_8_X64)"'
+
 
     - task: VSTest@2
       displayName: 'run unit test'
