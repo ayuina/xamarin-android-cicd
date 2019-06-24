@@ -53,6 +53,7 @@ stages:
         projectFile: '**/*droid*.csproj'
         outputDirectory: '$(outputDirectory)'
         configuration: '$(buildConfiguration)'
+        jdkVersionOption: 1.8
 
     - task: DownloadSecureFile@1
       displayName: 'Download keytore'
