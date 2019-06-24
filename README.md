@@ -1,6 +1,6 @@
 # Build Status
-[![Build status](https://build.appcenter.ms/v0.1/apps/143a2edc-8eeb-4b26-833b-86e340ada04f/branches/master/badge)](https://appcenter.ms)
 
+[![Build Status](https://dev.azure.com/ainaba-mscom/AzureSamples/_apis/build/status/ayuina.xamarin-android-cicd?branchName=master)](https://dev.azure.com/ainaba-mscom/AzureSamples/_build/latest?definitionId=17&branchName=master)
 
 # Introduction 
 TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 

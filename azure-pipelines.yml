@@ -9,8 +9,10 @@ variables:
   buildConfiguration: 'Release'
   outputDirectory: '$(build.binariesDirectory)/$(buildConfiguration)'
 
-trigger:
-- none
+# trigger:
+# - none
+pr:
+- master
 
 stages:
 
