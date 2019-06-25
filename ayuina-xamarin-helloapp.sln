@@ -12,21 +12,27 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		LibOnly|Any CPU = LibOnly|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9596CCFD-7E27-4FA3-AF7C-21D6C11977F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9596CCFD-7E27-4FA3-AF7C-21D6C11977F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9596CCFD-7E27-4FA3-AF7C-21D6C11977F4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9596CCFD-7E27-4FA3-AF7C-21D6C11977F4}.LibOnly|Any CPU.ActiveCfg = LibOnly|Any CPU
 		{9596CCFD-7E27-4FA3-AF7C-21D6C11977F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9596CCFD-7E27-4FA3-AF7C-21D6C11977F4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9596CCFD-7E27-4FA3-AF7C-21D6C11977F4}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{BD505A75-4EF2-4232-B8D8-A3F2A0E4686F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BD505A75-4EF2-4232-B8D8-A3F2A0E4686F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD505A75-4EF2-4232-B8D8-A3F2A0E4686F}.LibOnly|Any CPU.ActiveCfg = LibOnly|Any CPU
+		{BD505A75-4EF2-4232-B8D8-A3F2A0E4686F}.LibOnly|Any CPU.Build.0 = LibOnly|Any CPU
 		{BD505A75-4EF2-4232-B8D8-A3F2A0E4686F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD505A75-4EF2-4232-B8D8-A3F2A0E4686F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B0E2B9BD-DFCB-4F1A-8860-BE14E654C9EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B0E2B9BD-DFCB-4F1A-8860-BE14E654C9EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E2B9BD-DFCB-4F1A-8860-BE14E654C9EE}.LibOnly|Any CPU.ActiveCfg = LibOnly|Any CPU
+		{B0E2B9BD-DFCB-4F1A-8860-BE14E654C9EE}.LibOnly|Any CPU.Build.0 = LibOnly|Any CPU
 		{B0E2B9BD-DFCB-4F1A-8860-BE14E654C9EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0E2B9BD-DFCB-4F1A-8860-BE14E654C9EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
