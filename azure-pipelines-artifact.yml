@@ -1,0 +1,74 @@
+# Xamarin.Android
+# Build a Xamarin.Android project.
+# Add steps that test, sign, and distribute an app, save build artifacts, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/xamarin
+
+name: $(BuildDefinitionName)_$(Build.BuildId)_$(Date:yyyyMMdd)$(Rev:.r)
+
+variables:
+  buildConfiguration: 'LibOnly'
+  outputDirectory: '$(build.ArtifactStagingDirectory)/$(buildConfiguration)'
+
+trigger:
+- none
+
+stages:
+
+- stage:
+  displayName: 'Build and Test stage'
+  jobs:
+  - job:
+    pool:
+      vmImage: 'windows-2019'
+      demands:
+      - 'MSBuild'
+      - 'Xamarin.Android'
+      - 'JDK'
+    steps:
+    - task: NuGetToolInstaller@0
+      displayName: 'Install NuGet tool version 4.4.1'
+      inputs:
+        versionSpec: 4.4.1
+
+    - task: VisualStudioTestPlatformInstaller@1
+      displayName: 'install vstest platform'
+
+    - task: NuGetCommand@2
+      displayName: 'Restore NuGet packages'
+      inputs:
+        restoreSolution: '**/*.sln'
+
+    - task: MSBuild@1
+      displayName: 'build test project'
+      inputs:
+        solution: '**/ayuina-xamarin-helloapp.sln'
+        configuration : $(buildConfiguration)
+        msbuildArguments: '/p:OutputPath="$(outputDirectory)" /p:JavaSdkDirectory="$(JAVA_HOME_8_X64)"'
+
+    - task: VSTest@2
+      displayName: 'run unit test'
+      inputs:
+        testSelector: 'testAssemblies'
+        testAssemblyVer2: '$(outputDirectory)/**/*.Tests.dll'
+
+    - task: NuGetCommand@2
+      displayName: 'NuGet pack'
+      inputs:
+        command: pack
+        packagesToPack: '**/ClassLibrary.csproj'
+        configuration: '$(BuildConfiguration)'
+        packDestination: '$(outputDirectory)'
+        versioningScheme: byBuildNumber
+
+    - task: NuGetCommand@2
+      displayName: 'NuGet push'
+      inputs:
+        command: push
+        publishVstsFeed: '/6c5f08b2-5f26-4181-8bd7-1fdfbfb13674'
+        packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg
+
+    - task: PublishBuildArtifacts@1
+      displayName: 'Publish Build Artifact'
+      inputs:
+        PathtoPublish: '$(outputDirectory)'
+
