@@ -10,6 +10,7 @@ using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
 using Microsoft.AppCenter.Distribute;
 using System;
+using System.Collections.Generic;
 using System.Timers;
 
 namespace HelloApp.XamarinAndroid
@@ -23,7 +24,7 @@ namespace HelloApp.XamarinAndroid
             base.OnCreate(savedInstanceState);
 
             AppCenter.Start("1851e084-1a5a-4c87-97e3-f712b406edca", typeof(Analytics), typeof(Crashes), typeof(Distribute));
-            Analytics.TrackEvent("start application");
+            Analytics.TrackEvent("start application", GetMetadata());
 
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
@@ -60,7 +61,7 @@ namespace HelloApp.XamarinAndroid
             var inputName = this.FindViewById<EditText>(Resource.Id.inputName);
             var helloButton = this.FindViewById<Button>(Resource.Id.helloButton);
             helloButton.Click += (sender, e) => {
-                Analytics.TrackEvent("helloButton onclick");
+                Analytics.TrackEvent("helloButton onclick", GetMetadata());
 
                 var name = inputName.Text;
                 var message = string.IsNullOrEmpty(name) ? "Input Your Name" : HelloApp.ClassLibrary.Class1.Hello(name);
@@ -69,23 +70,33 @@ namespace HelloApp.XamarinAndroid
 
             this.FindViewById<Button>(Resource.Id.crashButton).Click += (sender, e) =>
             {
-                Analytics.TrackEvent("crashButton onclick");
+                Analytics.TrackEvent("crashButton onclick", GetMetadata());
                 Crashes.GenerateTestCrash();
             };
 
             this.FindViewById<Button>(Resource.Id.exceptionButton).Click += (sender, e) =>
             {
-                Analytics.TrackEvent("exceptionButton onclick");
+                Analytics.TrackEvent("exceptionButton onclick", GetMetadata());
                 try
                 {
                     ClassLibrary.Class1.Hello(null);
                 }
                 catch (Exception ex)
                 {
-                    Crashes.TrackError(ex);
+                    Crashes.TrackError(ex, GetMetadata());
+                    throw;
                 }
             };
 
+        }
+
+        private IDictionary<string, string> GetMetadata()
+        {
+            var ret = new Dictionary<string, string>();
+            ret.Add("hoge", "HOGE");
+            ret.Add("fuga", "FUGA");
+            ret.Add("piyo", "PIYO");
+            return ret;
         }
 
 
