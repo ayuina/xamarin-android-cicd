@@ -60,7 +60,10 @@ stages:
     - task: NuGetCommand@2
       displayName: 'Restore NuGet packages'
       inputs:
-        restoreSolution: '**/*.sln'
+        command: restore
+        restoreSolution: '**/HelloApp.XamarinAndroid.csproj'
+        feedsToUse: 'select' 
+        vstsFeed: AyuInaFeed 
 
     - task: 'richardfennellBM.BM-VSTS-Versioning-Task.Version-AndroidManifest-Task.VersionAndroidManifest@2'
       displayName: 'Define apk version'
