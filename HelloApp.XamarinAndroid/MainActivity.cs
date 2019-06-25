@@ -23,6 +23,7 @@ namespace HelloApp.XamarinAndroid
             base.OnCreate(savedInstanceState);
 
             AppCenter.Start("1851e084-1a5a-4c87-97e3-f712b406edca", typeof(Analytics), typeof(Crashes), typeof(Distribute));
+            Analytics.TrackEvent("start application");
 
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
@@ -55,9 +56,12 @@ namespace HelloApp.XamarinAndroid
             var verinfoText = FindViewById<TextView>(Resource.Id.verinfoTextView);
             verinfoText.Text = $"{pack.VersionName}({pack.VersionCode})";
 
+
             var inputName = this.FindViewById<EditText>(Resource.Id.inputName);
             var helloButton = this.FindViewById<Button>(Resource.Id.helloButton);
             helloButton.Click += (sender, e) => {
+                Analytics.TrackEvent("helloButton onclick");
+
                 var name = inputName.Text;
                 var message = string.IsNullOrEmpty(name) ? "Input Your Name" : HelloApp.ClassLibrary.Class1.Hello(name);
                 Toast.MakeText(this, message, ToastLength.Long).Show();
@@ -65,11 +69,13 @@ namespace HelloApp.XamarinAndroid
 
             this.FindViewById<Button>(Resource.Id.crashButton).Click += (sender, e) =>
             {
+                Analytics.TrackEvent("crashButton onclick");
                 Crashes.GenerateTestCrash();
             };
 
             this.FindViewById<Button>(Resource.Id.exceptionButton).Click += (sender, e) =>
             {
+                Analytics.TrackEvent("exceptionButton onclick");
                 try
                 {
                     ClassLibrary.Class1.Hello(null);
