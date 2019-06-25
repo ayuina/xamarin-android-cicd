@@ -52,6 +52,13 @@ stages:
         testSelector: 'testAssemblies'
         testAssemblyVer2: '$(outputDirectory)/**/*.Tests.dll'
 
+    - task: MSBuild@1
+      displayName: 'build dll project for nuget'
+      inputs:
+        solution: '**/ayuina-xamarin-helloapp.sln'
+        configuration : $(buildConfiguration)
+        msbuildArguments: '/p:JavaSdkDirectory="$(JAVA_HOME_8_X64)"'
+
     - task: NuGetCommand@2
       displayName: 'NuGet pack'
       inputs:
