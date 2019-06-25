@@ -33,11 +33,6 @@ stages:
       inputs:
         versionSpec: 4.4.1
 
-    - task: NuGetCommand@2
-      displayName: 'Restore NuGet packages'
-      inputs:
-        restoreSolution: '**/*.sln'
-
 - stage:
   displayName: "Build Stage"
 
@@ -62,7 +57,7 @@ stages:
     - task: NuGetCommand@2
       displayName: 'Restore NuGet packages'
       inputs:
-        restoreSolution: '**/*.sln'
+        restoreSolution: '**/HelloApp.XamarinAndroid.csproj'
 
     - task: 'richardfennellBM.BM-VSTS-Versioning-Task.Version-AndroidManifest-Task.VersionAndroidManifest@2'
       displayName: 'Define apk version'
