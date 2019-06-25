@@ -6,8 +6,10 @@ namespace HelloApp.ClassLibrary
     {
         public static string Hello(string name)
         {
-            if (string.IsNullOrEmpty(name))
+            if(name.Length == 0)
+            {
                 return $"Hello Anonymous ???";
+            }
             return $"Hello {name} !!!";
         }
     }

@@ -26,6 +26,1613 @@ namespace HelloApp.XamarinAndroid
 		
 		public static void UpdateIdValues()
 		{
+			global::HelloApp.ClassLibrary.Resource.Animation.abc_fade_in = global::HelloApp.XamarinAndroid.Resource.Animation.abc_fade_in;
+			global::HelloApp.ClassLibrary.Resource.Animation.abc_fade_out = global::HelloApp.XamarinAndroid.Resource.Animation.abc_fade_out;
+			global::HelloApp.ClassLibrary.Resource.Animation.abc_grow_fade_in_from_bottom = global::HelloApp.XamarinAndroid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::HelloApp.ClassLibrary.Resource.Animation.abc_popup_enter = global::HelloApp.XamarinAndroid.Resource.Animation.abc_popup_enter;
+			global::HelloApp.ClassLibrary.Resource.Animation.abc_popup_exit = global::HelloApp.XamarinAndroid.Resource.Animation.abc_popup_exit;
+			global::HelloApp.ClassLibrary.Resource.Animation.abc_shrink_fade_out_from_bottom = global::HelloApp.XamarinAndroid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::HelloApp.ClassLibrary.Resource.Animation.abc_slide_in_bottom = global::HelloApp.XamarinAndroid.Resource.Animation.abc_slide_in_bottom;
+			global::HelloApp.ClassLibrary.Resource.Animation.abc_slide_in_top = global::HelloApp.XamarinAndroid.Resource.Animation.abc_slide_in_top;
+			global::HelloApp.ClassLibrary.Resource.Animation.abc_slide_out_bottom = global::HelloApp.XamarinAndroid.Resource.Animation.abc_slide_out_bottom;
+			global::HelloApp.ClassLibrary.Resource.Animation.abc_slide_out_top = global::HelloApp.XamarinAndroid.Resource.Animation.abc_slide_out_top;
+			global::HelloApp.ClassLibrary.Resource.Animation.abc_tooltip_enter = global::HelloApp.XamarinAndroid.Resource.Animation.abc_tooltip_enter;
+			global::HelloApp.ClassLibrary.Resource.Animation.abc_tooltip_exit = global::HelloApp.XamarinAndroid.Resource.Animation.abc_tooltip_exit;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionBarDivider = global::HelloApp.XamarinAndroid.Resource.Attribute.actionBarDivider;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionBarItemBackground = global::HelloApp.XamarinAndroid.Resource.Attribute.actionBarItemBackground;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionBarPopupTheme = global::HelloApp.XamarinAndroid.Resource.Attribute.actionBarPopupTheme;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionBarSize = global::HelloApp.XamarinAndroid.Resource.Attribute.actionBarSize;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionBarSplitStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.actionBarSplitStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionBarStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.actionBarStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionBarTabBarStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.actionBarTabBarStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionBarTabStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.actionBarTabStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionBarTabTextStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.actionBarTabTextStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionBarTheme = global::HelloApp.XamarinAndroid.Resource.Attribute.actionBarTheme;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionBarWidgetTheme = global::HelloApp.XamarinAndroid.Resource.Attribute.actionBarWidgetTheme;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionButtonStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.actionButtonStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionDropDownStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.actionDropDownStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionLayout = global::HelloApp.XamarinAndroid.Resource.Attribute.actionLayout;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionMenuTextAppearance = global::HelloApp.XamarinAndroid.Resource.Attribute.actionMenuTextAppearance;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionMenuTextColor = global::HelloApp.XamarinAndroid.Resource.Attribute.actionMenuTextColor;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionModeBackground = global::HelloApp.XamarinAndroid.Resource.Attribute.actionModeBackground;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionModeCloseButtonStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionModeCloseDrawable = global::HelloApp.XamarinAndroid.Resource.Attribute.actionModeCloseDrawable;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionModeCopyDrawable = global::HelloApp.XamarinAndroid.Resource.Attribute.actionModeCopyDrawable;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionModeCutDrawable = global::HelloApp.XamarinAndroid.Resource.Attribute.actionModeCutDrawable;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionModeFindDrawable = global::HelloApp.XamarinAndroid.Resource.Attribute.actionModeFindDrawable;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionModePasteDrawable = global::HelloApp.XamarinAndroid.Resource.Attribute.actionModePasteDrawable;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionModePopupWindowStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.actionModePopupWindowStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionModeSelectAllDrawable = global::HelloApp.XamarinAndroid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionModeShareDrawable = global::HelloApp.XamarinAndroid.Resource.Attribute.actionModeShareDrawable;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionModeSplitBackground = global::HelloApp.XamarinAndroid.Resource.Attribute.actionModeSplitBackground;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionModeStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.actionModeStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionModeWebSearchDrawable = global::HelloApp.XamarinAndroid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionOverflowButtonStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.actionOverflowButtonStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionOverflowMenuStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.actionOverflowMenuStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionProviderClass = global::HelloApp.XamarinAndroid.Resource.Attribute.actionProviderClass;
+			global::HelloApp.ClassLibrary.Resource.Attribute.actionViewClass = global::HelloApp.XamarinAndroid.Resource.Attribute.actionViewClass;
+			global::HelloApp.ClassLibrary.Resource.Attribute.activityChooserViewStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.activityChooserViewStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.alertDialogButtonGroupStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.alertDialogCenterButtons = global::HelloApp.XamarinAndroid.Resource.Attribute.alertDialogCenterButtons;
+			global::HelloApp.ClassLibrary.Resource.Attribute.alertDialogStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.alertDialogStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.alertDialogTheme = global::HelloApp.XamarinAndroid.Resource.Attribute.alertDialogTheme;
+			global::HelloApp.ClassLibrary.Resource.Attribute.allowStacking = global::HelloApp.XamarinAndroid.Resource.Attribute.allowStacking;
+			global::HelloApp.ClassLibrary.Resource.Attribute.alpha = global::HelloApp.XamarinAndroid.Resource.Attribute.alpha;
+			global::HelloApp.ClassLibrary.Resource.Attribute.alphabeticModifiers = global::HelloApp.XamarinAndroid.Resource.Attribute.alphabeticModifiers;
+			global::HelloApp.ClassLibrary.Resource.Attribute.arrowHeadLength = global::HelloApp.XamarinAndroid.Resource.Attribute.arrowHeadLength;
+			global::HelloApp.ClassLibrary.Resource.Attribute.arrowShaftLength = global::HelloApp.XamarinAndroid.Resource.Attribute.arrowShaftLength;
+			global::HelloApp.ClassLibrary.Resource.Attribute.autoCompleteTextViewStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.autoSizeMaxTextSize = global::HelloApp.XamarinAndroid.Resource.Attribute.autoSizeMaxTextSize;
+			global::HelloApp.ClassLibrary.Resource.Attribute.autoSizeMinTextSize = global::HelloApp.XamarinAndroid.Resource.Attribute.autoSizeMinTextSize;
+			global::HelloApp.ClassLibrary.Resource.Attribute.autoSizePresetSizes = global::HelloApp.XamarinAndroid.Resource.Attribute.autoSizePresetSizes;
+			global::HelloApp.ClassLibrary.Resource.Attribute.autoSizeStepGranularity = global::HelloApp.XamarinAndroid.Resource.Attribute.autoSizeStepGranularity;
+			global::HelloApp.ClassLibrary.Resource.Attribute.autoSizeTextType = global::HelloApp.XamarinAndroid.Resource.Attribute.autoSizeTextType;
+			global::HelloApp.ClassLibrary.Resource.Attribute.background = global::HelloApp.XamarinAndroid.Resource.Attribute.background;
+			global::HelloApp.ClassLibrary.Resource.Attribute.backgroundSplit = global::HelloApp.XamarinAndroid.Resource.Attribute.backgroundSplit;
+			global::HelloApp.ClassLibrary.Resource.Attribute.backgroundStacked = global::HelloApp.XamarinAndroid.Resource.Attribute.backgroundStacked;
+			global::HelloApp.ClassLibrary.Resource.Attribute.backgroundTint = global::HelloApp.XamarinAndroid.Resource.Attribute.backgroundTint;
+			global::HelloApp.ClassLibrary.Resource.Attribute.backgroundTintMode = global::HelloApp.XamarinAndroid.Resource.Attribute.backgroundTintMode;
+			global::HelloApp.ClassLibrary.Resource.Attribute.barLength = global::HelloApp.XamarinAndroid.Resource.Attribute.barLength;
+			global::HelloApp.ClassLibrary.Resource.Attribute.borderlessButtonStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.borderlessButtonStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.buttonBarButtonStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.buttonBarButtonStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.buttonBarNegativeButtonStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.buttonBarNeutralButtonStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.buttonBarPositiveButtonStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.buttonBarStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.buttonBarStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.buttonGravity = global::HelloApp.XamarinAndroid.Resource.Attribute.buttonGravity;
+			global::HelloApp.ClassLibrary.Resource.Attribute.buttonIconDimen = global::HelloApp.XamarinAndroid.Resource.Attribute.buttonIconDimen;
+			global::HelloApp.ClassLibrary.Resource.Attribute.buttonPanelSideLayout = global::HelloApp.XamarinAndroid.Resource.Attribute.buttonPanelSideLayout;
+			global::HelloApp.ClassLibrary.Resource.Attribute.buttonStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.buttonStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.buttonStyleSmall = global::HelloApp.XamarinAndroid.Resource.Attribute.buttonStyleSmall;
+			global::HelloApp.ClassLibrary.Resource.Attribute.buttonTint = global::HelloApp.XamarinAndroid.Resource.Attribute.buttonTint;
+			global::HelloApp.ClassLibrary.Resource.Attribute.buttonTintMode = global::HelloApp.XamarinAndroid.Resource.Attribute.buttonTintMode;
+			global::HelloApp.ClassLibrary.Resource.Attribute.checkboxStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.checkboxStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.checkedTextViewStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.checkedTextViewStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.closeIcon = global::HelloApp.XamarinAndroid.Resource.Attribute.closeIcon;
+			global::HelloApp.ClassLibrary.Resource.Attribute.closeItemLayout = global::HelloApp.XamarinAndroid.Resource.Attribute.closeItemLayout;
+			global::HelloApp.ClassLibrary.Resource.Attribute.collapseContentDescription = global::HelloApp.XamarinAndroid.Resource.Attribute.collapseContentDescription;
+			global::HelloApp.ClassLibrary.Resource.Attribute.collapseIcon = global::HelloApp.XamarinAndroid.Resource.Attribute.collapseIcon;
+			global::HelloApp.ClassLibrary.Resource.Attribute.color = global::HelloApp.XamarinAndroid.Resource.Attribute.color;
+			global::HelloApp.ClassLibrary.Resource.Attribute.colorAccent = global::HelloApp.XamarinAndroid.Resource.Attribute.colorAccent;
+			global::HelloApp.ClassLibrary.Resource.Attribute.colorBackgroundFloating = global::HelloApp.XamarinAndroid.Resource.Attribute.colorBackgroundFloating;
+			global::HelloApp.ClassLibrary.Resource.Attribute.colorButtonNormal = global::HelloApp.XamarinAndroid.Resource.Attribute.colorButtonNormal;
+			global::HelloApp.ClassLibrary.Resource.Attribute.colorControlActivated = global::HelloApp.XamarinAndroid.Resource.Attribute.colorControlActivated;
+			global::HelloApp.ClassLibrary.Resource.Attribute.colorControlHighlight = global::HelloApp.XamarinAndroid.Resource.Attribute.colorControlHighlight;
+			global::HelloApp.ClassLibrary.Resource.Attribute.colorControlNormal = global::HelloApp.XamarinAndroid.Resource.Attribute.colorControlNormal;
+			global::HelloApp.ClassLibrary.Resource.Attribute.colorError = global::HelloApp.XamarinAndroid.Resource.Attribute.colorError;
+			global::HelloApp.ClassLibrary.Resource.Attribute.colorPrimary = global::HelloApp.XamarinAndroid.Resource.Attribute.colorPrimary;
+			global::HelloApp.ClassLibrary.Resource.Attribute.colorPrimaryDark = global::HelloApp.XamarinAndroid.Resource.Attribute.colorPrimaryDark;
+			global::HelloApp.ClassLibrary.Resource.Attribute.colorSwitchThumbNormal = global::HelloApp.XamarinAndroid.Resource.Attribute.colorSwitchThumbNormal;
+			global::HelloApp.ClassLibrary.Resource.Attribute.commitIcon = global::HelloApp.XamarinAndroid.Resource.Attribute.commitIcon;
+			global::HelloApp.ClassLibrary.Resource.Attribute.contentDescription = global::HelloApp.XamarinAndroid.Resource.Attribute.contentDescription;
+			global::HelloApp.ClassLibrary.Resource.Attribute.contentInsetEnd = global::HelloApp.XamarinAndroid.Resource.Attribute.contentInsetEnd;
+			global::HelloApp.ClassLibrary.Resource.Attribute.contentInsetEndWithActions = global::HelloApp.XamarinAndroid.Resource.Attribute.contentInsetEndWithActions;
+			global::HelloApp.ClassLibrary.Resource.Attribute.contentInsetLeft = global::HelloApp.XamarinAndroid.Resource.Attribute.contentInsetLeft;
+			global::HelloApp.ClassLibrary.Resource.Attribute.contentInsetRight = global::HelloApp.XamarinAndroid.Resource.Attribute.contentInsetRight;
+			global::HelloApp.ClassLibrary.Resource.Attribute.contentInsetStart = global::HelloApp.XamarinAndroid.Resource.Attribute.contentInsetStart;
+			global::HelloApp.ClassLibrary.Resource.Attribute.contentInsetStartWithNavigation = global::HelloApp.XamarinAndroid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::HelloApp.ClassLibrary.Resource.Attribute.controlBackground = global::HelloApp.XamarinAndroid.Resource.Attribute.controlBackground;
+			global::HelloApp.ClassLibrary.Resource.Attribute.coordinatorLayoutStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.coordinatorLayoutStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.customNavigationLayout = global::HelloApp.XamarinAndroid.Resource.Attribute.customNavigationLayout;
+			global::HelloApp.ClassLibrary.Resource.Attribute.defaultQueryHint = global::HelloApp.XamarinAndroid.Resource.Attribute.defaultQueryHint;
+			global::HelloApp.ClassLibrary.Resource.Attribute.dialogCornerRadius = global::HelloApp.XamarinAndroid.Resource.Attribute.dialogCornerRadius;
+			global::HelloApp.ClassLibrary.Resource.Attribute.dialogPreferredPadding = global::HelloApp.XamarinAndroid.Resource.Attribute.dialogPreferredPadding;
+			global::HelloApp.ClassLibrary.Resource.Attribute.dialogTheme = global::HelloApp.XamarinAndroid.Resource.Attribute.dialogTheme;
+			global::HelloApp.ClassLibrary.Resource.Attribute.displayOptions = global::HelloApp.XamarinAndroid.Resource.Attribute.displayOptions;
+			global::HelloApp.ClassLibrary.Resource.Attribute.divider = global::HelloApp.XamarinAndroid.Resource.Attribute.divider;
+			global::HelloApp.ClassLibrary.Resource.Attribute.dividerHorizontal = global::HelloApp.XamarinAndroid.Resource.Attribute.dividerHorizontal;
+			global::HelloApp.ClassLibrary.Resource.Attribute.dividerPadding = global::HelloApp.XamarinAndroid.Resource.Attribute.dividerPadding;
+			global::HelloApp.ClassLibrary.Resource.Attribute.dividerVertical = global::HelloApp.XamarinAndroid.Resource.Attribute.dividerVertical;
+			global::HelloApp.ClassLibrary.Resource.Attribute.drawableSize = global::HelloApp.XamarinAndroid.Resource.Attribute.drawableSize;
+			global::HelloApp.ClassLibrary.Resource.Attribute.drawerArrowStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.drawerArrowStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.dropDownListViewStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.dropDownListViewStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.dropdownListPreferredItemHeight = global::HelloApp.XamarinAndroid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::HelloApp.ClassLibrary.Resource.Attribute.editTextBackground = global::HelloApp.XamarinAndroid.Resource.Attribute.editTextBackground;
+			global::HelloApp.ClassLibrary.Resource.Attribute.editTextColor = global::HelloApp.XamarinAndroid.Resource.Attribute.editTextColor;
+			global::HelloApp.ClassLibrary.Resource.Attribute.editTextStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.editTextStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.elevation = global::HelloApp.XamarinAndroid.Resource.Attribute.elevation;
+			global::HelloApp.ClassLibrary.Resource.Attribute.expandActivityOverflowButtonDrawable = global::HelloApp.XamarinAndroid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::HelloApp.ClassLibrary.Resource.Attribute.firstBaselineToTopHeight = global::HelloApp.XamarinAndroid.Resource.Attribute.firstBaselineToTopHeight;
+			global::HelloApp.ClassLibrary.Resource.Attribute.font = global::HelloApp.XamarinAndroid.Resource.Attribute.font;
+			global::HelloApp.ClassLibrary.Resource.Attribute.fontFamily = global::HelloApp.XamarinAndroid.Resource.Attribute.fontFamily;
+			global::HelloApp.ClassLibrary.Resource.Attribute.fontProviderAuthority = global::HelloApp.XamarinAndroid.Resource.Attribute.fontProviderAuthority;
+			global::HelloApp.ClassLibrary.Resource.Attribute.fontProviderCerts = global::HelloApp.XamarinAndroid.Resource.Attribute.fontProviderCerts;
+			global::HelloApp.ClassLibrary.Resource.Attribute.fontProviderFetchStrategy = global::HelloApp.XamarinAndroid.Resource.Attribute.fontProviderFetchStrategy;
+			global::HelloApp.ClassLibrary.Resource.Attribute.fontProviderFetchTimeout = global::HelloApp.XamarinAndroid.Resource.Attribute.fontProviderFetchTimeout;
+			global::HelloApp.ClassLibrary.Resource.Attribute.fontProviderPackage = global::HelloApp.XamarinAndroid.Resource.Attribute.fontProviderPackage;
+			global::HelloApp.ClassLibrary.Resource.Attribute.fontProviderQuery = global::HelloApp.XamarinAndroid.Resource.Attribute.fontProviderQuery;
+			global::HelloApp.ClassLibrary.Resource.Attribute.fontStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.fontStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.fontVariationSettings = global::HelloApp.XamarinAndroid.Resource.Attribute.fontVariationSettings;
+			global::HelloApp.ClassLibrary.Resource.Attribute.fontWeight = global::HelloApp.XamarinAndroid.Resource.Attribute.fontWeight;
+			global::HelloApp.ClassLibrary.Resource.Attribute.gapBetweenBars = global::HelloApp.XamarinAndroid.Resource.Attribute.gapBetweenBars;
+			global::HelloApp.ClassLibrary.Resource.Attribute.goIcon = global::HelloApp.XamarinAndroid.Resource.Attribute.goIcon;
+			global::HelloApp.ClassLibrary.Resource.Attribute.height = global::HelloApp.XamarinAndroid.Resource.Attribute.height;
+			global::HelloApp.ClassLibrary.Resource.Attribute.hideOnContentScroll = global::HelloApp.XamarinAndroid.Resource.Attribute.hideOnContentScroll;
+			global::HelloApp.ClassLibrary.Resource.Attribute.homeAsUpIndicator = global::HelloApp.XamarinAndroid.Resource.Attribute.homeAsUpIndicator;
+			global::HelloApp.ClassLibrary.Resource.Attribute.homeLayout = global::HelloApp.XamarinAndroid.Resource.Attribute.homeLayout;
+			global::HelloApp.ClassLibrary.Resource.Attribute.icon = global::HelloApp.XamarinAndroid.Resource.Attribute.icon;
+			global::HelloApp.ClassLibrary.Resource.Attribute.iconTint = global::HelloApp.XamarinAndroid.Resource.Attribute.iconTint;
+			global::HelloApp.ClassLibrary.Resource.Attribute.iconTintMode = global::HelloApp.XamarinAndroid.Resource.Attribute.iconTintMode;
+			global::HelloApp.ClassLibrary.Resource.Attribute.iconifiedByDefault = global::HelloApp.XamarinAndroid.Resource.Attribute.iconifiedByDefault;
+			global::HelloApp.ClassLibrary.Resource.Attribute.imageButtonStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.imageButtonStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.indeterminateProgressStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.indeterminateProgressStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.initialActivityCount = global::HelloApp.XamarinAndroid.Resource.Attribute.initialActivityCount;
+			global::HelloApp.ClassLibrary.Resource.Attribute.isLightTheme = global::HelloApp.XamarinAndroid.Resource.Attribute.isLightTheme;
+			global::HelloApp.ClassLibrary.Resource.Attribute.itemPadding = global::HelloApp.XamarinAndroid.Resource.Attribute.itemPadding;
+			global::HelloApp.ClassLibrary.Resource.Attribute.keylines = global::HelloApp.XamarinAndroid.Resource.Attribute.keylines;
+			global::HelloApp.ClassLibrary.Resource.Attribute.lastBaselineToBottomHeight = global::HelloApp.XamarinAndroid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::HelloApp.ClassLibrary.Resource.Attribute.layout = global::HelloApp.XamarinAndroid.Resource.Attribute.layout;
+			global::HelloApp.ClassLibrary.Resource.Attribute.layout_anchor = global::HelloApp.XamarinAndroid.Resource.Attribute.layout_anchor;
+			global::HelloApp.ClassLibrary.Resource.Attribute.layout_anchorGravity = global::HelloApp.XamarinAndroid.Resource.Attribute.layout_anchorGravity;
+			global::HelloApp.ClassLibrary.Resource.Attribute.layout_behavior = global::HelloApp.XamarinAndroid.Resource.Attribute.layout_behavior;
+			global::HelloApp.ClassLibrary.Resource.Attribute.layout_dodgeInsetEdges = global::HelloApp.XamarinAndroid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::HelloApp.ClassLibrary.Resource.Attribute.layout_insetEdge = global::HelloApp.XamarinAndroid.Resource.Attribute.layout_insetEdge;
+			global::HelloApp.ClassLibrary.Resource.Attribute.layout_keyline = global::HelloApp.XamarinAndroid.Resource.Attribute.layout_keyline;
+			global::HelloApp.ClassLibrary.Resource.Attribute.lineHeight = global::HelloApp.XamarinAndroid.Resource.Attribute.lineHeight;
+			global::HelloApp.ClassLibrary.Resource.Attribute.listChoiceBackgroundIndicator = global::HelloApp.XamarinAndroid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::HelloApp.ClassLibrary.Resource.Attribute.listDividerAlertDialog = global::HelloApp.XamarinAndroid.Resource.Attribute.listDividerAlertDialog;
+			global::HelloApp.ClassLibrary.Resource.Attribute.listItemLayout = global::HelloApp.XamarinAndroid.Resource.Attribute.listItemLayout;
+			global::HelloApp.ClassLibrary.Resource.Attribute.listLayout = global::HelloApp.XamarinAndroid.Resource.Attribute.listLayout;
+			global::HelloApp.ClassLibrary.Resource.Attribute.listMenuViewStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.listMenuViewStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.listPopupWindowStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.listPopupWindowStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.listPreferredItemHeight = global::HelloApp.XamarinAndroid.Resource.Attribute.listPreferredItemHeight;
+			global::HelloApp.ClassLibrary.Resource.Attribute.listPreferredItemHeightLarge = global::HelloApp.XamarinAndroid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::HelloApp.ClassLibrary.Resource.Attribute.listPreferredItemHeightSmall = global::HelloApp.XamarinAndroid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::HelloApp.ClassLibrary.Resource.Attribute.listPreferredItemPaddingLeft = global::HelloApp.XamarinAndroid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::HelloApp.ClassLibrary.Resource.Attribute.listPreferredItemPaddingRight = global::HelloApp.XamarinAndroid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::HelloApp.ClassLibrary.Resource.Attribute.logo = global::HelloApp.XamarinAndroid.Resource.Attribute.logo;
+			global::HelloApp.ClassLibrary.Resource.Attribute.logoDescription = global::HelloApp.XamarinAndroid.Resource.Attribute.logoDescription;
+			global::HelloApp.ClassLibrary.Resource.Attribute.maxButtonHeight = global::HelloApp.XamarinAndroid.Resource.Attribute.maxButtonHeight;
+			global::HelloApp.ClassLibrary.Resource.Attribute.measureWithLargestChild = global::HelloApp.XamarinAndroid.Resource.Attribute.measureWithLargestChild;
+			global::HelloApp.ClassLibrary.Resource.Attribute.multiChoiceItemLayout = global::HelloApp.XamarinAndroid.Resource.Attribute.multiChoiceItemLayout;
+			global::HelloApp.ClassLibrary.Resource.Attribute.navigationContentDescription = global::HelloApp.XamarinAndroid.Resource.Attribute.navigationContentDescription;
+			global::HelloApp.ClassLibrary.Resource.Attribute.navigationIcon = global::HelloApp.XamarinAndroid.Resource.Attribute.navigationIcon;
+			global::HelloApp.ClassLibrary.Resource.Attribute.navigationMode = global::HelloApp.XamarinAndroid.Resource.Attribute.navigationMode;
+			global::HelloApp.ClassLibrary.Resource.Attribute.numericModifiers = global::HelloApp.XamarinAndroid.Resource.Attribute.numericModifiers;
+			global::HelloApp.ClassLibrary.Resource.Attribute.overlapAnchor = global::HelloApp.XamarinAndroid.Resource.Attribute.overlapAnchor;
+			global::HelloApp.ClassLibrary.Resource.Attribute.paddingBottomNoButtons = global::HelloApp.XamarinAndroid.Resource.Attribute.paddingBottomNoButtons;
+			global::HelloApp.ClassLibrary.Resource.Attribute.paddingEnd = global::HelloApp.XamarinAndroid.Resource.Attribute.paddingEnd;
+			global::HelloApp.ClassLibrary.Resource.Attribute.paddingStart = global::HelloApp.XamarinAndroid.Resource.Attribute.paddingStart;
+			global::HelloApp.ClassLibrary.Resource.Attribute.paddingTopNoTitle = global::HelloApp.XamarinAndroid.Resource.Attribute.paddingTopNoTitle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.panelBackground = global::HelloApp.XamarinAndroid.Resource.Attribute.panelBackground;
+			global::HelloApp.ClassLibrary.Resource.Attribute.panelMenuListTheme = global::HelloApp.XamarinAndroid.Resource.Attribute.panelMenuListTheme;
+			global::HelloApp.ClassLibrary.Resource.Attribute.panelMenuListWidth = global::HelloApp.XamarinAndroid.Resource.Attribute.panelMenuListWidth;
+			global::HelloApp.ClassLibrary.Resource.Attribute.popupMenuStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.popupMenuStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.popupTheme = global::HelloApp.XamarinAndroid.Resource.Attribute.popupTheme;
+			global::HelloApp.ClassLibrary.Resource.Attribute.popupWindowStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.popupWindowStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.preserveIconSpacing = global::HelloApp.XamarinAndroid.Resource.Attribute.preserveIconSpacing;
+			global::HelloApp.ClassLibrary.Resource.Attribute.progressBarPadding = global::HelloApp.XamarinAndroid.Resource.Attribute.progressBarPadding;
+			global::HelloApp.ClassLibrary.Resource.Attribute.progressBarStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.progressBarStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.queryBackground = global::HelloApp.XamarinAndroid.Resource.Attribute.queryBackground;
+			global::HelloApp.ClassLibrary.Resource.Attribute.queryHint = global::HelloApp.XamarinAndroid.Resource.Attribute.queryHint;
+			global::HelloApp.ClassLibrary.Resource.Attribute.radioButtonStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.radioButtonStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.ratingBarStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.ratingBarStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.ratingBarStyleIndicator = global::HelloApp.XamarinAndroid.Resource.Attribute.ratingBarStyleIndicator;
+			global::HelloApp.ClassLibrary.Resource.Attribute.ratingBarStyleSmall = global::HelloApp.XamarinAndroid.Resource.Attribute.ratingBarStyleSmall;
+			global::HelloApp.ClassLibrary.Resource.Attribute.searchHintIcon = global::HelloApp.XamarinAndroid.Resource.Attribute.searchHintIcon;
+			global::HelloApp.ClassLibrary.Resource.Attribute.searchIcon = global::HelloApp.XamarinAndroid.Resource.Attribute.searchIcon;
+			global::HelloApp.ClassLibrary.Resource.Attribute.searchViewStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.searchViewStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.seekBarStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.seekBarStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.selectableItemBackground = global::HelloApp.XamarinAndroid.Resource.Attribute.selectableItemBackground;
+			global::HelloApp.ClassLibrary.Resource.Attribute.selectableItemBackgroundBorderless = global::HelloApp.XamarinAndroid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::HelloApp.ClassLibrary.Resource.Attribute.showAsAction = global::HelloApp.XamarinAndroid.Resource.Attribute.showAsAction;
+			global::HelloApp.ClassLibrary.Resource.Attribute.showDividers = global::HelloApp.XamarinAndroid.Resource.Attribute.showDividers;
+			global::HelloApp.ClassLibrary.Resource.Attribute.showText = global::HelloApp.XamarinAndroid.Resource.Attribute.showText;
+			global::HelloApp.ClassLibrary.Resource.Attribute.showTitle = global::HelloApp.XamarinAndroid.Resource.Attribute.showTitle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.singleChoiceItemLayout = global::HelloApp.XamarinAndroid.Resource.Attribute.singleChoiceItemLayout;
+			global::HelloApp.ClassLibrary.Resource.Attribute.spinBars = global::HelloApp.XamarinAndroid.Resource.Attribute.spinBars;
+			global::HelloApp.ClassLibrary.Resource.Attribute.spinnerDropDownItemStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.spinnerStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.spinnerStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.splitTrack = global::HelloApp.XamarinAndroid.Resource.Attribute.splitTrack;
+			global::HelloApp.ClassLibrary.Resource.Attribute.srcCompat = global::HelloApp.XamarinAndroid.Resource.Attribute.srcCompat;
+			global::HelloApp.ClassLibrary.Resource.Attribute.state_above_anchor = global::HelloApp.XamarinAndroid.Resource.Attribute.state_above_anchor;
+			global::HelloApp.ClassLibrary.Resource.Attribute.statusBarBackground = global::HelloApp.XamarinAndroid.Resource.Attribute.statusBarBackground;
+			global::HelloApp.ClassLibrary.Resource.Attribute.subMenuArrow = global::HelloApp.XamarinAndroid.Resource.Attribute.subMenuArrow;
+			global::HelloApp.ClassLibrary.Resource.Attribute.submitBackground = global::HelloApp.XamarinAndroid.Resource.Attribute.submitBackground;
+			global::HelloApp.ClassLibrary.Resource.Attribute.subtitle = global::HelloApp.XamarinAndroid.Resource.Attribute.subtitle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.subtitleTextAppearance = global::HelloApp.XamarinAndroid.Resource.Attribute.subtitleTextAppearance;
+			global::HelloApp.ClassLibrary.Resource.Attribute.subtitleTextColor = global::HelloApp.XamarinAndroid.Resource.Attribute.subtitleTextColor;
+			global::HelloApp.ClassLibrary.Resource.Attribute.subtitleTextStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.subtitleTextStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.suggestionRowLayout = global::HelloApp.XamarinAndroid.Resource.Attribute.suggestionRowLayout;
+			global::HelloApp.ClassLibrary.Resource.Attribute.switchMinWidth = global::HelloApp.XamarinAndroid.Resource.Attribute.switchMinWidth;
+			global::HelloApp.ClassLibrary.Resource.Attribute.switchPadding = global::HelloApp.XamarinAndroid.Resource.Attribute.switchPadding;
+			global::HelloApp.ClassLibrary.Resource.Attribute.switchStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.switchStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.switchTextAppearance = global::HelloApp.XamarinAndroid.Resource.Attribute.switchTextAppearance;
+			global::HelloApp.ClassLibrary.Resource.Attribute.textAllCaps = global::HelloApp.XamarinAndroid.Resource.Attribute.textAllCaps;
+			global::HelloApp.ClassLibrary.Resource.Attribute.textAppearanceLargePopupMenu = global::HelloApp.XamarinAndroid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::HelloApp.ClassLibrary.Resource.Attribute.textAppearanceListItem = global::HelloApp.XamarinAndroid.Resource.Attribute.textAppearanceListItem;
+			global::HelloApp.ClassLibrary.Resource.Attribute.textAppearanceListItemSecondary = global::HelloApp.XamarinAndroid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::HelloApp.ClassLibrary.Resource.Attribute.textAppearanceListItemSmall = global::HelloApp.XamarinAndroid.Resource.Attribute.textAppearanceListItemSmall;
+			global::HelloApp.ClassLibrary.Resource.Attribute.textAppearancePopupMenuHeader = global::HelloApp.XamarinAndroid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::HelloApp.ClassLibrary.Resource.Attribute.textAppearanceSearchResultSubtitle = global::HelloApp.XamarinAndroid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.textAppearanceSearchResultTitle = global::HelloApp.XamarinAndroid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.textAppearanceSmallPopupMenu = global::HelloApp.XamarinAndroid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::HelloApp.ClassLibrary.Resource.Attribute.textColorAlertDialogListItem = global::HelloApp.XamarinAndroid.Resource.Attribute.textColorAlertDialogListItem;
+			global::HelloApp.ClassLibrary.Resource.Attribute.textColorSearchUrl = global::HelloApp.XamarinAndroid.Resource.Attribute.textColorSearchUrl;
+			global::HelloApp.ClassLibrary.Resource.Attribute.theme = global::HelloApp.XamarinAndroid.Resource.Attribute.theme;
+			global::HelloApp.ClassLibrary.Resource.Attribute.thickness = global::HelloApp.XamarinAndroid.Resource.Attribute.thickness;
+			global::HelloApp.ClassLibrary.Resource.Attribute.thumbTextPadding = global::HelloApp.XamarinAndroid.Resource.Attribute.thumbTextPadding;
+			global::HelloApp.ClassLibrary.Resource.Attribute.thumbTint = global::HelloApp.XamarinAndroid.Resource.Attribute.thumbTint;
+			global::HelloApp.ClassLibrary.Resource.Attribute.thumbTintMode = global::HelloApp.XamarinAndroid.Resource.Attribute.thumbTintMode;
+			global::HelloApp.ClassLibrary.Resource.Attribute.tickMark = global::HelloApp.XamarinAndroid.Resource.Attribute.tickMark;
+			global::HelloApp.ClassLibrary.Resource.Attribute.tickMarkTint = global::HelloApp.XamarinAndroid.Resource.Attribute.tickMarkTint;
+			global::HelloApp.ClassLibrary.Resource.Attribute.tickMarkTintMode = global::HelloApp.XamarinAndroid.Resource.Attribute.tickMarkTintMode;
+			global::HelloApp.ClassLibrary.Resource.Attribute.tint = global::HelloApp.XamarinAndroid.Resource.Attribute.tint;
+			global::HelloApp.ClassLibrary.Resource.Attribute.tintMode = global::HelloApp.XamarinAndroid.Resource.Attribute.tintMode;
+			global::HelloApp.ClassLibrary.Resource.Attribute.title = global::HelloApp.XamarinAndroid.Resource.Attribute.title;
+			global::HelloApp.ClassLibrary.Resource.Attribute.titleMargin = global::HelloApp.XamarinAndroid.Resource.Attribute.titleMargin;
+			global::HelloApp.ClassLibrary.Resource.Attribute.titleMarginBottom = global::HelloApp.XamarinAndroid.Resource.Attribute.titleMarginBottom;
+			global::HelloApp.ClassLibrary.Resource.Attribute.titleMarginEnd = global::HelloApp.XamarinAndroid.Resource.Attribute.titleMarginEnd;
+			global::HelloApp.ClassLibrary.Resource.Attribute.titleMarginStart = global::HelloApp.XamarinAndroid.Resource.Attribute.titleMarginStart;
+			global::HelloApp.ClassLibrary.Resource.Attribute.titleMarginTop = global::HelloApp.XamarinAndroid.Resource.Attribute.titleMarginTop;
+			global::HelloApp.ClassLibrary.Resource.Attribute.titleMargins = global::HelloApp.XamarinAndroid.Resource.Attribute.titleMargins;
+			global::HelloApp.ClassLibrary.Resource.Attribute.titleTextAppearance = global::HelloApp.XamarinAndroid.Resource.Attribute.titleTextAppearance;
+			global::HelloApp.ClassLibrary.Resource.Attribute.titleTextColor = global::HelloApp.XamarinAndroid.Resource.Attribute.titleTextColor;
+			global::HelloApp.ClassLibrary.Resource.Attribute.titleTextStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.titleTextStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.toolbarNavigationButtonStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.toolbarStyle = global::HelloApp.XamarinAndroid.Resource.Attribute.toolbarStyle;
+			global::HelloApp.ClassLibrary.Resource.Attribute.tooltipForegroundColor = global::HelloApp.XamarinAndroid.Resource.Attribute.tooltipForegroundColor;
+			global::HelloApp.ClassLibrary.Resource.Attribute.tooltipFrameBackground = global::HelloApp.XamarinAndroid.Resource.Attribute.tooltipFrameBackground;
+			global::HelloApp.ClassLibrary.Resource.Attribute.tooltipText = global::HelloApp.XamarinAndroid.Resource.Attribute.tooltipText;
+			global::HelloApp.ClassLibrary.Resource.Attribute.track = global::HelloApp.XamarinAndroid.Resource.Attribute.track;
+			global::HelloApp.ClassLibrary.Resource.Attribute.trackTint = global::HelloApp.XamarinAndroid.Resource.Attribute.trackTint;
+			global::HelloApp.ClassLibrary.Resource.Attribute.trackTintMode = global::HelloApp.XamarinAndroid.Resource.Attribute.trackTintMode;
+			global::HelloApp.ClassLibrary.Resource.Attribute.ttcIndex = global::HelloApp.XamarinAndroid.Resource.Attribute.ttcIndex;
+			global::HelloApp.ClassLibrary.Resource.Attribute.viewInflaterClass = global::HelloApp.XamarinAndroid.Resource.Attribute.viewInflaterClass;
+			global::HelloApp.ClassLibrary.Resource.Attribute.voiceIcon = global::HelloApp.XamarinAndroid.Resource.Attribute.voiceIcon;
+			global::HelloApp.ClassLibrary.Resource.Attribute.windowActionBar = global::HelloApp.XamarinAndroid.Resource.Attribute.windowActionBar;
+			global::HelloApp.ClassLibrary.Resource.Attribute.windowActionBarOverlay = global::HelloApp.XamarinAndroid.Resource.Attribute.windowActionBarOverlay;
+			global::HelloApp.ClassLibrary.Resource.Attribute.windowActionModeOverlay = global::HelloApp.XamarinAndroid.Resource.Attribute.windowActionModeOverlay;
+			global::HelloApp.ClassLibrary.Resource.Attribute.windowFixedHeightMajor = global::HelloApp.XamarinAndroid.Resource.Attribute.windowFixedHeightMajor;
+			global::HelloApp.ClassLibrary.Resource.Attribute.windowFixedHeightMinor = global::HelloApp.XamarinAndroid.Resource.Attribute.windowFixedHeightMinor;
+			global::HelloApp.ClassLibrary.Resource.Attribute.windowFixedWidthMajor = global::HelloApp.XamarinAndroid.Resource.Attribute.windowFixedWidthMajor;
+			global::HelloApp.ClassLibrary.Resource.Attribute.windowFixedWidthMinor = global::HelloApp.XamarinAndroid.Resource.Attribute.windowFixedWidthMinor;
+			global::HelloApp.ClassLibrary.Resource.Attribute.windowMinWidthMajor = global::HelloApp.XamarinAndroid.Resource.Attribute.windowMinWidthMajor;
+			global::HelloApp.ClassLibrary.Resource.Attribute.windowMinWidthMinor = global::HelloApp.XamarinAndroid.Resource.Attribute.windowMinWidthMinor;
+			global::HelloApp.ClassLibrary.Resource.Attribute.windowNoTitle = global::HelloApp.XamarinAndroid.Resource.Attribute.windowNoTitle;
+			global::HelloApp.ClassLibrary.Resource.Boolean.abc_action_bar_embed_tabs = global::HelloApp.XamarinAndroid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::HelloApp.ClassLibrary.Resource.Boolean.abc_allow_stacked_button_bar = global::HelloApp.XamarinAndroid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::HelloApp.ClassLibrary.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::HelloApp.XamarinAndroid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::HelloApp.ClassLibrary.Resource.Color.abc_background_cache_hint_selector_material_dark = global::HelloApp.XamarinAndroid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::HelloApp.ClassLibrary.Resource.Color.abc_background_cache_hint_selector_material_light = global::HelloApp.XamarinAndroid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::HelloApp.ClassLibrary.Resource.Color.abc_btn_colored_borderless_text_material = global::HelloApp.XamarinAndroid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::HelloApp.ClassLibrary.Resource.Color.abc_btn_colored_text_material = global::HelloApp.XamarinAndroid.Resource.Color.abc_btn_colored_text_material;
+			global::HelloApp.ClassLibrary.Resource.Color.abc_color_highlight_material = global::HelloApp.XamarinAndroid.Resource.Color.abc_color_highlight_material;
+			global::HelloApp.ClassLibrary.Resource.Color.abc_hint_foreground_material_dark = global::HelloApp.XamarinAndroid.Resource.Color.abc_hint_foreground_material_dark;
+			global::HelloApp.ClassLibrary.Resource.Color.abc_hint_foreground_material_light = global::HelloApp.XamarinAndroid.Resource.Color.abc_hint_foreground_material_light;
+			global::HelloApp.ClassLibrary.Resource.Color.abc_input_method_navigation_guard = global::HelloApp.XamarinAndroid.Resource.Color.abc_input_method_navigation_guard;
+			global::HelloApp.ClassLibrary.Resource.Color.abc_primary_text_disable_only_material_dark = global::HelloApp.XamarinAndroid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::HelloApp.ClassLibrary.Resource.Color.abc_primary_text_disable_only_material_light = global::HelloApp.XamarinAndroid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::HelloApp.ClassLibrary.Resource.Color.abc_primary_text_material_dark = global::HelloApp.XamarinAndroid.Resource.Color.abc_primary_text_material_dark;
+			global::HelloApp.ClassLibrary.Resource.Color.abc_primary_text_material_light = global::HelloApp.XamarinAndroid.Resource.Color.abc_primary_text_material_light;
+			global::HelloApp.ClassLibrary.Resource.Color.abc_search_url_text = global::HelloApp.XamarinAndroid.Resource.Color.abc_search_url_text;
+			global::HelloApp.ClassLibrary.Resource.Color.abc_search_url_text_normal = global::HelloApp.XamarinAndroid.Resource.Color.abc_search_url_text_normal;
+			global::HelloApp.ClassLibrary.Resource.Color.abc_search_url_text_pressed = global::HelloApp.XamarinAndroid.Resource.Color.abc_search_url_text_pressed;
+			global::HelloApp.ClassLibrary.Resource.Color.abc_search_url_text_selected = global::HelloApp.XamarinAndroid.Resource.Color.abc_search_url_text_selected;
+			global::HelloApp.ClassLibrary.Resource.Color.abc_secondary_text_material_dark = global::HelloApp.XamarinAndroid.Resource.Color.abc_secondary_text_material_dark;
+			global::HelloApp.ClassLibrary.Resource.Color.abc_secondary_text_material_light = global::HelloApp.XamarinAndroid.Resource.Color.abc_secondary_text_material_light;
+			global::HelloApp.ClassLibrary.Resource.Color.abc_tint_btn_checkable = global::HelloApp.XamarinAndroid.Resource.Color.abc_tint_btn_checkable;
+			global::HelloApp.ClassLibrary.Resource.Color.abc_tint_default = global::HelloApp.XamarinAndroid.Resource.Color.abc_tint_default;
+			global::HelloApp.ClassLibrary.Resource.Color.abc_tint_edittext = global::HelloApp.XamarinAndroid.Resource.Color.abc_tint_edittext;
+			global::HelloApp.ClassLibrary.Resource.Color.abc_tint_seek_thumb = global::HelloApp.XamarinAndroid.Resource.Color.abc_tint_seek_thumb;
+			global::HelloApp.ClassLibrary.Resource.Color.abc_tint_spinner = global::HelloApp.XamarinAndroid.Resource.Color.abc_tint_spinner;
+			global::HelloApp.ClassLibrary.Resource.Color.abc_tint_switch_track = global::HelloApp.XamarinAndroid.Resource.Color.abc_tint_switch_track;
+			global::HelloApp.ClassLibrary.Resource.Color.accent_material_dark = global::HelloApp.XamarinAndroid.Resource.Color.accent_material_dark;
+			global::HelloApp.ClassLibrary.Resource.Color.accent_material_light = global::HelloApp.XamarinAndroid.Resource.Color.accent_material_light;
+			global::HelloApp.ClassLibrary.Resource.Color.background_floating_material_dark = global::HelloApp.XamarinAndroid.Resource.Color.background_floating_material_dark;
+			global::HelloApp.ClassLibrary.Resource.Color.background_floating_material_light = global::HelloApp.XamarinAndroid.Resource.Color.background_floating_material_light;
+			global::HelloApp.ClassLibrary.Resource.Color.background_material_dark = global::HelloApp.XamarinAndroid.Resource.Color.background_material_dark;
+			global::HelloApp.ClassLibrary.Resource.Color.background_material_light = global::HelloApp.XamarinAndroid.Resource.Color.background_material_light;
+			global::HelloApp.ClassLibrary.Resource.Color.bright_foreground_disabled_material_dark = global::HelloApp.XamarinAndroid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::HelloApp.ClassLibrary.Resource.Color.bright_foreground_disabled_material_light = global::HelloApp.XamarinAndroid.Resource.Color.bright_foreground_disabled_material_light;
+			global::HelloApp.ClassLibrary.Resource.Color.bright_foreground_inverse_material_dark = global::HelloApp.XamarinAndroid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::HelloApp.ClassLibrary.Resource.Color.bright_foreground_inverse_material_light = global::HelloApp.XamarinAndroid.Resource.Color.bright_foreground_inverse_material_light;
+			global::HelloApp.ClassLibrary.Resource.Color.bright_foreground_material_dark = global::HelloApp.XamarinAndroid.Resource.Color.bright_foreground_material_dark;
+			global::HelloApp.ClassLibrary.Resource.Color.bright_foreground_material_light = global::HelloApp.XamarinAndroid.Resource.Color.bright_foreground_material_light;
+			global::HelloApp.ClassLibrary.Resource.Color.button_material_dark = global::HelloApp.XamarinAndroid.Resource.Color.button_material_dark;
+			global::HelloApp.ClassLibrary.Resource.Color.button_material_light = global::HelloApp.XamarinAndroid.Resource.Color.button_material_light;
+			global::HelloApp.ClassLibrary.Resource.Color.dim_foreground_disabled_material_dark = global::HelloApp.XamarinAndroid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::HelloApp.ClassLibrary.Resource.Color.dim_foreground_disabled_material_light = global::HelloApp.XamarinAndroid.Resource.Color.dim_foreground_disabled_material_light;
+			global::HelloApp.ClassLibrary.Resource.Color.dim_foreground_material_dark = global::HelloApp.XamarinAndroid.Resource.Color.dim_foreground_material_dark;
+			global::HelloApp.ClassLibrary.Resource.Color.dim_foreground_material_light = global::HelloApp.XamarinAndroid.Resource.Color.dim_foreground_material_light;
+			global::HelloApp.ClassLibrary.Resource.Color.error_color_material_dark = global::HelloApp.XamarinAndroid.Resource.Color.error_color_material_dark;
+			global::HelloApp.ClassLibrary.Resource.Color.error_color_material_light = global::HelloApp.XamarinAndroid.Resource.Color.error_color_material_light;
+			global::HelloApp.ClassLibrary.Resource.Color.foreground_material_dark = global::HelloApp.XamarinAndroid.Resource.Color.foreground_material_dark;
+			global::HelloApp.ClassLibrary.Resource.Color.foreground_material_light = global::HelloApp.XamarinAndroid.Resource.Color.foreground_material_light;
+			global::HelloApp.ClassLibrary.Resource.Color.highlighted_text_material_dark = global::HelloApp.XamarinAndroid.Resource.Color.highlighted_text_material_dark;
+			global::HelloApp.ClassLibrary.Resource.Color.highlighted_text_material_light = global::HelloApp.XamarinAndroid.Resource.Color.highlighted_text_material_light;
+			global::HelloApp.ClassLibrary.Resource.Color.material_blue_grey_800 = global::HelloApp.XamarinAndroid.Resource.Color.material_blue_grey_800;
+			global::HelloApp.ClassLibrary.Resource.Color.material_blue_grey_900 = global::HelloApp.XamarinAndroid.Resource.Color.material_blue_grey_900;
+			global::HelloApp.ClassLibrary.Resource.Color.material_blue_grey_950 = global::HelloApp.XamarinAndroid.Resource.Color.material_blue_grey_950;
+			global::HelloApp.ClassLibrary.Resource.Color.material_deep_teal_200 = global::HelloApp.XamarinAndroid.Resource.Color.material_deep_teal_200;
+			global::HelloApp.ClassLibrary.Resource.Color.material_deep_teal_500 = global::HelloApp.XamarinAndroid.Resource.Color.material_deep_teal_500;
+			global::HelloApp.ClassLibrary.Resource.Color.material_grey_100 = global::HelloApp.XamarinAndroid.Resource.Color.material_grey_100;
+			global::HelloApp.ClassLibrary.Resource.Color.material_grey_300 = global::HelloApp.XamarinAndroid.Resource.Color.material_grey_300;
+			global::HelloApp.ClassLibrary.Resource.Color.material_grey_50 = global::HelloApp.XamarinAndroid.Resource.Color.material_grey_50;
+			global::HelloApp.ClassLibrary.Resource.Color.material_grey_600 = global::HelloApp.XamarinAndroid.Resource.Color.material_grey_600;
+			global::HelloApp.ClassLibrary.Resource.Color.material_grey_800 = global::HelloApp.XamarinAndroid.Resource.Color.material_grey_800;
+			global::HelloApp.ClassLibrary.Resource.Color.material_grey_850 = global::HelloApp.XamarinAndroid.Resource.Color.material_grey_850;
+			global::HelloApp.ClassLibrary.Resource.Color.material_grey_900 = global::HelloApp.XamarinAndroid.Resource.Color.material_grey_900;
+			global::HelloApp.ClassLibrary.Resource.Color.notification_action_color_filter = global::HelloApp.XamarinAndroid.Resource.Color.notification_action_color_filter;
+			global::HelloApp.ClassLibrary.Resource.Color.notification_icon_bg_color = global::HelloApp.XamarinAndroid.Resource.Color.notification_icon_bg_color;
+			global::HelloApp.ClassLibrary.Resource.Color.primary_dark_material_dark = global::HelloApp.XamarinAndroid.Resource.Color.primary_dark_material_dark;
+			global::HelloApp.ClassLibrary.Resource.Color.primary_dark_material_light = global::HelloApp.XamarinAndroid.Resource.Color.primary_dark_material_light;
+			global::HelloApp.ClassLibrary.Resource.Color.primary_material_dark = global::HelloApp.XamarinAndroid.Resource.Color.primary_material_dark;
+			global::HelloApp.ClassLibrary.Resource.Color.primary_material_light = global::HelloApp.XamarinAndroid.Resource.Color.primary_material_light;
+			global::HelloApp.ClassLibrary.Resource.Color.primary_text_default_material_dark = global::HelloApp.XamarinAndroid.Resource.Color.primary_text_default_material_dark;
+			global::HelloApp.ClassLibrary.Resource.Color.primary_text_default_material_light = global::HelloApp.XamarinAndroid.Resource.Color.primary_text_default_material_light;
+			global::HelloApp.ClassLibrary.Resource.Color.primary_text_disabled_material_dark = global::HelloApp.XamarinAndroid.Resource.Color.primary_text_disabled_material_dark;
+			global::HelloApp.ClassLibrary.Resource.Color.primary_text_disabled_material_light = global::HelloApp.XamarinAndroid.Resource.Color.primary_text_disabled_material_light;
+			global::HelloApp.ClassLibrary.Resource.Color.ripple_material_dark = global::HelloApp.XamarinAndroid.Resource.Color.ripple_material_dark;
+			global::HelloApp.ClassLibrary.Resource.Color.ripple_material_light = global::HelloApp.XamarinAndroid.Resource.Color.ripple_material_light;
+			global::HelloApp.ClassLibrary.Resource.Color.secondary_text_default_material_dark = global::HelloApp.XamarinAndroid.Resource.Color.secondary_text_default_material_dark;
+			global::HelloApp.ClassLibrary.Resource.Color.secondary_text_default_material_light = global::HelloApp.XamarinAndroid.Resource.Color.secondary_text_default_material_light;
+			global::HelloApp.ClassLibrary.Resource.Color.secondary_text_disabled_material_dark = global::HelloApp.XamarinAndroid.Resource.Color.secondary_text_disabled_material_dark;
+			global::HelloApp.ClassLibrary.Resource.Color.secondary_text_disabled_material_light = global::HelloApp.XamarinAndroid.Resource.Color.secondary_text_disabled_material_light;
+			global::HelloApp.ClassLibrary.Resource.Color.switch_thumb_disabled_material_dark = global::HelloApp.XamarinAndroid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::HelloApp.ClassLibrary.Resource.Color.switch_thumb_disabled_material_light = global::HelloApp.XamarinAndroid.Resource.Color.switch_thumb_disabled_material_light;
+			global::HelloApp.ClassLibrary.Resource.Color.switch_thumb_material_dark = global::HelloApp.XamarinAndroid.Resource.Color.switch_thumb_material_dark;
+			global::HelloApp.ClassLibrary.Resource.Color.switch_thumb_material_light = global::HelloApp.XamarinAndroid.Resource.Color.switch_thumb_material_light;
+			global::HelloApp.ClassLibrary.Resource.Color.switch_thumb_normal_material_dark = global::HelloApp.XamarinAndroid.Resource.Color.switch_thumb_normal_material_dark;
+			global::HelloApp.ClassLibrary.Resource.Color.switch_thumb_normal_material_light = global::HelloApp.XamarinAndroid.Resource.Color.switch_thumb_normal_material_light;
+			global::HelloApp.ClassLibrary.Resource.Color.tooltip_background_dark = global::HelloApp.XamarinAndroid.Resource.Color.tooltip_background_dark;
+			global::HelloApp.ClassLibrary.Resource.Color.tooltip_background_light = global::HelloApp.XamarinAndroid.Resource.Color.tooltip_background_light;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_action_bar_content_inset_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_action_bar_default_height_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_action_bar_default_padding_end_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_action_bar_default_padding_start_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_action_bar_elevation_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_action_bar_stacked_max_height = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_action_button_min_height_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_action_button_min_height_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_action_button_min_width_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_action_button_min_width_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_action_button_min_width_overflow_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_alert_dialog_button_bar_height = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_alert_dialog_button_dimen = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_button_inset_horizontal_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_button_inset_vertical_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_button_padding_horizontal_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_button_padding_vertical_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_config_prefDialogWidth = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_control_corner_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_control_corner_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_control_inset_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_control_inset_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_control_padding_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_control_padding_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_dialog_corner_radius_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_dialog_fixed_height_major = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_dialog_fixed_height_minor = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_dialog_fixed_width_major = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_dialog_fixed_width_minor = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_dialog_min_width_major = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_dialog_min_width_major;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_dialog_min_width_minor = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_dialog_padding_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_dialog_padding_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_dialog_padding_top_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_dialog_title_divider_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_disabled_alpha_material_dark = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_disabled_alpha_material_light = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_dropdownitem_icon_width = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_dropdownitem_text_padding_left = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_dropdownitem_text_padding_right = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_edit_text_inset_bottom_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_edit_text_inset_top_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_floating_window_z = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_floating_window_z;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_list_item_padding_horizontal_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_panel_menu_list_width = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_panel_menu_list_width;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_progress_bar_height_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_progress_bar_height_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_search_view_preferred_height = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_search_view_preferred_height;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_search_view_preferred_width = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_search_view_preferred_width;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_seekbar_track_background_height_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_seekbar_track_progress_height_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_select_dialog_padding_start_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_switch_padding = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_switch_padding;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_text_size_body_1_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_text_size_body_1_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_text_size_body_2_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_text_size_body_2_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_text_size_button_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_text_size_button_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_text_size_caption_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_text_size_caption_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_text_size_display_1_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_text_size_display_1_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_text_size_display_2_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_text_size_display_2_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_text_size_display_3_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_text_size_display_3_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_text_size_display_4_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_text_size_display_4_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_text_size_headline_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_text_size_headline_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_text_size_large_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_text_size_large_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_text_size_medium_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_text_size_medium_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_text_size_menu_header_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_text_size_menu_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_text_size_menu_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_text_size_small_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_text_size_small_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_text_size_subhead_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_text_size_subhead_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_text_size_title_material = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_text_size_title_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.abc_text_size_title_material_toolbar = global::HelloApp.XamarinAndroid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::HelloApp.ClassLibrary.Resource.Dimension.compat_button_inset_horizontal_material = global::HelloApp.XamarinAndroid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.compat_button_inset_vertical_material = global::HelloApp.XamarinAndroid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.compat_button_padding_horizontal_material = global::HelloApp.XamarinAndroid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.compat_button_padding_vertical_material = global::HelloApp.XamarinAndroid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.compat_control_corner_material = global::HelloApp.XamarinAndroid.Resource.Dimension.compat_control_corner_material;
+			global::HelloApp.ClassLibrary.Resource.Dimension.compat_notification_large_icon_max_height = global::HelloApp.XamarinAndroid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::HelloApp.ClassLibrary.Resource.Dimension.compat_notification_large_icon_max_width = global::HelloApp.XamarinAndroid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::HelloApp.ClassLibrary.Resource.Dimension.disabled_alpha_material_dark = global::HelloApp.XamarinAndroid.Resource.Dimension.disabled_alpha_material_dark;
+			global::HelloApp.ClassLibrary.Resource.Dimension.disabled_alpha_material_light = global::HelloApp.XamarinAndroid.Resource.Dimension.disabled_alpha_material_light;
+			global::HelloApp.ClassLibrary.Resource.Dimension.highlight_alpha_material_colored = global::HelloApp.XamarinAndroid.Resource.Dimension.highlight_alpha_material_colored;
+			global::HelloApp.ClassLibrary.Resource.Dimension.highlight_alpha_material_dark = global::HelloApp.XamarinAndroid.Resource.Dimension.highlight_alpha_material_dark;
+			global::HelloApp.ClassLibrary.Resource.Dimension.highlight_alpha_material_light = global::HelloApp.XamarinAndroid.Resource.Dimension.highlight_alpha_material_light;
+			global::HelloApp.ClassLibrary.Resource.Dimension.hint_alpha_material_dark = global::HelloApp.XamarinAndroid.Resource.Dimension.hint_alpha_material_dark;
+			global::HelloApp.ClassLibrary.Resource.Dimension.hint_alpha_material_light = global::HelloApp.XamarinAndroid.Resource.Dimension.hint_alpha_material_light;
+			global::HelloApp.ClassLibrary.Resource.Dimension.hint_pressed_alpha_material_dark = global::HelloApp.XamarinAndroid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::HelloApp.ClassLibrary.Resource.Dimension.hint_pressed_alpha_material_light = global::HelloApp.XamarinAndroid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::HelloApp.ClassLibrary.Resource.Dimension.notification_action_icon_size = global::HelloApp.XamarinAndroid.Resource.Dimension.notification_action_icon_size;
+			global::HelloApp.ClassLibrary.Resource.Dimension.notification_action_text_size = global::HelloApp.XamarinAndroid.Resource.Dimension.notification_action_text_size;
+			global::HelloApp.ClassLibrary.Resource.Dimension.notification_big_circle_margin = global::HelloApp.XamarinAndroid.Resource.Dimension.notification_big_circle_margin;
+			global::HelloApp.ClassLibrary.Resource.Dimension.notification_content_margin_start = global::HelloApp.XamarinAndroid.Resource.Dimension.notification_content_margin_start;
+			global::HelloApp.ClassLibrary.Resource.Dimension.notification_large_icon_height = global::HelloApp.XamarinAndroid.Resource.Dimension.notification_large_icon_height;
+			global::HelloApp.ClassLibrary.Resource.Dimension.notification_large_icon_width = global::HelloApp.XamarinAndroid.Resource.Dimension.notification_large_icon_width;
+			global::HelloApp.ClassLibrary.Resource.Dimension.notification_main_column_padding_top = global::HelloApp.XamarinAndroid.Resource.Dimension.notification_main_column_padding_top;
+			global::HelloApp.ClassLibrary.Resource.Dimension.notification_media_narrow_margin = global::HelloApp.XamarinAndroid.Resource.Dimension.notification_media_narrow_margin;
+			global::HelloApp.ClassLibrary.Resource.Dimension.notification_right_icon_size = global::HelloApp.XamarinAndroid.Resource.Dimension.notification_right_icon_size;
+			global::HelloApp.ClassLibrary.Resource.Dimension.notification_right_side_padding_top = global::HelloApp.XamarinAndroid.Resource.Dimension.notification_right_side_padding_top;
+			global::HelloApp.ClassLibrary.Resource.Dimension.notification_small_icon_background_padding = global::HelloApp.XamarinAndroid.Resource.Dimension.notification_small_icon_background_padding;
+			global::HelloApp.ClassLibrary.Resource.Dimension.notification_small_icon_size_as_large = global::HelloApp.XamarinAndroid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::HelloApp.ClassLibrary.Resource.Dimension.notification_subtext_size = global::HelloApp.XamarinAndroid.Resource.Dimension.notification_subtext_size;
+			global::HelloApp.ClassLibrary.Resource.Dimension.notification_top_pad = global::HelloApp.XamarinAndroid.Resource.Dimension.notification_top_pad;
+			global::HelloApp.ClassLibrary.Resource.Dimension.notification_top_pad_large_text = global::HelloApp.XamarinAndroid.Resource.Dimension.notification_top_pad_large_text;
+			global::HelloApp.ClassLibrary.Resource.Dimension.tooltip_corner_radius = global::HelloApp.XamarinAndroid.Resource.Dimension.tooltip_corner_radius;
+			global::HelloApp.ClassLibrary.Resource.Dimension.tooltip_horizontal_padding = global::HelloApp.XamarinAndroid.Resource.Dimension.tooltip_horizontal_padding;
+			global::HelloApp.ClassLibrary.Resource.Dimension.tooltip_margin = global::HelloApp.XamarinAndroid.Resource.Dimension.tooltip_margin;
+			global::HelloApp.ClassLibrary.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::HelloApp.XamarinAndroid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::HelloApp.ClassLibrary.Resource.Dimension.tooltip_precise_anchor_threshold = global::HelloApp.XamarinAndroid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::HelloApp.ClassLibrary.Resource.Dimension.tooltip_vertical_padding = global::HelloApp.XamarinAndroid.Resource.Dimension.tooltip_vertical_padding;
+			global::HelloApp.ClassLibrary.Resource.Dimension.tooltip_y_offset_non_touch = global::HelloApp.XamarinAndroid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::HelloApp.ClassLibrary.Resource.Dimension.tooltip_y_offset_touch = global::HelloApp.XamarinAndroid.Resource.Dimension.tooltip_y_offset_touch;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_action_bar_item_background_material = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_btn_borderless_material = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_btn_borderless_material;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_btn_check_material = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_btn_check_material;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_btn_colored_material = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_btn_colored_material;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_btn_default_mtrl_shape = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_btn_radio_material = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_btn_radio_material;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_cab_background_internal_bg = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_cab_background_top_material = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_cab_background_top_material;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_control_background_material = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_control_background_material;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_dialog_material_background = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_dialog_material_background;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_edit_text_material = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_edit_text_material;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_ic_ab_back_material = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_ic_ab_back_material;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_ic_clear_material = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_ic_clear_material;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_ic_go_search_api_material = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_ic_menu_overflow_material = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_ic_search_api_material = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_ic_search_api_material;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_ic_star_black_16dp = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_ic_star_black_36dp = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_ic_star_black_48dp = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_ic_star_half_black_16dp = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_ic_star_half_black_36dp = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_ic_star_half_black_48dp = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_ic_voice_search_api_material = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_item_background_holo_dark = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_item_background_holo_dark;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_item_background_holo_light = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_item_background_holo_light;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_list_divider_material = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_list_divider_material;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_list_divider_mtrl_alpha = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_list_focused_holo = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_list_focused_holo;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_list_longpressed_holo = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_list_longpressed_holo;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_list_pressed_holo_dark = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_list_pressed_holo_light = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_list_selector_disabled_holo_light = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_list_selector_holo_dark = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_list_selector_holo_light = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_list_selector_holo_light;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_popup_background_mtrl_mult = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_ratingbar_indicator_material = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_ratingbar_material = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_ratingbar_material;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_ratingbar_small_material = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_ratingbar_small_material;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_seekbar_thumb_material = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_seekbar_tick_mark_material = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_seekbar_track_material = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_seekbar_track_material;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_spinner_textfield_background_material = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_switch_thumb_material = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_switch_thumb_material;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_switch_track_mtrl_alpha = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_tab_indicator_material = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_tab_indicator_material;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_text_cursor_material = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_text_cursor_material;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_textfield_search_material = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_textfield_search_material;
+			global::HelloApp.ClassLibrary.Resource.Drawable.abc_vector_test = global::HelloApp.XamarinAndroid.Resource.Drawable.abc_vector_test;
+			global::HelloApp.ClassLibrary.Resource.Drawable.notification_action_background = global::HelloApp.XamarinAndroid.Resource.Drawable.notification_action_background;
+			global::HelloApp.ClassLibrary.Resource.Drawable.notification_bg = global::HelloApp.XamarinAndroid.Resource.Drawable.notification_bg;
+			global::HelloApp.ClassLibrary.Resource.Drawable.notification_bg_low = global::HelloApp.XamarinAndroid.Resource.Drawable.notification_bg_low;
+			global::HelloApp.ClassLibrary.Resource.Drawable.notification_bg_low_normal = global::HelloApp.XamarinAndroid.Resource.Drawable.notification_bg_low_normal;
+			global::HelloApp.ClassLibrary.Resource.Drawable.notification_bg_low_pressed = global::HelloApp.XamarinAndroid.Resource.Drawable.notification_bg_low_pressed;
+			global::HelloApp.ClassLibrary.Resource.Drawable.notification_bg_normal = global::HelloApp.XamarinAndroid.Resource.Drawable.notification_bg_normal;
+			global::HelloApp.ClassLibrary.Resource.Drawable.notification_bg_normal_pressed = global::HelloApp.XamarinAndroid.Resource.Drawable.notification_bg_normal_pressed;
+			global::HelloApp.ClassLibrary.Resource.Drawable.notification_icon_background = global::HelloApp.XamarinAndroid.Resource.Drawable.notification_icon_background;
+			global::HelloApp.ClassLibrary.Resource.Drawable.notification_template_icon_bg = global::HelloApp.XamarinAndroid.Resource.Drawable.notification_template_icon_bg;
+			global::HelloApp.ClassLibrary.Resource.Drawable.notification_template_icon_low_bg = global::HelloApp.XamarinAndroid.Resource.Drawable.notification_template_icon_low_bg;
+			global::HelloApp.ClassLibrary.Resource.Drawable.notification_tile_bg = global::HelloApp.XamarinAndroid.Resource.Drawable.notification_tile_bg;
+			global::HelloApp.ClassLibrary.Resource.Drawable.notify_panel_notification_icon_bg = global::HelloApp.XamarinAndroid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::HelloApp.ClassLibrary.Resource.Drawable.tooltip_frame_dark = global::HelloApp.XamarinAndroid.Resource.Drawable.tooltip_frame_dark;
+			global::HelloApp.ClassLibrary.Resource.Drawable.tooltip_frame_light = global::HelloApp.XamarinAndroid.Resource.Drawable.tooltip_frame_light;
+			global::HelloApp.ClassLibrary.Resource.Id.ALT = global::HelloApp.XamarinAndroid.Resource.Id.ALT;
+			global::HelloApp.ClassLibrary.Resource.Id.CTRL = global::HelloApp.XamarinAndroid.Resource.Id.CTRL;
+			global::HelloApp.ClassLibrary.Resource.Id.FUNCTION = global::HelloApp.XamarinAndroid.Resource.Id.FUNCTION;
+			global::HelloApp.ClassLibrary.Resource.Id.META = global::HelloApp.XamarinAndroid.Resource.Id.META;
+			global::HelloApp.ClassLibrary.Resource.Id.SHIFT = global::HelloApp.XamarinAndroid.Resource.Id.SHIFT;
+			global::HelloApp.ClassLibrary.Resource.Id.SYM = global::HelloApp.XamarinAndroid.Resource.Id.SYM;
+			global::HelloApp.ClassLibrary.Resource.Id.action_bar = global::HelloApp.XamarinAndroid.Resource.Id.action_bar;
+			global::HelloApp.ClassLibrary.Resource.Id.action_bar_activity_content = global::HelloApp.XamarinAndroid.Resource.Id.action_bar_activity_content;
+			global::HelloApp.ClassLibrary.Resource.Id.action_bar_container = global::HelloApp.XamarinAndroid.Resource.Id.action_bar_container;
+			global::HelloApp.ClassLibrary.Resource.Id.action_bar_root = global::HelloApp.XamarinAndroid.Resource.Id.action_bar_root;
+			global::HelloApp.ClassLibrary.Resource.Id.action_bar_spinner = global::HelloApp.XamarinAndroid.Resource.Id.action_bar_spinner;
+			global::HelloApp.ClassLibrary.Resource.Id.action_bar_subtitle = global::HelloApp.XamarinAndroid.Resource.Id.action_bar_subtitle;
+			global::HelloApp.ClassLibrary.Resource.Id.action_bar_title = global::HelloApp.XamarinAndroid.Resource.Id.action_bar_title;
+			global::HelloApp.ClassLibrary.Resource.Id.action_container = global::HelloApp.XamarinAndroid.Resource.Id.action_container;
+			global::HelloApp.ClassLibrary.Resource.Id.action_context_bar = global::HelloApp.XamarinAndroid.Resource.Id.action_context_bar;
+			global::HelloApp.ClassLibrary.Resource.Id.action_divider = global::HelloApp.XamarinAndroid.Resource.Id.action_divider;
+			global::HelloApp.ClassLibrary.Resource.Id.action_image = global::HelloApp.XamarinAndroid.Resource.Id.action_image;
+			global::HelloApp.ClassLibrary.Resource.Id.action_menu_divider = global::HelloApp.XamarinAndroid.Resource.Id.action_menu_divider;
+			global::HelloApp.ClassLibrary.Resource.Id.action_menu_presenter = global::HelloApp.XamarinAndroid.Resource.Id.action_menu_presenter;
+			global::HelloApp.ClassLibrary.Resource.Id.action_mode_bar = global::HelloApp.XamarinAndroid.Resource.Id.action_mode_bar;
+			global::HelloApp.ClassLibrary.Resource.Id.action_mode_bar_stub = global::HelloApp.XamarinAndroid.Resource.Id.action_mode_bar_stub;
+			global::HelloApp.ClassLibrary.Resource.Id.action_mode_close_button = global::HelloApp.XamarinAndroid.Resource.Id.action_mode_close_button;
+			global::HelloApp.ClassLibrary.Resource.Id.action_text = global::HelloApp.XamarinAndroid.Resource.Id.action_text;
+			global::HelloApp.ClassLibrary.Resource.Id.actions = global::HelloApp.XamarinAndroid.Resource.Id.actions;
+			global::HelloApp.ClassLibrary.Resource.Id.activity_chooser_view_content = global::HelloApp.XamarinAndroid.Resource.Id.activity_chooser_view_content;
+			global::HelloApp.ClassLibrary.Resource.Id.add = global::HelloApp.XamarinAndroid.Resource.Id.add;
+			global::HelloApp.ClassLibrary.Resource.Id.alertTitle = global::HelloApp.XamarinAndroid.Resource.Id.alertTitle;
+			global::HelloApp.ClassLibrary.Resource.Id.all = global::HelloApp.XamarinAndroid.Resource.Id.all;
+			global::HelloApp.ClassLibrary.Resource.Id.always = global::HelloApp.XamarinAndroid.Resource.Id.always;
+			global::HelloApp.ClassLibrary.Resource.Id.async = global::HelloApp.XamarinAndroid.Resource.Id.async;
+			global::HelloApp.ClassLibrary.Resource.Id.beginning = global::HelloApp.XamarinAndroid.Resource.Id.beginning;
+			global::HelloApp.ClassLibrary.Resource.Id.blocking = global::HelloApp.XamarinAndroid.Resource.Id.blocking;
+			global::HelloApp.ClassLibrary.Resource.Id.bottom = global::HelloApp.XamarinAndroid.Resource.Id.bottom;
+			global::HelloApp.ClassLibrary.Resource.Id.buttonPanel = global::HelloApp.XamarinAndroid.Resource.Id.buttonPanel;
+			global::HelloApp.ClassLibrary.Resource.Id.center = global::HelloApp.XamarinAndroid.Resource.Id.center;
+			global::HelloApp.ClassLibrary.Resource.Id.center_horizontal = global::HelloApp.XamarinAndroid.Resource.Id.center_horizontal;
+			global::HelloApp.ClassLibrary.Resource.Id.center_vertical = global::HelloApp.XamarinAndroid.Resource.Id.center_vertical;
+			global::HelloApp.ClassLibrary.Resource.Id.checkbox = global::HelloApp.XamarinAndroid.Resource.Id.checkbox;
+			global::HelloApp.ClassLibrary.Resource.Id.chronometer = global::HelloApp.XamarinAndroid.Resource.Id.chronometer;
+			global::HelloApp.ClassLibrary.Resource.Id.clip_horizontal = global::HelloApp.XamarinAndroid.Resource.Id.clip_horizontal;
+			global::HelloApp.ClassLibrary.Resource.Id.clip_vertical = global::HelloApp.XamarinAndroid.Resource.Id.clip_vertical;
+			global::HelloApp.ClassLibrary.Resource.Id.collapseActionView = global::HelloApp.XamarinAndroid.Resource.Id.collapseActionView;
+			global::HelloApp.ClassLibrary.Resource.Id.content = global::HelloApp.XamarinAndroid.Resource.Id.content;
+			global::HelloApp.ClassLibrary.Resource.Id.contentPanel = global::HelloApp.XamarinAndroid.Resource.Id.contentPanel;
+			global::HelloApp.ClassLibrary.Resource.Id.custom = global::HelloApp.XamarinAndroid.Resource.Id.custom;
+			global::HelloApp.ClassLibrary.Resource.Id.customPanel = global::HelloApp.XamarinAndroid.Resource.Id.customPanel;
+			global::HelloApp.ClassLibrary.Resource.Id.decor_content_parent = global::HelloApp.XamarinAndroid.Resource.Id.decor_content_parent;
+			global::HelloApp.ClassLibrary.Resource.Id.default_activity_button = global::HelloApp.XamarinAndroid.Resource.Id.default_activity_button;
+			global::HelloApp.ClassLibrary.Resource.Id.disableHome = global::HelloApp.XamarinAndroid.Resource.Id.disableHome;
+			global::HelloApp.ClassLibrary.Resource.Id.edit_query = global::HelloApp.XamarinAndroid.Resource.Id.edit_query;
+			global::HelloApp.ClassLibrary.Resource.Id.end = global::HelloApp.XamarinAndroid.Resource.Id.end;
+			global::HelloApp.ClassLibrary.Resource.Id.expand_activities_button = global::HelloApp.XamarinAndroid.Resource.Id.expand_activities_button;
+			global::HelloApp.ClassLibrary.Resource.Id.expanded_menu = global::HelloApp.XamarinAndroid.Resource.Id.expanded_menu;
+			global::HelloApp.ClassLibrary.Resource.Id.fill = global::HelloApp.XamarinAndroid.Resource.Id.fill;
+			global::HelloApp.ClassLibrary.Resource.Id.fill_horizontal = global::HelloApp.XamarinAndroid.Resource.Id.fill_horizontal;
+			global::HelloApp.ClassLibrary.Resource.Id.fill_vertical = global::HelloApp.XamarinAndroid.Resource.Id.fill_vertical;
+			global::HelloApp.ClassLibrary.Resource.Id.forever = global::HelloApp.XamarinAndroid.Resource.Id.forever;
+			global::HelloApp.ClassLibrary.Resource.Id.group_divider = global::HelloApp.XamarinAndroid.Resource.Id.group_divider;
+			global::HelloApp.ClassLibrary.Resource.Id.home = global::HelloApp.XamarinAndroid.Resource.Id.home;
+			global::HelloApp.ClassLibrary.Resource.Id.homeAsUp = global::HelloApp.XamarinAndroid.Resource.Id.homeAsUp;
+			global::HelloApp.ClassLibrary.Resource.Id.icon = global::HelloApp.XamarinAndroid.Resource.Id.icon;
+			global::HelloApp.ClassLibrary.Resource.Id.icon_group = global::HelloApp.XamarinAndroid.Resource.Id.icon_group;
+			global::HelloApp.ClassLibrary.Resource.Id.ifRoom = global::HelloApp.XamarinAndroid.Resource.Id.ifRoom;
+			global::HelloApp.ClassLibrary.Resource.Id.image = global::HelloApp.XamarinAndroid.Resource.Id.image;
+			global::HelloApp.ClassLibrary.Resource.Id.info = global::HelloApp.XamarinAndroid.Resource.Id.info;
+			global::HelloApp.ClassLibrary.Resource.Id.italic = global::HelloApp.XamarinAndroid.Resource.Id.italic;
+			global::HelloApp.ClassLibrary.Resource.Id.left = global::HelloApp.XamarinAndroid.Resource.Id.left;
+			global::HelloApp.ClassLibrary.Resource.Id.line1 = global::HelloApp.XamarinAndroid.Resource.Id.line1;
+			global::HelloApp.ClassLibrary.Resource.Id.line3 = global::HelloApp.XamarinAndroid.Resource.Id.line3;
+			global::HelloApp.ClassLibrary.Resource.Id.listMode = global::HelloApp.XamarinAndroid.Resource.Id.listMode;
+			global::HelloApp.ClassLibrary.Resource.Id.list_item = global::HelloApp.XamarinAndroid.Resource.Id.list_item;
+			global::HelloApp.ClassLibrary.Resource.Id.message = global::HelloApp.XamarinAndroid.Resource.Id.message;
+			global::HelloApp.ClassLibrary.Resource.Id.middle = global::HelloApp.XamarinAndroid.Resource.Id.middle;
+			global::HelloApp.ClassLibrary.Resource.Id.multiply = global::HelloApp.XamarinAndroid.Resource.Id.multiply;
+			global::HelloApp.ClassLibrary.Resource.Id.never = global::HelloApp.XamarinAndroid.Resource.Id.never;
+			global::HelloApp.ClassLibrary.Resource.Id.none = global::HelloApp.XamarinAndroid.Resource.Id.none;
+			global::HelloApp.ClassLibrary.Resource.Id.normal = global::HelloApp.XamarinAndroid.Resource.Id.normal;
+			global::HelloApp.ClassLibrary.Resource.Id.notification_background = global::HelloApp.XamarinAndroid.Resource.Id.notification_background;
+			global::HelloApp.ClassLibrary.Resource.Id.notification_main_column = global::HelloApp.XamarinAndroid.Resource.Id.notification_main_column;
+			global::HelloApp.ClassLibrary.Resource.Id.notification_main_column_container = global::HelloApp.XamarinAndroid.Resource.Id.notification_main_column_container;
+			global::HelloApp.ClassLibrary.Resource.Id.parentPanel = global::HelloApp.XamarinAndroid.Resource.Id.parentPanel;
+			global::HelloApp.ClassLibrary.Resource.Id.progress_circular = global::HelloApp.XamarinAndroid.Resource.Id.progress_circular;
+			global::HelloApp.ClassLibrary.Resource.Id.progress_horizontal = global::HelloApp.XamarinAndroid.Resource.Id.progress_horizontal;
+			global::HelloApp.ClassLibrary.Resource.Id.radio = global::HelloApp.XamarinAndroid.Resource.Id.radio;
+			global::HelloApp.ClassLibrary.Resource.Id.right = global::HelloApp.XamarinAndroid.Resource.Id.right;
+			global::HelloApp.ClassLibrary.Resource.Id.right_icon = global::HelloApp.XamarinAndroid.Resource.Id.right_icon;
+			global::HelloApp.ClassLibrary.Resource.Id.right_side = global::HelloApp.XamarinAndroid.Resource.Id.right_side;
+			global::HelloApp.ClassLibrary.Resource.Id.screen = global::HelloApp.XamarinAndroid.Resource.Id.screen;
+			global::HelloApp.ClassLibrary.Resource.Id.scrollIndicatorDown = global::HelloApp.XamarinAndroid.Resource.Id.scrollIndicatorDown;
+			global::HelloApp.ClassLibrary.Resource.Id.scrollIndicatorUp = global::HelloApp.XamarinAndroid.Resource.Id.scrollIndicatorUp;
+			global::HelloApp.ClassLibrary.Resource.Id.scrollView = global::HelloApp.XamarinAndroid.Resource.Id.scrollView;
+			global::HelloApp.ClassLibrary.Resource.Id.search_badge = global::HelloApp.XamarinAndroid.Resource.Id.search_badge;
+			global::HelloApp.ClassLibrary.Resource.Id.search_bar = global::HelloApp.XamarinAndroid.Resource.Id.search_bar;
+			global::HelloApp.ClassLibrary.Resource.Id.search_button = global::HelloApp.XamarinAndroid.Resource.Id.search_button;
+			global::HelloApp.ClassLibrary.Resource.Id.search_close_btn = global::HelloApp.XamarinAndroid.Resource.Id.search_close_btn;
+			global::HelloApp.ClassLibrary.Resource.Id.search_edit_frame = global::HelloApp.XamarinAndroid.Resource.Id.search_edit_frame;
+			global::HelloApp.ClassLibrary.Resource.Id.search_go_btn = global::HelloApp.XamarinAndroid.Resource.Id.search_go_btn;
+			global::HelloApp.ClassLibrary.Resource.Id.search_mag_icon = global::HelloApp.XamarinAndroid.Resource.Id.search_mag_icon;
+			global::HelloApp.ClassLibrary.Resource.Id.search_plate = global::HelloApp.XamarinAndroid.Resource.Id.search_plate;
+			global::HelloApp.ClassLibrary.Resource.Id.search_src_text = global::HelloApp.XamarinAndroid.Resource.Id.search_src_text;
+			global::HelloApp.ClassLibrary.Resource.Id.search_voice_btn = global::HelloApp.XamarinAndroid.Resource.Id.search_voice_btn;
+			global::HelloApp.ClassLibrary.Resource.Id.select_dialog_listview = global::HelloApp.XamarinAndroid.Resource.Id.select_dialog_listview;
+			global::HelloApp.ClassLibrary.Resource.Id.shortcut = global::HelloApp.XamarinAndroid.Resource.Id.shortcut;
+			global::HelloApp.ClassLibrary.Resource.Id.showCustom = global::HelloApp.XamarinAndroid.Resource.Id.showCustom;
+			global::HelloApp.ClassLibrary.Resource.Id.showHome = global::HelloApp.XamarinAndroid.Resource.Id.showHome;
+			global::HelloApp.ClassLibrary.Resource.Id.showTitle = global::HelloApp.XamarinAndroid.Resource.Id.showTitle;
+			global::HelloApp.ClassLibrary.Resource.Id.spacer = global::HelloApp.XamarinAndroid.Resource.Id.spacer;
+			global::HelloApp.ClassLibrary.Resource.Id.split_action_bar = global::HelloApp.XamarinAndroid.Resource.Id.split_action_bar;
+			global::HelloApp.ClassLibrary.Resource.Id.src_atop = global::HelloApp.XamarinAndroid.Resource.Id.src_atop;
+			global::HelloApp.ClassLibrary.Resource.Id.src_in = global::HelloApp.XamarinAndroid.Resource.Id.src_in;
+			global::HelloApp.ClassLibrary.Resource.Id.src_over = global::HelloApp.XamarinAndroid.Resource.Id.src_over;
+			global::HelloApp.ClassLibrary.Resource.Id.start = global::HelloApp.XamarinAndroid.Resource.Id.start;
+			global::HelloApp.ClassLibrary.Resource.Id.submenuarrow = global::HelloApp.XamarinAndroid.Resource.Id.submenuarrow;
+			global::HelloApp.ClassLibrary.Resource.Id.submit_area = global::HelloApp.XamarinAndroid.Resource.Id.submit_area;
+			global::HelloApp.ClassLibrary.Resource.Id.tabMode = global::HelloApp.XamarinAndroid.Resource.Id.tabMode;
+			global::HelloApp.ClassLibrary.Resource.Id.tag_transition_group = global::HelloApp.XamarinAndroid.Resource.Id.tag_transition_group;
+			global::HelloApp.ClassLibrary.Resource.Id.tag_unhandled_key_event_manager = global::HelloApp.XamarinAndroid.Resource.Id.tag_unhandled_key_event_manager;
+			global::HelloApp.ClassLibrary.Resource.Id.tag_unhandled_key_listeners = global::HelloApp.XamarinAndroid.Resource.Id.tag_unhandled_key_listeners;
+			global::HelloApp.ClassLibrary.Resource.Id.text = global::HelloApp.XamarinAndroid.Resource.Id.text;
+			global::HelloApp.ClassLibrary.Resource.Id.text2 = global::HelloApp.XamarinAndroid.Resource.Id.text2;
+			global::HelloApp.ClassLibrary.Resource.Id.textSpacerNoButtons = global::HelloApp.XamarinAndroid.Resource.Id.textSpacerNoButtons;
+			global::HelloApp.ClassLibrary.Resource.Id.textSpacerNoTitle = global::HelloApp.XamarinAndroid.Resource.Id.textSpacerNoTitle;
+			global::HelloApp.ClassLibrary.Resource.Id.time = global::HelloApp.XamarinAndroid.Resource.Id.time;
+			global::HelloApp.ClassLibrary.Resource.Id.title = global::HelloApp.XamarinAndroid.Resource.Id.title;
+			global::HelloApp.ClassLibrary.Resource.Id.titleDividerNoCustom = global::HelloApp.XamarinAndroid.Resource.Id.titleDividerNoCustom;
+			global::HelloApp.ClassLibrary.Resource.Id.title_template = global::HelloApp.XamarinAndroid.Resource.Id.title_template;
+			global::HelloApp.ClassLibrary.Resource.Id.top = global::HelloApp.XamarinAndroid.Resource.Id.top;
+			global::HelloApp.ClassLibrary.Resource.Id.topPanel = global::HelloApp.XamarinAndroid.Resource.Id.topPanel;
+			global::HelloApp.ClassLibrary.Resource.Id.uniform = global::HelloApp.XamarinAndroid.Resource.Id.uniform;
+			global::HelloApp.ClassLibrary.Resource.Id.up = global::HelloApp.XamarinAndroid.Resource.Id.up;
+			global::HelloApp.ClassLibrary.Resource.Id.useLogo = global::HelloApp.XamarinAndroid.Resource.Id.useLogo;
+			global::HelloApp.ClassLibrary.Resource.Id.withText = global::HelloApp.XamarinAndroid.Resource.Id.withText;
+			global::HelloApp.ClassLibrary.Resource.Id.wrap_content = global::HelloApp.XamarinAndroid.Resource.Id.wrap_content;
+			global::HelloApp.ClassLibrary.Resource.Integer.abc_config_activityDefaultDur = global::HelloApp.XamarinAndroid.Resource.Integer.abc_config_activityDefaultDur;
+			global::HelloApp.ClassLibrary.Resource.Integer.abc_config_activityShortDur = global::HelloApp.XamarinAndroid.Resource.Integer.abc_config_activityShortDur;
+			global::HelloApp.ClassLibrary.Resource.Integer.cancel_button_image_alpha = global::HelloApp.XamarinAndroid.Resource.Integer.cancel_button_image_alpha;
+			global::HelloApp.ClassLibrary.Resource.Integer.config_tooltipAnimTime = global::HelloApp.XamarinAndroid.Resource.Integer.config_tooltipAnimTime;
+			global::HelloApp.ClassLibrary.Resource.Integer.status_bar_notification_info_maxnum = global::HelloApp.XamarinAndroid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::HelloApp.ClassLibrary.Resource.Layout.abc_action_bar_title_item = global::HelloApp.XamarinAndroid.Resource.Layout.abc_action_bar_title_item;
+			global::HelloApp.ClassLibrary.Resource.Layout.abc_action_bar_up_container = global::HelloApp.XamarinAndroid.Resource.Layout.abc_action_bar_up_container;
+			global::HelloApp.ClassLibrary.Resource.Layout.abc_action_menu_item_layout = global::HelloApp.XamarinAndroid.Resource.Layout.abc_action_menu_item_layout;
+			global::HelloApp.ClassLibrary.Resource.Layout.abc_action_menu_layout = global::HelloApp.XamarinAndroid.Resource.Layout.abc_action_menu_layout;
+			global::HelloApp.ClassLibrary.Resource.Layout.abc_action_mode_bar = global::HelloApp.XamarinAndroid.Resource.Layout.abc_action_mode_bar;
+			global::HelloApp.ClassLibrary.Resource.Layout.abc_action_mode_close_item_material = global::HelloApp.XamarinAndroid.Resource.Layout.abc_action_mode_close_item_material;
+			global::HelloApp.ClassLibrary.Resource.Layout.abc_activity_chooser_view = global::HelloApp.XamarinAndroid.Resource.Layout.abc_activity_chooser_view;
+			global::HelloApp.ClassLibrary.Resource.Layout.abc_activity_chooser_view_list_item = global::HelloApp.XamarinAndroid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::HelloApp.ClassLibrary.Resource.Layout.abc_alert_dialog_button_bar_material = global::HelloApp.XamarinAndroid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::HelloApp.ClassLibrary.Resource.Layout.abc_alert_dialog_material = global::HelloApp.XamarinAndroid.Resource.Layout.abc_alert_dialog_material;
+			global::HelloApp.ClassLibrary.Resource.Layout.abc_alert_dialog_title_material = global::HelloApp.XamarinAndroid.Resource.Layout.abc_alert_dialog_title_material;
+			global::HelloApp.ClassLibrary.Resource.Layout.abc_cascading_menu_item_layout = global::HelloApp.XamarinAndroid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::HelloApp.ClassLibrary.Resource.Layout.abc_dialog_title_material = global::HelloApp.XamarinAndroid.Resource.Layout.abc_dialog_title_material;
+			global::HelloApp.ClassLibrary.Resource.Layout.abc_expanded_menu_layout = global::HelloApp.XamarinAndroid.Resource.Layout.abc_expanded_menu_layout;
+			global::HelloApp.ClassLibrary.Resource.Layout.abc_list_menu_item_checkbox = global::HelloApp.XamarinAndroid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::HelloApp.ClassLibrary.Resource.Layout.abc_list_menu_item_icon = global::HelloApp.XamarinAndroid.Resource.Layout.abc_list_menu_item_icon;
+			global::HelloApp.ClassLibrary.Resource.Layout.abc_list_menu_item_layout = global::HelloApp.XamarinAndroid.Resource.Layout.abc_list_menu_item_layout;
+			global::HelloApp.ClassLibrary.Resource.Layout.abc_list_menu_item_radio = global::HelloApp.XamarinAndroid.Resource.Layout.abc_list_menu_item_radio;
+			global::HelloApp.ClassLibrary.Resource.Layout.abc_popup_menu_header_item_layout = global::HelloApp.XamarinAndroid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::HelloApp.ClassLibrary.Resource.Layout.abc_popup_menu_item_layout = global::HelloApp.XamarinAndroid.Resource.Layout.abc_popup_menu_item_layout;
+			global::HelloApp.ClassLibrary.Resource.Layout.abc_screen_content_include = global::HelloApp.XamarinAndroid.Resource.Layout.abc_screen_content_include;
+			global::HelloApp.ClassLibrary.Resource.Layout.abc_screen_simple = global::HelloApp.XamarinAndroid.Resource.Layout.abc_screen_simple;
+			global::HelloApp.ClassLibrary.Resource.Layout.abc_screen_simple_overlay_action_mode = global::HelloApp.XamarinAndroid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::HelloApp.ClassLibrary.Resource.Layout.abc_screen_toolbar = global::HelloApp.XamarinAndroid.Resource.Layout.abc_screen_toolbar;
+			global::HelloApp.ClassLibrary.Resource.Layout.abc_search_dropdown_item_icons_2line = global::HelloApp.XamarinAndroid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::HelloApp.ClassLibrary.Resource.Layout.abc_search_view = global::HelloApp.XamarinAndroid.Resource.Layout.abc_search_view;
+			global::HelloApp.ClassLibrary.Resource.Layout.abc_select_dialog_material = global::HelloApp.XamarinAndroid.Resource.Layout.abc_select_dialog_material;
+			global::HelloApp.ClassLibrary.Resource.Layout.abc_tooltip = global::HelloApp.XamarinAndroid.Resource.Layout.abc_tooltip;
+			global::HelloApp.ClassLibrary.Resource.Layout.notification_action = global::HelloApp.XamarinAndroid.Resource.Layout.notification_action;
+			global::HelloApp.ClassLibrary.Resource.Layout.notification_action_tombstone = global::HelloApp.XamarinAndroid.Resource.Layout.notification_action_tombstone;
+			global::HelloApp.ClassLibrary.Resource.Layout.notification_template_custom_big = global::HelloApp.XamarinAndroid.Resource.Layout.notification_template_custom_big;
+			global::HelloApp.ClassLibrary.Resource.Layout.notification_template_icon_group = global::HelloApp.XamarinAndroid.Resource.Layout.notification_template_icon_group;
+			global::HelloApp.ClassLibrary.Resource.Layout.notification_template_part_chronometer = global::HelloApp.XamarinAndroid.Resource.Layout.notification_template_part_chronometer;
+			global::HelloApp.ClassLibrary.Resource.Layout.notification_template_part_time = global::HelloApp.XamarinAndroid.Resource.Layout.notification_template_part_time;
+			global::HelloApp.ClassLibrary.Resource.Layout.select_dialog_item_material = global::HelloApp.XamarinAndroid.Resource.Layout.select_dialog_item_material;
+			global::HelloApp.ClassLibrary.Resource.Layout.select_dialog_multichoice_material = global::HelloApp.XamarinAndroid.Resource.Layout.select_dialog_multichoice_material;
+			global::HelloApp.ClassLibrary.Resource.Layout.select_dialog_singlechoice_material = global::HelloApp.XamarinAndroid.Resource.Layout.select_dialog_singlechoice_material;
+			global::HelloApp.ClassLibrary.Resource.Layout.support_simple_spinner_dropdown_item = global::HelloApp.XamarinAndroid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::HelloApp.ClassLibrary.Resource.String.abc_action_bar_home_description = global::HelloApp.XamarinAndroid.Resource.String.abc_action_bar_home_description;
+			global::HelloApp.ClassLibrary.Resource.String.abc_action_bar_up_description = global::HelloApp.XamarinAndroid.Resource.String.abc_action_bar_up_description;
+			global::HelloApp.ClassLibrary.Resource.String.abc_action_menu_overflow_description = global::HelloApp.XamarinAndroid.Resource.String.abc_action_menu_overflow_description;
+			global::HelloApp.ClassLibrary.Resource.String.abc_action_mode_done = global::HelloApp.XamarinAndroid.Resource.String.abc_action_mode_done;
+			global::HelloApp.ClassLibrary.Resource.String.abc_activity_chooser_view_see_all = global::HelloApp.XamarinAndroid.Resource.String.abc_activity_chooser_view_see_all;
+			global::HelloApp.ClassLibrary.Resource.String.abc_activitychooserview_choose_application = global::HelloApp.XamarinAndroid.Resource.String.abc_activitychooserview_choose_application;
+			global::HelloApp.ClassLibrary.Resource.String.abc_capital_off = global::HelloApp.XamarinAndroid.Resource.String.abc_capital_off;
+			global::HelloApp.ClassLibrary.Resource.String.abc_capital_on = global::HelloApp.XamarinAndroid.Resource.String.abc_capital_on;
+			global::HelloApp.ClassLibrary.Resource.String.abc_font_family_body_1_material = global::HelloApp.XamarinAndroid.Resource.String.abc_font_family_body_1_material;
+			global::HelloApp.ClassLibrary.Resource.String.abc_font_family_body_2_material = global::HelloApp.XamarinAndroid.Resource.String.abc_font_family_body_2_material;
+			global::HelloApp.ClassLibrary.Resource.String.abc_font_family_button_material = global::HelloApp.XamarinAndroid.Resource.String.abc_font_family_button_material;
+			global::HelloApp.ClassLibrary.Resource.String.abc_font_family_caption_material = global::HelloApp.XamarinAndroid.Resource.String.abc_font_family_caption_material;
+			global::HelloApp.ClassLibrary.Resource.String.abc_font_family_display_1_material = global::HelloApp.XamarinAndroid.Resource.String.abc_font_family_display_1_material;
+			global::HelloApp.ClassLibrary.Resource.String.abc_font_family_display_2_material = global::HelloApp.XamarinAndroid.Resource.String.abc_font_family_display_2_material;
+			global::HelloApp.ClassLibrary.Resource.String.abc_font_family_display_3_material = global::HelloApp.XamarinAndroid.Resource.String.abc_font_family_display_3_material;
+			global::HelloApp.ClassLibrary.Resource.String.abc_font_family_display_4_material = global::HelloApp.XamarinAndroid.Resource.String.abc_font_family_display_4_material;
+			global::HelloApp.ClassLibrary.Resource.String.abc_font_family_headline_material = global::HelloApp.XamarinAndroid.Resource.String.abc_font_family_headline_material;
+			global::HelloApp.ClassLibrary.Resource.String.abc_font_family_menu_material = global::HelloApp.XamarinAndroid.Resource.String.abc_font_family_menu_material;
+			global::HelloApp.ClassLibrary.Resource.String.abc_font_family_subhead_material = global::HelloApp.XamarinAndroid.Resource.String.abc_font_family_subhead_material;
+			global::HelloApp.ClassLibrary.Resource.String.abc_font_family_title_material = global::HelloApp.XamarinAndroid.Resource.String.abc_font_family_title_material;
+			global::HelloApp.ClassLibrary.Resource.String.abc_menu_alt_shortcut_label = global::HelloApp.XamarinAndroid.Resource.String.abc_menu_alt_shortcut_label;
+			global::HelloApp.ClassLibrary.Resource.String.abc_menu_ctrl_shortcut_label = global::HelloApp.XamarinAndroid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::HelloApp.ClassLibrary.Resource.String.abc_menu_delete_shortcut_label = global::HelloApp.XamarinAndroid.Resource.String.abc_menu_delete_shortcut_label;
+			global::HelloApp.ClassLibrary.Resource.String.abc_menu_enter_shortcut_label = global::HelloApp.XamarinAndroid.Resource.String.abc_menu_enter_shortcut_label;
+			global::HelloApp.ClassLibrary.Resource.String.abc_menu_function_shortcut_label = global::HelloApp.XamarinAndroid.Resource.String.abc_menu_function_shortcut_label;
+			global::HelloApp.ClassLibrary.Resource.String.abc_menu_meta_shortcut_label = global::HelloApp.XamarinAndroid.Resource.String.abc_menu_meta_shortcut_label;
+			global::HelloApp.ClassLibrary.Resource.String.abc_menu_shift_shortcut_label = global::HelloApp.XamarinAndroid.Resource.String.abc_menu_shift_shortcut_label;
+			global::HelloApp.ClassLibrary.Resource.String.abc_menu_space_shortcut_label = global::HelloApp.XamarinAndroid.Resource.String.abc_menu_space_shortcut_label;
+			global::HelloApp.ClassLibrary.Resource.String.abc_menu_sym_shortcut_label = global::HelloApp.XamarinAndroid.Resource.String.abc_menu_sym_shortcut_label;
+			global::HelloApp.ClassLibrary.Resource.String.abc_prepend_shortcut_label = global::HelloApp.XamarinAndroid.Resource.String.abc_prepend_shortcut_label;
+			global::HelloApp.ClassLibrary.Resource.String.abc_search_hint = global::HelloApp.XamarinAndroid.Resource.String.abc_search_hint;
+			global::HelloApp.ClassLibrary.Resource.String.abc_searchview_description_clear = global::HelloApp.XamarinAndroid.Resource.String.abc_searchview_description_clear;
+			global::HelloApp.ClassLibrary.Resource.String.abc_searchview_description_query = global::HelloApp.XamarinAndroid.Resource.String.abc_searchview_description_query;
+			global::HelloApp.ClassLibrary.Resource.String.abc_searchview_description_search = global::HelloApp.XamarinAndroid.Resource.String.abc_searchview_description_search;
+			global::HelloApp.ClassLibrary.Resource.String.abc_searchview_description_submit = global::HelloApp.XamarinAndroid.Resource.String.abc_searchview_description_submit;
+			global::HelloApp.ClassLibrary.Resource.String.abc_searchview_description_voice = global::HelloApp.XamarinAndroid.Resource.String.abc_searchview_description_voice;
+			global::HelloApp.ClassLibrary.Resource.String.abc_shareactionprovider_share_with = global::HelloApp.XamarinAndroid.Resource.String.abc_shareactionprovider_share_with;
+			global::HelloApp.ClassLibrary.Resource.String.abc_shareactionprovider_share_with_application = global::HelloApp.XamarinAndroid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::HelloApp.ClassLibrary.Resource.String.abc_toolbar_collapse_description = global::HelloApp.XamarinAndroid.Resource.String.abc_toolbar_collapse_description;
+			global::HelloApp.ClassLibrary.Resource.String.app_name = global::HelloApp.XamarinAndroid.Resource.String.app_name;
+			global::HelloApp.ClassLibrary.Resource.String.hello = global::HelloApp.XamarinAndroid.Resource.String.hello;
+			global::HelloApp.ClassLibrary.Resource.String.search_menu_title = global::HelloApp.XamarinAndroid.Resource.String.search_menu_title;
+			global::HelloApp.ClassLibrary.Resource.String.status_bar_notification_info_overflow = global::HelloApp.XamarinAndroid.Resource.String.status_bar_notification_info_overflow;
+			global::HelloApp.ClassLibrary.Resource.Style.AlertDialog_AppCompat = global::HelloApp.XamarinAndroid.Resource.Style.AlertDialog_AppCompat;
+			global::HelloApp.ClassLibrary.Resource.Style.AlertDialog_AppCompat_Light = global::HelloApp.XamarinAndroid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::HelloApp.ClassLibrary.Resource.Style.Animation_AppCompat_Dialog = global::HelloApp.XamarinAndroid.Resource.Style.Animation_AppCompat_Dialog;
+			global::HelloApp.ClassLibrary.Resource.Style.Animation_AppCompat_DropDownUp = global::HelloApp.XamarinAndroid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::HelloApp.ClassLibrary.Resource.Style.Animation_AppCompat_Tooltip = global::HelloApp.XamarinAndroid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_AlertDialog_AppCompat = global::HelloApp.XamarinAndroid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_AlertDialog_AppCompat_Light = global::HelloApp.XamarinAndroid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Animation_AppCompat_Dialog = global::HelloApp.XamarinAndroid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::HelloApp.XamarinAndroid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Animation_AppCompat_Tooltip = global::HelloApp.XamarinAndroid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_DialogWindowTitle_AppCompat = global::HelloApp.XamarinAndroid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::HelloApp.XamarinAndroid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Button = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Large = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Small = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Title = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::HelloApp.XamarinAndroid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Theme_AppCompat = global::HelloApp.XamarinAndroid.Resource.Style.Base_Theme_AppCompat;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::HelloApp.XamarinAndroid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Theme_AppCompat_Dialog = global::HelloApp.XamarinAndroid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::HelloApp.XamarinAndroid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::HelloApp.XamarinAndroid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::HelloApp.XamarinAndroid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::HelloApp.XamarinAndroid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Theme_AppCompat_Light = global::HelloApp.XamarinAndroid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::HelloApp.XamarinAndroid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::HelloApp.XamarinAndroid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::HelloApp.XamarinAndroid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::HelloApp.XamarinAndroid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::HelloApp.XamarinAndroid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::HelloApp.XamarinAndroid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_ThemeOverlay_AppCompat = global::HelloApp.XamarinAndroid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::HelloApp.XamarinAndroid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::HelloApp.XamarinAndroid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::HelloApp.XamarinAndroid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::HelloApp.XamarinAndroid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::HelloApp.XamarinAndroid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::HelloApp.XamarinAndroid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_V21_Theme_AppCompat = global::HelloApp.XamarinAndroid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::HelloApp.XamarinAndroid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_V21_Theme_AppCompat_Light = global::HelloApp.XamarinAndroid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::HelloApp.XamarinAndroid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::HelloApp.XamarinAndroid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_V22_Theme_AppCompat = global::HelloApp.XamarinAndroid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_V22_Theme_AppCompat_Light = global::HelloApp.XamarinAndroid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_V23_Theme_AppCompat = global::HelloApp.XamarinAndroid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_V23_Theme_AppCompat_Light = global::HelloApp.XamarinAndroid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_V26_Theme_AppCompat = global::HelloApp.XamarinAndroid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_V26_Theme_AppCompat_Light = global::HelloApp.XamarinAndroid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::HelloApp.XamarinAndroid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_V28_Theme_AppCompat = global::HelloApp.XamarinAndroid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_V28_Theme_AppCompat_Light = global::HelloApp.XamarinAndroid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_V7_Theme_AppCompat = global::HelloApp.XamarinAndroid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::HelloApp.XamarinAndroid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_V7_Theme_AppCompat_Light = global::HelloApp.XamarinAndroid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::HelloApp.XamarinAndroid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::HelloApp.XamarinAndroid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::HelloApp.XamarinAndroid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::HelloApp.XamarinAndroid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::HelloApp.XamarinAndroid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_ActionBar = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_ActionButton = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_ActionMode = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_Button = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_Button_Small = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_EditText = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_ImageButton = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_ListView = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_RatingBar = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_SearchView = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_SeekBar = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_Spinner = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_Toolbar = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::HelloApp.ClassLibrary.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::HelloApp.XamarinAndroid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::HelloApp.ClassLibrary.Resource.Style.Platform_AppCompat = global::HelloApp.XamarinAndroid.Resource.Style.Platform_AppCompat;
+			global::HelloApp.ClassLibrary.Resource.Style.Platform_AppCompat_Light = global::HelloApp.XamarinAndroid.Resource.Style.Platform_AppCompat_Light;
+			global::HelloApp.ClassLibrary.Resource.Style.Platform_ThemeOverlay_AppCompat = global::HelloApp.XamarinAndroid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::HelloApp.ClassLibrary.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::HelloApp.XamarinAndroid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::HelloApp.ClassLibrary.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::HelloApp.XamarinAndroid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::HelloApp.ClassLibrary.Resource.Style.Platform_V21_AppCompat = global::HelloApp.XamarinAndroid.Resource.Style.Platform_V21_AppCompat;
+			global::HelloApp.ClassLibrary.Resource.Style.Platform_V21_AppCompat_Light = global::HelloApp.XamarinAndroid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::HelloApp.ClassLibrary.Resource.Style.Platform_V25_AppCompat = global::HelloApp.XamarinAndroid.Resource.Style.Platform_V25_AppCompat;
+			global::HelloApp.ClassLibrary.Resource.Style.Platform_V25_AppCompat_Light = global::HelloApp.XamarinAndroid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::HelloApp.ClassLibrary.Resource.Style.Platform_Widget_AppCompat_Spinner = global::HelloApp.XamarinAndroid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::HelloApp.ClassLibrary.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::HelloApp.XamarinAndroid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::HelloApp.ClassLibrary.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::HelloApp.XamarinAndroid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::HelloApp.ClassLibrary.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::HelloApp.XamarinAndroid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::HelloApp.ClassLibrary.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::HelloApp.XamarinAndroid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::HelloApp.ClassLibrary.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::HelloApp.XamarinAndroid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::HelloApp.ClassLibrary.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::HelloApp.XamarinAndroid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::HelloApp.ClassLibrary.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::HelloApp.XamarinAndroid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::HelloApp.ClassLibrary.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::HelloApp.XamarinAndroid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::HelloApp.ClassLibrary.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::HelloApp.XamarinAndroid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::HelloApp.ClassLibrary.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::HelloApp.XamarinAndroid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::HelloApp.ClassLibrary.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::HelloApp.XamarinAndroid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::HelloApp.ClassLibrary.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::HelloApp.XamarinAndroid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::HelloApp.ClassLibrary.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::HelloApp.XamarinAndroid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::HelloApp.ClassLibrary.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::HelloApp.XamarinAndroid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::HelloApp.ClassLibrary.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::HelloApp.XamarinAndroid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::HelloApp.ClassLibrary.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::HelloApp.XamarinAndroid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::HelloApp.ClassLibrary.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::HelloApp.XamarinAndroid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Body1 = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Body2 = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Button = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Caption = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Display1 = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Display2 = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Display3 = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Display4 = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Headline = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Inverse = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Large = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Medium = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Menu = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Small = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Subhead = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Title = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Tooltip = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_Compat_Notification = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_Compat_Notification;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_Compat_Notification_Info = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_Compat_Notification_Time = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_Compat_Notification_Title = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::HelloApp.ClassLibrary.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::HelloApp.XamarinAndroid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::HelloApp.ClassLibrary.Resource.Style.Theme_AppCompat = global::HelloApp.XamarinAndroid.Resource.Style.Theme_AppCompat;
+			global::HelloApp.ClassLibrary.Resource.Style.Theme_AppCompat_CompactMenu = global::HelloApp.XamarinAndroid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::HelloApp.ClassLibrary.Resource.Style.Theme_AppCompat_DayNight = global::HelloApp.XamarinAndroid.Resource.Style.Theme_AppCompat_DayNight;
+			global::HelloApp.ClassLibrary.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::HelloApp.XamarinAndroid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::HelloApp.ClassLibrary.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::HelloApp.XamarinAndroid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::HelloApp.ClassLibrary.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::HelloApp.XamarinAndroid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::HelloApp.ClassLibrary.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::HelloApp.XamarinAndroid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::HelloApp.ClassLibrary.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::HelloApp.XamarinAndroid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::HelloApp.ClassLibrary.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::HelloApp.XamarinAndroid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::HelloApp.ClassLibrary.Resource.Style.Theme_AppCompat_Dialog = global::HelloApp.XamarinAndroid.Resource.Style.Theme_AppCompat_Dialog;
+			global::HelloApp.ClassLibrary.Resource.Style.Theme_AppCompat_Dialog_Alert = global::HelloApp.XamarinAndroid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::HelloApp.ClassLibrary.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::HelloApp.XamarinAndroid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::HelloApp.ClassLibrary.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::HelloApp.XamarinAndroid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::HelloApp.ClassLibrary.Resource.Style.Theme_AppCompat_Light = global::HelloApp.XamarinAndroid.Resource.Style.Theme_AppCompat_Light;
+			global::HelloApp.ClassLibrary.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::HelloApp.XamarinAndroid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::HelloApp.ClassLibrary.Resource.Style.Theme_AppCompat_Light_Dialog = global::HelloApp.XamarinAndroid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::HelloApp.ClassLibrary.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::HelloApp.XamarinAndroid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::HelloApp.ClassLibrary.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::HelloApp.XamarinAndroid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::HelloApp.ClassLibrary.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::HelloApp.XamarinAndroid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::HelloApp.ClassLibrary.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::HelloApp.XamarinAndroid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::HelloApp.ClassLibrary.Resource.Style.Theme_AppCompat_NoActionBar = global::HelloApp.XamarinAndroid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::HelloApp.ClassLibrary.Resource.Style.ThemeOverlay_AppCompat = global::HelloApp.XamarinAndroid.Resource.Style.ThemeOverlay_AppCompat;
+			global::HelloApp.ClassLibrary.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::HelloApp.XamarinAndroid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::HelloApp.ClassLibrary.Resource.Style.ThemeOverlay_AppCompat_Dark = global::HelloApp.XamarinAndroid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::HelloApp.ClassLibrary.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::HelloApp.XamarinAndroid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::HelloApp.ClassLibrary.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::HelloApp.XamarinAndroid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::HelloApp.ClassLibrary.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::HelloApp.XamarinAndroid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::HelloApp.ClassLibrary.Resource.Style.ThemeOverlay_AppCompat_Light = global::HelloApp.XamarinAndroid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_ActionBar = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_ActionButton = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_ActionMode = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_ActivityChooserView = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Button = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Button;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Button_Borderless = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Button_Colored = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Button_Small = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_ButtonBar = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_EditText = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_EditText;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_ImageButton = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Light_ActionBar = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Light_ActionButton = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Light_SearchView = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_ListMenuView = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_ListPopupWindow = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_ListView = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_ListView;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_ListView_DropDown = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_ListView_Menu = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_PopupMenu = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_PopupWindow = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_ProgressBar = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_RatingBar = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_RatingBar_Small = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_SearchView = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_SearchView;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_SeekBar = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Spinner = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Spinner;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Toolbar = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::HelloApp.XamarinAndroid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_Compat_NotificationActionContainer = global::HelloApp.XamarinAndroid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_Compat_NotificationActionText = global::HelloApp.XamarinAndroid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::HelloApp.ClassLibrary.Resource.Style.Widget_Support_CoordinatorLayout = global::HelloApp.XamarinAndroid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionBar = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionBar;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionBar_background = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionBar_background;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionBar_backgroundSplit = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionBar_backgroundStacked = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionBar_contentInsetEnd = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionBar_contentInsetLeft = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionBar_contentInsetRight = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionBar_contentInsetStart = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionBar_customNavigationLayout = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionBar_displayOptions = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionBar_displayOptions;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionBar_divider = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionBar_divider;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionBar_elevation = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionBar_elevation;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionBar_height = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionBar_height;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionBar_hideOnContentScroll = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionBar_homeAsUpIndicator = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionBar_homeLayout = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionBar_homeLayout;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionBar_icon = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionBar_icon;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionBar_itemPadding = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionBar_itemPadding;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionBar_logo = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionBar_logo;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionBar_navigationMode = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionBar_navigationMode;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionBar_popupTheme = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionBar_popupTheme;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionBar_progressBarPadding = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionBar_progressBarStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionBar_subtitle = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionBar_subtitle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionBar_subtitleTextStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionBar_title = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionBar_title;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionBar_titleTextStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionBarLayout = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionBarLayout;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionMenuItemView = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionMenuItemView;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionMenuItemView_android_minWidth = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionMenuView = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionMenuView;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionMode = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionMode;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionMode_background = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionMode_background;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionMode_backgroundSplit = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionMode_closeItemLayout = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionMode_height = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionMode_height;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionMode_subtitleTextStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActionMode_titleTextStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActivityChooserView = global::HelloApp.XamarinAndroid.Resource.Styleable.ActivityChooserView;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::HelloApp.XamarinAndroid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ActivityChooserView_initialActivityCount = global::HelloApp.XamarinAndroid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AlertDialog = global::HelloApp.XamarinAndroid.Resource.Styleable.AlertDialog;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AlertDialog_android_layout = global::HelloApp.XamarinAndroid.Resource.Styleable.AlertDialog_android_layout;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AlertDialog_buttonIconDimen = global::HelloApp.XamarinAndroid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::HelloApp.XamarinAndroid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AlertDialog_listItemLayout = global::HelloApp.XamarinAndroid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AlertDialog_listLayout = global::HelloApp.XamarinAndroid.Resource.Styleable.AlertDialog_listLayout;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::HelloApp.XamarinAndroid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AlertDialog_showTitle = global::HelloApp.XamarinAndroid.Resource.Styleable.AlertDialog_showTitle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::HelloApp.XamarinAndroid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AnimatedStateListDrawableCompat = global::HelloApp.XamarinAndroid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::HelloApp.XamarinAndroid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::HelloApp.XamarinAndroid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::HelloApp.XamarinAndroid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::HelloApp.XamarinAndroid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::HelloApp.XamarinAndroid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::HelloApp.XamarinAndroid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AnimatedStateListDrawableItem = global::HelloApp.XamarinAndroid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::HelloApp.XamarinAndroid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::HelloApp.XamarinAndroid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AnimatedStateListDrawableTransition = global::HelloApp.XamarinAndroid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::HelloApp.XamarinAndroid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::HelloApp.XamarinAndroid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::HelloApp.XamarinAndroid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::HelloApp.XamarinAndroid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatImageView = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatImageView;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatImageView_android_src = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatImageView_android_src;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatImageView_srcCompat = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatImageView_tint = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatImageView_tint;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatImageView_tintMode = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatSeekBar = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatSeekBar;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatSeekBar_android_thumb = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatSeekBar_tickMark = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTextHelper = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTextHelper;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTextView = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTextView;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTextView_android_textAppearance = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTextView_fontFamily = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTextView_lineHeight = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTextView_textAllCaps = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_actionBarDivider = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_actionBarSize = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_actionBarStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_actionBarTheme = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_actionModeBackground = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_actionModeStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_buttonStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_checkboxStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_colorAccent = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_colorControlActivated = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_colorControlNormal = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_colorError = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_colorError;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_colorPrimary = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_controlBackground = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_dialogTheme = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_dividerVertical = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_editTextBackground = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_editTextColor = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_editTextStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_panelBackground = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_searchViewStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_seekBarStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_spinnerStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_switchStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_toolbarStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_windowActionBar = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::HelloApp.ClassLibrary.Resource.Styleable.AppCompatTheme_windowNoTitle = global::HelloApp.XamarinAndroid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ButtonBarLayout = global::HelloApp.XamarinAndroid.Resource.Styleable.ButtonBarLayout;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ButtonBarLayout_allowStacking = global::HelloApp.XamarinAndroid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ColorStateListItem = global::HelloApp.XamarinAndroid.Resource.Styleable.ColorStateListItem;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ColorStateListItem_alpha = global::HelloApp.XamarinAndroid.Resource.Styleable.ColorStateListItem_alpha;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ColorStateListItem_android_alpha = global::HelloApp.XamarinAndroid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ColorStateListItem_android_color = global::HelloApp.XamarinAndroid.Resource.Styleable.ColorStateListItem_android_color;
+			global::HelloApp.ClassLibrary.Resource.Styleable.CompoundButton = global::HelloApp.XamarinAndroid.Resource.Styleable.CompoundButton;
+			global::HelloApp.ClassLibrary.Resource.Styleable.CompoundButton_android_button = global::HelloApp.XamarinAndroid.Resource.Styleable.CompoundButton_android_button;
+			global::HelloApp.ClassLibrary.Resource.Styleable.CompoundButton_buttonTint = global::HelloApp.XamarinAndroid.Resource.Styleable.CompoundButton_buttonTint;
+			global::HelloApp.ClassLibrary.Resource.Styleable.CompoundButton_buttonTintMode = global::HelloApp.XamarinAndroid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::HelloApp.ClassLibrary.Resource.Styleable.CoordinatorLayout = global::HelloApp.XamarinAndroid.Resource.Styleable.CoordinatorLayout;
+			global::HelloApp.ClassLibrary.Resource.Styleable.CoordinatorLayout_keylines = global::HelloApp.XamarinAndroid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::HelloApp.ClassLibrary.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::HelloApp.XamarinAndroid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::HelloApp.ClassLibrary.Resource.Styleable.CoordinatorLayout_Layout = global::HelloApp.XamarinAndroid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::HelloApp.ClassLibrary.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::HelloApp.XamarinAndroid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::HelloApp.ClassLibrary.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::HelloApp.XamarinAndroid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::HelloApp.ClassLibrary.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::HelloApp.XamarinAndroid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::HelloApp.ClassLibrary.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::HelloApp.XamarinAndroid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::HelloApp.ClassLibrary.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::HelloApp.XamarinAndroid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::HelloApp.ClassLibrary.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::HelloApp.XamarinAndroid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::HelloApp.ClassLibrary.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::HelloApp.XamarinAndroid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::HelloApp.ClassLibrary.Resource.Styleable.DrawerArrowToggle = global::HelloApp.XamarinAndroid.Resource.Styleable.DrawerArrowToggle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::HelloApp.XamarinAndroid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::HelloApp.ClassLibrary.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::HelloApp.XamarinAndroid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::HelloApp.ClassLibrary.Resource.Styleable.DrawerArrowToggle_barLength = global::HelloApp.XamarinAndroid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::HelloApp.ClassLibrary.Resource.Styleable.DrawerArrowToggle_color = global::HelloApp.XamarinAndroid.Resource.Styleable.DrawerArrowToggle_color;
+			global::HelloApp.ClassLibrary.Resource.Styleable.DrawerArrowToggle_drawableSize = global::HelloApp.XamarinAndroid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::HelloApp.ClassLibrary.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::HelloApp.XamarinAndroid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::HelloApp.ClassLibrary.Resource.Styleable.DrawerArrowToggle_spinBars = global::HelloApp.XamarinAndroid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::HelloApp.ClassLibrary.Resource.Styleable.DrawerArrowToggle_thickness = global::HelloApp.XamarinAndroid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::HelloApp.ClassLibrary.Resource.Styleable.FontFamily = global::HelloApp.XamarinAndroid.Resource.Styleable.FontFamily;
+			global::HelloApp.ClassLibrary.Resource.Styleable.FontFamily_fontProviderAuthority = global::HelloApp.XamarinAndroid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::HelloApp.ClassLibrary.Resource.Styleable.FontFamily_fontProviderCerts = global::HelloApp.XamarinAndroid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::HelloApp.ClassLibrary.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::HelloApp.XamarinAndroid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::HelloApp.ClassLibrary.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::HelloApp.XamarinAndroid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::HelloApp.ClassLibrary.Resource.Styleable.FontFamily_fontProviderPackage = global::HelloApp.XamarinAndroid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::HelloApp.ClassLibrary.Resource.Styleable.FontFamily_fontProviderQuery = global::HelloApp.XamarinAndroid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::HelloApp.ClassLibrary.Resource.Styleable.FontFamilyFont = global::HelloApp.XamarinAndroid.Resource.Styleable.FontFamilyFont;
+			global::HelloApp.ClassLibrary.Resource.Styleable.FontFamilyFont_android_font = global::HelloApp.XamarinAndroid.Resource.Styleable.FontFamilyFont_android_font;
+			global::HelloApp.ClassLibrary.Resource.Styleable.FontFamilyFont_android_fontStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::HelloApp.XamarinAndroid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::HelloApp.ClassLibrary.Resource.Styleable.FontFamilyFont_android_fontWeight = global::HelloApp.XamarinAndroid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::HelloApp.ClassLibrary.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::HelloApp.XamarinAndroid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::HelloApp.ClassLibrary.Resource.Styleable.FontFamilyFont_font = global::HelloApp.XamarinAndroid.Resource.Styleable.FontFamilyFont_font;
+			global::HelloApp.ClassLibrary.Resource.Styleable.FontFamilyFont_fontStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::HelloApp.XamarinAndroid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::HelloApp.ClassLibrary.Resource.Styleable.FontFamilyFont_fontWeight = global::HelloApp.XamarinAndroid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::HelloApp.ClassLibrary.Resource.Styleable.FontFamilyFont_ttcIndex = global::HelloApp.XamarinAndroid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::HelloApp.ClassLibrary.Resource.Styleable.GradientColor = global::HelloApp.XamarinAndroid.Resource.Styleable.GradientColor;
+			global::HelloApp.ClassLibrary.Resource.Styleable.GradientColor_android_centerColor = global::HelloApp.XamarinAndroid.Resource.Styleable.GradientColor_android_centerColor;
+			global::HelloApp.ClassLibrary.Resource.Styleable.GradientColor_android_centerX = global::HelloApp.XamarinAndroid.Resource.Styleable.GradientColor_android_centerX;
+			global::HelloApp.ClassLibrary.Resource.Styleable.GradientColor_android_centerY = global::HelloApp.XamarinAndroid.Resource.Styleable.GradientColor_android_centerY;
+			global::HelloApp.ClassLibrary.Resource.Styleable.GradientColor_android_endColor = global::HelloApp.XamarinAndroid.Resource.Styleable.GradientColor_android_endColor;
+			global::HelloApp.ClassLibrary.Resource.Styleable.GradientColor_android_endX = global::HelloApp.XamarinAndroid.Resource.Styleable.GradientColor_android_endX;
+			global::HelloApp.ClassLibrary.Resource.Styleable.GradientColor_android_endY = global::HelloApp.XamarinAndroid.Resource.Styleable.GradientColor_android_endY;
+			global::HelloApp.ClassLibrary.Resource.Styleable.GradientColor_android_gradientRadius = global::HelloApp.XamarinAndroid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::HelloApp.ClassLibrary.Resource.Styleable.GradientColor_android_startColor = global::HelloApp.XamarinAndroid.Resource.Styleable.GradientColor_android_startColor;
+			global::HelloApp.ClassLibrary.Resource.Styleable.GradientColor_android_startX = global::HelloApp.XamarinAndroid.Resource.Styleable.GradientColor_android_startX;
+			global::HelloApp.ClassLibrary.Resource.Styleable.GradientColor_android_startY = global::HelloApp.XamarinAndroid.Resource.Styleable.GradientColor_android_startY;
+			global::HelloApp.ClassLibrary.Resource.Styleable.GradientColor_android_tileMode = global::HelloApp.XamarinAndroid.Resource.Styleable.GradientColor_android_tileMode;
+			global::HelloApp.ClassLibrary.Resource.Styleable.GradientColor_android_type = global::HelloApp.XamarinAndroid.Resource.Styleable.GradientColor_android_type;
+			global::HelloApp.ClassLibrary.Resource.Styleable.GradientColorItem = global::HelloApp.XamarinAndroid.Resource.Styleable.GradientColorItem;
+			global::HelloApp.ClassLibrary.Resource.Styleable.GradientColorItem_android_color = global::HelloApp.XamarinAndroid.Resource.Styleable.GradientColorItem_android_color;
+			global::HelloApp.ClassLibrary.Resource.Styleable.GradientColorItem_android_offset = global::HelloApp.XamarinAndroid.Resource.Styleable.GradientColorItem_android_offset;
+			global::HelloApp.ClassLibrary.Resource.Styleable.LinearLayoutCompat = global::HelloApp.XamarinAndroid.Resource.Styleable.LinearLayoutCompat;
+			global::HelloApp.ClassLibrary.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::HelloApp.XamarinAndroid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::HelloApp.ClassLibrary.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::HelloApp.XamarinAndroid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::HelloApp.ClassLibrary.Resource.Styleable.LinearLayoutCompat_android_gravity = global::HelloApp.XamarinAndroid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::HelloApp.ClassLibrary.Resource.Styleable.LinearLayoutCompat_android_orientation = global::HelloApp.XamarinAndroid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::HelloApp.ClassLibrary.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::HelloApp.XamarinAndroid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::HelloApp.ClassLibrary.Resource.Styleable.LinearLayoutCompat_divider = global::HelloApp.XamarinAndroid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::HelloApp.ClassLibrary.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::HelloApp.XamarinAndroid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::HelloApp.ClassLibrary.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::HelloApp.XamarinAndroid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::HelloApp.ClassLibrary.Resource.Styleable.LinearLayoutCompat_showDividers = global::HelloApp.XamarinAndroid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::HelloApp.ClassLibrary.Resource.Styleable.LinearLayoutCompat_Layout = global::HelloApp.XamarinAndroid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::HelloApp.ClassLibrary.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::HelloApp.XamarinAndroid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::HelloApp.ClassLibrary.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::HelloApp.XamarinAndroid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::HelloApp.ClassLibrary.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::HelloApp.XamarinAndroid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::HelloApp.ClassLibrary.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::HelloApp.XamarinAndroid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ListPopupWindow = global::HelloApp.XamarinAndroid.Resource.Styleable.ListPopupWindow;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::HelloApp.XamarinAndroid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::HelloApp.XamarinAndroid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuGroup = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuGroup;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuGroup_android_checkableBehavior = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuGroup_android_enabled = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuGroup_android_enabled;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuGroup_android_id = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuGroup_android_id;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuGroup_android_menuCategory = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuGroup_android_orderInCategory = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuGroup_android_visible = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuGroup_android_visible;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuItem = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuItem;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuItem_actionLayout = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuItem_actionLayout;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuItem_actionProviderClass = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuItem_actionViewClass = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuItem_actionViewClass;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuItem_alphabeticModifiers = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuItem_android_checkable = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuItem_android_checkable;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuItem_android_checked = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuItem_android_checked;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuItem_android_enabled = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuItem_android_enabled;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuItem_android_icon = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuItem_android_icon;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuItem_android_id = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuItem_android_id;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuItem_android_menuCategory = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuItem_android_numericShortcut = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuItem_android_onClick = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuItem_android_onClick;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuItem_android_orderInCategory = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuItem_android_title = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuItem_android_title;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuItem_android_titleCondensed = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuItem_android_visible = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuItem_android_visible;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuItem_contentDescription = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuItem_contentDescription;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuItem_iconTint = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuItem_iconTint;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuItem_iconTintMode = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuItem_iconTintMode;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuItem_numericModifiers = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuItem_numericModifiers;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuItem_showAsAction = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuItem_showAsAction;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuItem_tooltipText = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuItem_tooltipText;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuView = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuView;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuView_android_headerBackground = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuView_android_headerBackground;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuView_android_horizontalDivider = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuView_android_itemBackground = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuView_android_itemBackground;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuView_android_itemTextAppearance = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuView_android_verticalDivider = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuView_android_windowAnimationStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuView_preserveIconSpacing = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::HelloApp.ClassLibrary.Resource.Styleable.MenuView_subMenuArrow = global::HelloApp.XamarinAndroid.Resource.Styleable.MenuView_subMenuArrow;
+			global::HelloApp.ClassLibrary.Resource.Styleable.PopupWindow = global::HelloApp.XamarinAndroid.Resource.Styleable.PopupWindow;
+			global::HelloApp.ClassLibrary.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.PopupWindow_android_popupBackground = global::HelloApp.XamarinAndroid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::HelloApp.ClassLibrary.Resource.Styleable.PopupWindow_overlapAnchor = global::HelloApp.XamarinAndroid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::HelloApp.ClassLibrary.Resource.Styleable.PopupWindowBackgroundState = global::HelloApp.XamarinAndroid.Resource.Styleable.PopupWindowBackgroundState;
+			global::HelloApp.ClassLibrary.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::HelloApp.XamarinAndroid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::HelloApp.ClassLibrary.Resource.Styleable.RecycleListView = global::HelloApp.XamarinAndroid.Resource.Styleable.RecycleListView;
+			global::HelloApp.ClassLibrary.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::HelloApp.XamarinAndroid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::HelloApp.ClassLibrary.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::HelloApp.XamarinAndroid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SearchView = global::HelloApp.XamarinAndroid.Resource.Styleable.SearchView;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SearchView_android_focusable = global::HelloApp.XamarinAndroid.Resource.Styleable.SearchView_android_focusable;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SearchView_android_imeOptions = global::HelloApp.XamarinAndroid.Resource.Styleable.SearchView_android_imeOptions;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SearchView_android_inputType = global::HelloApp.XamarinAndroid.Resource.Styleable.SearchView_android_inputType;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SearchView_android_maxWidth = global::HelloApp.XamarinAndroid.Resource.Styleable.SearchView_android_maxWidth;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SearchView_closeIcon = global::HelloApp.XamarinAndroid.Resource.Styleable.SearchView_closeIcon;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SearchView_commitIcon = global::HelloApp.XamarinAndroid.Resource.Styleable.SearchView_commitIcon;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SearchView_defaultQueryHint = global::HelloApp.XamarinAndroid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SearchView_goIcon = global::HelloApp.XamarinAndroid.Resource.Styleable.SearchView_goIcon;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SearchView_iconifiedByDefault = global::HelloApp.XamarinAndroid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SearchView_layout = global::HelloApp.XamarinAndroid.Resource.Styleable.SearchView_layout;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SearchView_queryBackground = global::HelloApp.XamarinAndroid.Resource.Styleable.SearchView_queryBackground;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SearchView_queryHint = global::HelloApp.XamarinAndroid.Resource.Styleable.SearchView_queryHint;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SearchView_searchHintIcon = global::HelloApp.XamarinAndroid.Resource.Styleable.SearchView_searchHintIcon;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SearchView_searchIcon = global::HelloApp.XamarinAndroid.Resource.Styleable.SearchView_searchIcon;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SearchView_submitBackground = global::HelloApp.XamarinAndroid.Resource.Styleable.SearchView_submitBackground;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SearchView_suggestionRowLayout = global::HelloApp.XamarinAndroid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SearchView_voiceIcon = global::HelloApp.XamarinAndroid.Resource.Styleable.SearchView_voiceIcon;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Spinner = global::HelloApp.XamarinAndroid.Resource.Styleable.Spinner;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Spinner_android_dropDownWidth = global::HelloApp.XamarinAndroid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Spinner_android_entries = global::HelloApp.XamarinAndroid.Resource.Styleable.Spinner_android_entries;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Spinner_android_popupBackground = global::HelloApp.XamarinAndroid.Resource.Styleable.Spinner_android_popupBackground;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Spinner_android_prompt = global::HelloApp.XamarinAndroid.Resource.Styleable.Spinner_android_prompt;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Spinner_popupTheme = global::HelloApp.XamarinAndroid.Resource.Styleable.Spinner_popupTheme;
+			global::HelloApp.ClassLibrary.Resource.Styleable.StateListDrawable = global::HelloApp.XamarinAndroid.Resource.Styleable.StateListDrawable;
+			global::HelloApp.ClassLibrary.Resource.Styleable.StateListDrawable_android_constantSize = global::HelloApp.XamarinAndroid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::HelloApp.ClassLibrary.Resource.Styleable.StateListDrawable_android_dither = global::HelloApp.XamarinAndroid.Resource.Styleable.StateListDrawable_android_dither;
+			global::HelloApp.ClassLibrary.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::HelloApp.XamarinAndroid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::HelloApp.ClassLibrary.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::HelloApp.XamarinAndroid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::HelloApp.ClassLibrary.Resource.Styleable.StateListDrawable_android_variablePadding = global::HelloApp.XamarinAndroid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::HelloApp.ClassLibrary.Resource.Styleable.StateListDrawable_android_visible = global::HelloApp.XamarinAndroid.Resource.Styleable.StateListDrawable_android_visible;
+			global::HelloApp.ClassLibrary.Resource.Styleable.StateListDrawableItem = global::HelloApp.XamarinAndroid.Resource.Styleable.StateListDrawableItem;
+			global::HelloApp.ClassLibrary.Resource.Styleable.StateListDrawableItem_android_drawable = global::HelloApp.XamarinAndroid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SwitchCompat = global::HelloApp.XamarinAndroid.Resource.Styleable.SwitchCompat;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SwitchCompat_android_textOff = global::HelloApp.XamarinAndroid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SwitchCompat_android_textOn = global::HelloApp.XamarinAndroid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SwitchCompat_android_thumb = global::HelloApp.XamarinAndroid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SwitchCompat_showText = global::HelloApp.XamarinAndroid.Resource.Styleable.SwitchCompat_showText;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SwitchCompat_splitTrack = global::HelloApp.XamarinAndroid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SwitchCompat_switchMinWidth = global::HelloApp.XamarinAndroid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SwitchCompat_switchPadding = global::HelloApp.XamarinAndroid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SwitchCompat_switchTextAppearance = global::HelloApp.XamarinAndroid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SwitchCompat_thumbTextPadding = global::HelloApp.XamarinAndroid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SwitchCompat_thumbTint = global::HelloApp.XamarinAndroid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SwitchCompat_thumbTintMode = global::HelloApp.XamarinAndroid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SwitchCompat_track = global::HelloApp.XamarinAndroid.Resource.Styleable.SwitchCompat_track;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SwitchCompat_trackTint = global::HelloApp.XamarinAndroid.Resource.Styleable.SwitchCompat_trackTint;
+			global::HelloApp.ClassLibrary.Resource.Styleable.SwitchCompat_trackTintMode = global::HelloApp.XamarinAndroid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::HelloApp.ClassLibrary.Resource.Styleable.TextAppearance = global::HelloApp.XamarinAndroid.Resource.Styleable.TextAppearance;
+			global::HelloApp.ClassLibrary.Resource.Styleable.TextAppearance_android_fontFamily = global::HelloApp.XamarinAndroid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::HelloApp.ClassLibrary.Resource.Styleable.TextAppearance_android_shadowColor = global::HelloApp.XamarinAndroid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::HelloApp.ClassLibrary.Resource.Styleable.TextAppearance_android_shadowDx = global::HelloApp.XamarinAndroid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::HelloApp.ClassLibrary.Resource.Styleable.TextAppearance_android_shadowDy = global::HelloApp.XamarinAndroid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::HelloApp.ClassLibrary.Resource.Styleable.TextAppearance_android_shadowRadius = global::HelloApp.XamarinAndroid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::HelloApp.ClassLibrary.Resource.Styleable.TextAppearance_android_textColor = global::HelloApp.XamarinAndroid.Resource.Styleable.TextAppearance_android_textColor;
+			global::HelloApp.ClassLibrary.Resource.Styleable.TextAppearance_android_textColorHint = global::HelloApp.XamarinAndroid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::HelloApp.ClassLibrary.Resource.Styleable.TextAppearance_android_textColorLink = global::HelloApp.XamarinAndroid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::HelloApp.ClassLibrary.Resource.Styleable.TextAppearance_android_textSize = global::HelloApp.XamarinAndroid.Resource.Styleable.TextAppearance_android_textSize;
+			global::HelloApp.ClassLibrary.Resource.Styleable.TextAppearance_android_textStyle = global::HelloApp.XamarinAndroid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.TextAppearance_android_typeface = global::HelloApp.XamarinAndroid.Resource.Styleable.TextAppearance_android_typeface;
+			global::HelloApp.ClassLibrary.Resource.Styleable.TextAppearance_fontFamily = global::HelloApp.XamarinAndroid.Resource.Styleable.TextAppearance_fontFamily;
+			global::HelloApp.ClassLibrary.Resource.Styleable.TextAppearance_textAllCaps = global::HelloApp.XamarinAndroid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Toolbar = global::HelloApp.XamarinAndroid.Resource.Styleable.Toolbar;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Toolbar_android_gravity = global::HelloApp.XamarinAndroid.Resource.Styleable.Toolbar_android_gravity;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Toolbar_android_minHeight = global::HelloApp.XamarinAndroid.Resource.Styleable.Toolbar_android_minHeight;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Toolbar_buttonGravity = global::HelloApp.XamarinAndroid.Resource.Styleable.Toolbar_buttonGravity;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Toolbar_collapseContentDescription = global::HelloApp.XamarinAndroid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Toolbar_collapseIcon = global::HelloApp.XamarinAndroid.Resource.Styleable.Toolbar_collapseIcon;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Toolbar_contentInsetEnd = global::HelloApp.XamarinAndroid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::HelloApp.XamarinAndroid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Toolbar_contentInsetLeft = global::HelloApp.XamarinAndroid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Toolbar_contentInsetRight = global::HelloApp.XamarinAndroid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Toolbar_contentInsetStart = global::HelloApp.XamarinAndroid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::HelloApp.XamarinAndroid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Toolbar_logo = global::HelloApp.XamarinAndroid.Resource.Styleable.Toolbar_logo;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Toolbar_logoDescription = global::HelloApp.XamarinAndroid.Resource.Styleable.Toolbar_logoDescription;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Toolbar_maxButtonHeight = global::HelloApp.XamarinAndroid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Toolbar_navigationContentDescription = global::HelloApp.XamarinAndroid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Toolbar_navigationIcon = global::HelloApp.XamarinAndroid.Resource.Styleable.Toolbar_navigationIcon;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Toolbar_popupTheme = global::HelloApp.XamarinAndroid.Resource.Styleable.Toolbar_popupTheme;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Toolbar_subtitle = global::HelloApp.XamarinAndroid.Resource.Styleable.Toolbar_subtitle;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Toolbar_subtitleTextAppearance = global::HelloApp.XamarinAndroid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Toolbar_subtitleTextColor = global::HelloApp.XamarinAndroid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Toolbar_title = global::HelloApp.XamarinAndroid.Resource.Styleable.Toolbar_title;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Toolbar_titleMargin = global::HelloApp.XamarinAndroid.Resource.Styleable.Toolbar_titleMargin;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Toolbar_titleMarginBottom = global::HelloApp.XamarinAndroid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Toolbar_titleMarginEnd = global::HelloApp.XamarinAndroid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Toolbar_titleMarginStart = global::HelloApp.XamarinAndroid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Toolbar_titleMarginTop = global::HelloApp.XamarinAndroid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Toolbar_titleMargins = global::HelloApp.XamarinAndroid.Resource.Styleable.Toolbar_titleMargins;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Toolbar_titleTextAppearance = global::HelloApp.XamarinAndroid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::HelloApp.ClassLibrary.Resource.Styleable.Toolbar_titleTextColor = global::HelloApp.XamarinAndroid.Resource.Styleable.Toolbar_titleTextColor;
+			global::HelloApp.ClassLibrary.Resource.Styleable.View = global::HelloApp.XamarinAndroid.Resource.Styleable.View;
+			global::HelloApp.ClassLibrary.Resource.Styleable.View_android_focusable = global::HelloApp.XamarinAndroid.Resource.Styleable.View_android_focusable;
+			global::HelloApp.ClassLibrary.Resource.Styleable.View_android_theme = global::HelloApp.XamarinAndroid.Resource.Styleable.View_android_theme;
+			global::HelloApp.ClassLibrary.Resource.Styleable.View_paddingEnd = global::HelloApp.XamarinAndroid.Resource.Styleable.View_paddingEnd;
+			global::HelloApp.ClassLibrary.Resource.Styleable.View_paddingStart = global::HelloApp.XamarinAndroid.Resource.Styleable.View_paddingStart;
+			global::HelloApp.ClassLibrary.Resource.Styleable.View_theme = global::HelloApp.XamarinAndroid.Resource.Styleable.View_theme;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ViewBackgroundHelper = global::HelloApp.XamarinAndroid.Resource.Styleable.ViewBackgroundHelper;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ViewBackgroundHelper_android_background = global::HelloApp.XamarinAndroid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::HelloApp.XamarinAndroid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::HelloApp.XamarinAndroid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ViewStubCompat = global::HelloApp.XamarinAndroid.Resource.Styleable.ViewStubCompat;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ViewStubCompat_android_id = global::HelloApp.XamarinAndroid.Resource.Styleable.ViewStubCompat_android_id;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ViewStubCompat_android_inflatedId = global::HelloApp.XamarinAndroid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::HelloApp.ClassLibrary.Resource.Styleable.ViewStubCompat_android_layout = global::HelloApp.XamarinAndroid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_dialog_actioned_on_disabled_toast = global::HelloApp.XamarinAndroid.Resource.String.appcenter_distribute_dialog_actioned_on_disabled_toast;
 			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_download_progress_number_format = global::HelloApp.XamarinAndroid.Resource.String.appcenter_distribute_download_progress_number_format;
 			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_downloading_mandatory_update = global::HelloApp.XamarinAndroid.Resource.String.appcenter_distribute_downloading_mandatory_update;
@@ -3296,17 +4903,17 @@ namespace HelloApp.XamarinAndroid
 			// aapt resource value: 0x7f0a0069
 			public const int action_bar_title = 2131361897;
 			
-			// aapt resource value: 0x7f0a00b5
-			public const int action_container = 2131361973;
+			// aapt resource value: 0x7f0a00b7
+			public const int action_container = 2131361975;
 			
 			// aapt resource value: 0x7f0a008e
 			public const int action_context_bar = 2131361934;
 			
-			// aapt resource value: 0x7f0a00c0
-			public const int action_divider = 2131361984;
+			// aapt resource value: 0x7f0a00c2
+			public const int action_divider = 2131361986;
 			
-			// aapt resource value: 0x7f0a00b6
-			public const int action_image = 2131361974;
+			// aapt resource value: 0x7f0a00b8
+			public const int action_image = 2131361976;
 			
 			// aapt resource value: 0x7f0a0003
 			public const int action_menu_divider = 2131361795;
@@ -3323,14 +4930,14 @@ namespace HelloApp.XamarinAndroid
 			// aapt resource value: 0x7f0a006b
 			public const int action_mode_close_button = 2131361899;
 			
-			// aapt resource value: 0x7f0a00c5
-			public const int action_settings = 2131361989;
+			// aapt resource value: 0x7f0a00c7
+			public const int action_settings = 2131361991;
 			
-			// aapt resource value: 0x7f0a00b7
-			public const int action_text = 2131361975;
+			// aapt resource value: 0x7f0a00b9
+			public const int action_text = 2131361977;
 			
-			// aapt resource value: 0x7f0a00c1
-			public const int actions = 2131361985;
+			// aapt resource value: 0x7f0a00c3
+			public const int actions = 2131361987;
 			
 			// aapt resource value: 0x7f0a006c
 			public const int activity_chooser_view_content = 2131361900;
@@ -3395,8 +5002,8 @@ namespace HelloApp.XamarinAndroid
 			// aapt resource value: 0x7f0a0086
 			public const int checkbox = 2131361926;
 			
-			// aapt resource value: 0x7f0a00bf
-			public const int chronometer = 2131361983;
+			// aapt resource value: 0x7f0a00c1
+			public const int chronometer = 2131361985;
 			
 			// aapt resource value: 0x7f0a0061
 			public const int clip_horizontal = 2131361889;
@@ -3407,8 +5014,8 @@ namespace HelloApp.XamarinAndroid
 			// aapt resource value: 0x7f0a0040
 			public const int collapseActionView = 2131361856;
 			
-			// aapt resource value: 0x7f0a00ab
-			public const int container = 2131361963;
+			// aapt resource value: 0x7f0a00ad
+			public const int container = 2131361965;
 			
 			// aapt resource value: 0x7f0a0082
 			public const int content = 2131361922;
@@ -3416,8 +5023,11 @@ namespace HelloApp.XamarinAndroid
 			// aapt resource value: 0x7f0a0075
 			public const int contentPanel = 2131361909;
 			
-			// aapt resource value: 0x7f0a00ac
-			public const int coordinator = 2131361964;
+			// aapt resource value: 0x7f0a00ae
+			public const int coordinator = 2131361966;
+			
+			// aapt resource value: 0x7f0a00a9
+			public const int crashButton = 2131361961;
 			
 			// aapt resource value: 0x7f0a007c
 			public const int custom = 2131361916;
@@ -3431,20 +5041,20 @@ namespace HelloApp.XamarinAndroid
 			// aapt resource value: 0x7f0a006f
 			public const int default_activity_button = 2131361903;
 			
-			// aapt resource value: 0x7f0a00ae
-			public const int design_bottom_sheet = 2131361966;
+			// aapt resource value: 0x7f0a00b0
+			public const int design_bottom_sheet = 2131361968;
+			
+			// aapt resource value: 0x7f0a00b5
+			public const int design_menu_item_action_area = 2131361973;
+			
+			// aapt resource value: 0x7f0a00b4
+			public const int design_menu_item_action_area_stub = 2131361972;
 			
 			// aapt resource value: 0x7f0a00b3
-			public const int design_menu_item_action_area = 2131361971;
+			public const int design_menu_item_text = 2131361971;
 			
 			// aapt resource value: 0x7f0a00b2
-			public const int design_menu_item_action_area_stub = 2131361970;
-			
-			// aapt resource value: 0x7f0a00b1
-			public const int design_menu_item_text = 2131361969;
-			
-			// aapt resource value: 0x7f0a00b0
-			public const int design_navigation_view = 2131361968;
+			public const int design_navigation_view = 2131361970;
 			
 			// aapt resource value: 0x7f0a0027
 			public const int disableHome = 2131361831;
@@ -3460,6 +5070,9 @@ namespace HelloApp.XamarinAndroid
 			
 			// aapt resource value: 0x7f0a0047
 			public const int enterAlwaysCollapsed = 2131361863;
+			
+			// aapt resource value: 0x7f0a00aa
+			public const int exceptionButton = 2131361962;
 			
 			// aapt resource value: 0x7f0a0048
 			public const int exitUntilCollapsed = 2131361864;
@@ -3509,8 +5122,8 @@ namespace HelloApp.XamarinAndroid
 			// aapt resource value: 0x7f0a0071
 			public const int icon = 2131361905;
 			
-			// aapt resource value: 0x7f0a00c2
-			public const int icon_group = 2131361986;
+			// aapt resource value: 0x7f0a00c4
+			public const int icon_group = 2131361988;
 			
 			// aapt resource value: 0x7f0a0041
 			public const int ifRoom = 2131361857;
@@ -3518,8 +5131,8 @@ namespace HelloApp.XamarinAndroid
 			// aapt resource value: 0x7f0a006e
 			public const int image = 2131361902;
 			
-			// aapt resource value: 0x7f0a00bb
-			public const int info = 2131361979;
+			// aapt resource value: 0x7f0a00bd
+			public const int info = 2131361981;
 			
 			// aapt resource value: 0x7f0a00a4
 			public const int inputName = 2131361956;
@@ -3533,8 +5146,8 @@ namespace HelloApp.XamarinAndroid
 			// aapt resource value: 0x7f0a004e
 			public const int labeled = 2131361870;
 			
-			// aapt resource value: 0x7f0a00aa
-			public const int largeLabel = 2131361962;
+			// aapt resource value: 0x7f0a00ac
+			public const int largeLabel = 2131361964;
 			
 			// aapt resource value: 0x7f0a0054
 			public const int left = 2131361876;
@@ -3551,8 +5164,8 @@ namespace HelloApp.XamarinAndroid
 			// aapt resource value: 0x7f0a0070
 			public const int list_item = 2131361904;
 			
-			// aapt resource value: 0x7f0a00c4
-			public const int masked = 2131361988;
+			// aapt resource value: 0x7f0a00c6
+			public const int masked = 2131361990;
 			
 			// aapt resource value: 0x7f0a009c
 			public const int message = 2131361948;
@@ -3572,8 +5185,8 @@ namespace HelloApp.XamarinAndroid
 			// aapt resource value: 0x7f0a002f
 			public const int multiply = 2131361839;
 			
-			// aapt resource value: 0x7f0a00af
-			public const int navigation_header_container = 2131361967;
+			// aapt resource value: 0x7f0a00b1
+			public const int navigation_header_container = 2131361969;
 			
 			// aapt resource value: 0x7f0a0042
 			public const int never = 2131361858;
@@ -3584,14 +5197,14 @@ namespace HelloApp.XamarinAndroid
 			// aapt resource value: 0x7f0a0025
 			public const int normal = 2131361829;
 			
-			// aapt resource value: 0x7f0a00bd
-			public const int notification_background = 2131361981;
+			// aapt resource value: 0x7f0a00bf
+			public const int notification_background = 2131361983;
 			
-			// aapt resource value: 0x7f0a00b9
-			public const int notification_main_column = 2131361977;
+			// aapt resource value: 0x7f0a00bb
+			public const int notification_main_column = 2131361979;
 			
-			// aapt resource value: 0x7f0a00b8
-			public const int notification_main_column_container = 2131361976;
+			// aapt resource value: 0x7f0a00ba
+			public const int notification_main_column_container = 2131361978;
 			
 			// aapt resource value: 0x7f0a0060
 			public const int outline = 2131361888;
@@ -3620,11 +5233,11 @@ namespace HelloApp.XamarinAndroid
 			// aapt resource value: 0x7f0a0055
 			public const int right = 2131361877;
 			
-			// aapt resource value: 0x7f0a00bc
-			public const int right_icon = 2131361980;
+			// aapt resource value: 0x7f0a00be
+			public const int right_icon = 2131361982;
 			
-			// aapt resource value: 0x7f0a00ba
-			public const int right_side = 2131361978;
+			// aapt resource value: 0x7f0a00bc
+			public const int right_side = 2131361980;
 			
 			// aapt resource value: 0x7f0a000c
 			public const int save_image_matrix = 2131361804;
@@ -3701,8 +5314,8 @@ namespace HelloApp.XamarinAndroid
 			// aapt resource value: 0x7f0a002c
 			public const int showTitle = 2131361836;
 			
-			// aapt resource value: 0x7f0a00a9
-			public const int smallLabel = 2131361961;
+			// aapt resource value: 0x7f0a00ab
+			public const int smallLabel = 2131361963;
 			
 			// aapt resource value: 0x7f0a0016
 			public const int snackbar_action = 2131361814;
@@ -3770,8 +5383,8 @@ namespace HelloApp.XamarinAndroid
 			// aapt resource value: 0x7f0a005a
 			public const int textStart = 2131361882;
 			
-			// aapt resource value: 0x7f0a00b4
-			public const int text_input_password_toggle = 2131361972;
+			// aapt resource value: 0x7f0a00b6
+			public const int text_input_password_toggle = 2131361974;
 			
 			// aapt resource value: 0x7f0a0018
 			public const int textinput_counter = 2131361816;
@@ -3782,8 +5395,8 @@ namespace HelloApp.XamarinAndroid
 			// aapt resource value: 0x7f0a001a
 			public const int textinput_helper_text = 2131361818;
 			
-			// aapt resource value: 0x7f0a00be
-			public const int time = 2131361982;
+			// aapt resource value: 0x7f0a00c0
+			public const int time = 2131361984;
 			
 			// aapt resource value: 0x7f0a00a8
 			public const int timerTextView = 2131361960;
@@ -3806,8 +5419,8 @@ namespace HelloApp.XamarinAndroid
 			// aapt resource value: 0x7f0a007d
 			public const int topPanel = 2131361917;
 			
-			// aapt resource value: 0x7f0a00ad
-			public const int touch_outside = 2131361965;
+			// aapt resource value: 0x7f0a00af
+			public const int touch_outside = 2131361967;
 			
 			// aapt resource value: 0x7f0a000f
 			public const int transition_current_scene = 2131361807;
@@ -3842,8 +5455,8 @@ namespace HelloApp.XamarinAndroid
 			// aapt resource value: 0x7f0a001b
 			public const int view_offset_helper = 2131361819;
 			
-			// aapt resource value: 0x7f0a00c3
-			public const int visible = 2131361987;
+			// aapt resource value: 0x7f0a00c5
+			public const int visible = 2131361989;
 			
 			// aapt resource value: 0x7f0a0043
 			public const int withText = 2131361859;
@@ -4289,11 +5902,11 @@ namespace HelloApp.XamarinAndroid
 			// aapt resource value: 0x7f0d001a
 			public const int abc_toolbar_collapse_description = 2131558426;
 			
-			// aapt resource value: 0x7f0d004a
-			public const int action_settings = 2131558474;
+			// aapt resource value: 0x7f0d004b
+			public const int action_settings = 2131558475;
 			
-			// aapt resource value: 0x7f0d0049
-			public const int app_name = 2131558473;
+			// aapt resource value: 0x7f0d004a
+			public const int app_name = 2131558474;
 			
 			// aapt resource value: 0x7f0d0028
 			public const int appbar_scrolling_view_behavior = 2131558440;
@@ -4369,6 +5982,9 @@ namespace HelloApp.XamarinAndroid
 			
 			// aapt resource value: 0x7f0d002d
 			public const int fab_transformation_sheet_behavior = 2131558445;
+			
+			// aapt resource value: 0x7f0d0049
+			public const int hello = 2131558473;
 			
 			// aapt resource value: 0x7f0d002e
 			public const int hide_bottom_view_on_scroll_behavior = 2131558446;
