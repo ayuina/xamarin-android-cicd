@@ -23,7 +23,7 @@
         android:hint="what is your name ?"
         android:id="@+id/inputName" />
     <Button
-        android:text="Button"
+        android:text="Hello"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/helloButton" />
@@ -53,6 +53,18 @@
         android:layout_height="wrap_content"
         android:id="@+id/timerTextView"
         android:textSize="24sp" />
+
+    <Button
+        android:text="Crash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/crashButton" />
+
+    <Button
+        android:text="Exception"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/exceptionButton" />
 
 
 </LinearLayout>

@@ -62,6 +62,24 @@ namespace HelloApp.XamarinAndroid
                 var message = string.IsNullOrEmpty(name) ? "Input Your Name" : HelloApp.ClassLibrary.Class1.Hello(name);
                 Toast.MakeText(this, message, ToastLength.Long).Show();
             };
+
+            this.FindViewById<Button>(Resource.Id.crashButton).Click += (sender, e) =>
+            {
+                Crashes.GenerateTestCrash();
+            };
+
+            this.FindViewById<Button>(Resource.Id.exceptionButton).Click += (sender, e) =>
+            {
+                try
+                {
+                    ClassLibrary.Class1.Hello(null);
+                }
+                catch (Exception ex)
+                {
+                    Crashes.TrackError(ex);
+                }
+            };
+
         }
 
 
