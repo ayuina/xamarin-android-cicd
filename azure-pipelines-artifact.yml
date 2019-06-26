@@ -1,12 +1,8 @@
-# Xamarin.Android
-# Build a Xamarin.Android project.
-# Add steps that test, sign, and distribute an app, save build artifacts, and more:
-# https://docs.microsoft.com/azure/devops/pipelines/languages/xamarin
 
 name: $(BuildDefinitionName)_$(Build.BuildId)_$(Date:yyyyMMdd)$(Rev:.r)
 
 variables:
-  buildConfiguration: 'LibOnly'
+  buildConfiguration: 'Release'
   outputDirectory: '$(build.ArtifactStagingDirectory)/$(buildConfiguration)'
 
 trigger:
@@ -37,12 +33,12 @@ stages:
     - task: NuGetCommand@2
       displayName: 'Restore NuGet packages'
       inputs:
-        restoreSolution: '**/*.sln'
+        restoreSolution: '**/ayuina-hello-classlibrary.sln'
 
     - task: MSBuild@1
       displayName: 'build test project'
       inputs:
-        solution: '**/ayuina-xamarin-helloapp.sln'
+        solution: '**/ayuina-hello-classlibrary.sln'
         configuration : $(buildConfiguration)
         msbuildArguments: '/p:OutputPath="$(outputDirectory)" /p:JavaSdkDirectory="$(JAVA_HOME_8_X64)"'
 
@@ -53,9 +49,9 @@ stages:
         testAssemblyVer2: '$(outputDirectory)/**/*.Tests.dll'
 
     - task: MSBuild@1
-      displayName: 'build dll project for nuget'
+      displayName: 'build dll project'
       inputs:
-        solution: '**/ayuina-xamarin-helloapp.sln'
+        solution: '**/ayuina-hello-classlibrary.sln'
         configuration : $(buildConfiguration)
         msbuildArguments: '/p:JavaSdkDirectory="$(JAVA_HOME_8_X64)"'
 
