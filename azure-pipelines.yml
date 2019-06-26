@@ -114,7 +114,7 @@ stages:
         credentialsOption: 'serviceEndpoint'
         serverEndpoint: 'appcenter-connection-ainaba-mscom-pipeline'
         appSlug: 'ayuina-demo1/MyFirstApp'
-        devices: 'cb86963a'
+        devices: 'ayuina-demo1/testdev1'
         series: master
         uiTestToolsDirectory: '$(userprofile)/.nuget/packages/xamarin.uitest/2.2.7/tools'
         localeOption: 'en_US'

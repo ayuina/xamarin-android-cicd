@@ -10,7 +10,7 @@ namespace HelloApp.XamarinAndroid.Test
         {
             if (platform == Platform.Android)
             {
-                return ConfigureApp.Android.InstalledApp("com.companyname.HelloApp.XamarinAndroid").StartApp();
+                return ConfigureApp.Android.ApkFile("com.companyname.HelloApp.XamarinAndroid.apk").StartApp();
             }
 
             return ConfigureApp.iOS.StartApp();
