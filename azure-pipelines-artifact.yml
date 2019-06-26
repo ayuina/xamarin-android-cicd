@@ -30,6 +30,11 @@ stages:
     - task: VisualStudioTestPlatformInstaller@1
       displayName: 'install vstest platform'
 
+    - task: NuGetCommand@2
+      displayName: 'Restore NuGet packages'
+      inputs:
+        restoreSolution: '**/*ClassLibrary*.csproj'
+
     - task: MSBuild@1
       displayName: 'build test project'
       inputs:
@@ -44,7 +49,7 @@ stages:
         testAssemblyVer2: '$(outputDirectory)/**/*.Tests.dll'
 
     - task: MSBuild@1
-      displayName: 'build dll project for nuget'
+      displayName: 'build dll project'
       inputs:
         solution: '**/ayuina-xamarin-helloapp.sln'
         configuration : $(buildConfiguration)
