@@ -7,7 +7,7 @@ name: $(BuildDefinitionName)_$(Build.BuildId)_$(Date:yyyyMMdd)$(Rev:.r)
 
 variables:
   buildConfiguration: 'Release'
-  outputDirectory: '$(build.binariesDirectory)/$(buildConfiguration)'
+  outputDirectory: '$(build.ArtifactStagingDirectory)/$(buildConfiguration)'
 
 # trigger:
 # - none
@@ -15,23 +15,6 @@ pr:
 - master
 
 stages:
-
-- stage:
-  displayName: 'Prep Stage'
-  jobs:
-  - job:
-    pool:
-      vmImage: 'windows-2019'
-      demands:
-      - 'MSBuild'
-      - 'Xamarin.Android'
-      - 'JDK'
-
-    steps:
-    - task: NuGetToolInstaller@0
-      displayName: 'Install NuGet tool version 4.4.1'
-      inputs:
-        versionSpec: 4.4.1
 
 - stage:
   displayName: "Build Stage"
@@ -58,7 +41,7 @@ stages:
       displayName: 'Restore NuGet packages'
       inputs:
         command: restore
-        restoreSolution: '**/HelloApp.XamarinAndroid.csproj'
+        restoreSolution: '**/ayuina-xamarin-helloapp.sln'
         feedsToUse: 'select' # Options: select, config
         vstsFeed: AyuInaFeed # Required when feedsToUse == Select
 
@@ -72,7 +55,7 @@ stages:
     - task: XamarinAndroid@1
       displayName: 'Build Xamarin.Android project'
       inputs:
-        projectFile: '**/*droid*.csproj'
+        projectFile: '**/HelloApp.XamarinAndroid.csproj'
         outputDirectory: '$(outputDirectory)'
         configuration: '$(buildConfiguration)'
         jdkVersionOption: 1.8
@@ -93,6 +76,13 @@ stages:
         apksignerKeyPassword: '$(apksignerKeyPassword)'
         zipalign: true
 
+    - task: MSBuild@1
+      displayName: 'build test project'
+      inputs:
+        solution: '**/HelloApp.XamarinAndroid.Test.csproj'
+        configuration : $(buildConfiguration)
+        msbuildArguments: '/p:JavaSdkDirectory="$(JAVA_HOME_8_X64)" /p:OutDir="$(outputDirectory)"'
+
     - task: PublishBuildArtifacts@1
       displayName: 'Publish Build Artifact'
       inputs:
@@ -108,3 +98,23 @@ stages:
         releaseNotesInput: 'Builded By Azure Pipeline - $(Build.BuildNumber)'
         isMandatory: true
         distributionGroupId: 'b9b01d0d-098a-4d75-b416-99f6590ed25b'
+
+    - powershell: 'dir env:'
+
+    - powershell: 'get-childitem -Path "$env:userprofile/.nuget/packages/xamarin.uitest/" -Recurse'
+
+    - task: AppCenterTest@1
+      inputs:
+        appFile: '$(outputDirectory)/**/*.apk'
+        artifactsDirectory: '$(outputDirectory)/AppCenterTest'
+        prepareTests: true
+        frameworkOption: uitest
+        uiTestBuildDirectory: $(outputDirectory)
+        runTests: true
+        credentialsOption: 'serviceEndpoint'
+        serverEndpoint: 'appcenter-connection-ainaba-mscom-pipeline'
+        appSlug: 'ayuina-demo1/MyFirstApp'
+        devices: 'cb86963a'
+        series: master
+        uiTestToolsDirectory: '$(userprofile)/.nuget/packages/xamarin.uitest/2.2.7/tools'
+        localeOption: 'en_US'
