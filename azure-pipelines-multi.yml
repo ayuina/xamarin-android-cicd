@@ -75,7 +75,7 @@ stages:
     - task: XamarinAndroid@1
       displayName: 'Build Xamarin.Android project'
       inputs:
-        projectFile: '**/*droid*.csproj'
+        projectFile: '**/HelloApp.XamarinAndroid.csproj'
         outputDirectory: '$(outputDirectory)/$(Color)'
         configuration: '$(buildConfiguration)'
         jdkVersionOption: 1.8
