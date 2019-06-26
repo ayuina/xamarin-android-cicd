@@ -99,6 +99,10 @@ stages:
         isMandatory: true
         distributionGroupId: 'b9b01d0d-098a-4d75-b416-99f6590ed25b'
 
+    - script: 'tree "$(build.sourcesdirectory)/packages/"'
+
+    - script: 'dir env:'
+
     - task: AppCenterTest@1
       inputs:
         appFile: '$(outputDirectory)/**/*.apk'
@@ -112,4 +116,5 @@ stages:
         appSlug: 'ayuina-demo1/MyFirstApp'
         devices: 'cb86963a'
         series: master
+        uiTestToolsDirectory: '$(build.sourcesdirectory)/packages/Xamarin.UITest.*/tools''
         localeOption: 'en_US'
