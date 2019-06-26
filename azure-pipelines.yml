@@ -58,7 +58,7 @@ stages:
       displayName: 'Restore NuGet packages'
       inputs:
         command: restore
-        restoreSolution: '**/HelloApp.XamarinAndroid.csproj'
+        restoreSolution: '**/ayuina-xamarin-helloapp.sln'
         feedsToUse: 'select' # Options: select, config
         vstsFeed: AyuInaFeed # Required when feedsToUse == Select
 
@@ -75,6 +75,7 @@ stages:
         projectFile: '**/ayuina-xamarin-helloapp.sln'
         outputDirectory: '$(outputDirectory)'
         configuration: '$(buildConfiguration)'
+        target: 'PackageForAndroid'
         jdkVersionOption: 1.8
 
     - task: DownloadSecureFile@1
