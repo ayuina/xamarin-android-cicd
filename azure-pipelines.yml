@@ -116,5 +116,5 @@ stages:
         appSlug: 'ayuina-demo1/MyFirstApp'
         devices: 'cb86963a'
         series: master
-        uiTestToolsDirectory: '$(build.sourcesdirectory)/packages/Xamarin.UITest.*/tools''
+        uiTestToolsDirectory: '$(build.sourcesdirectory)/packages/Xamarin.UITest.*/tools'
         localeOption: 'en_US'
