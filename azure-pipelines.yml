@@ -72,10 +72,9 @@ stages:
     - task: XamarinAndroid@1
       displayName: 'Build Xamarin.Android project'
       inputs:
-        projectFile: '**/ayuina-xamarin-helloapp.sln'
+        projectFile: '**/HelloApp.XamarinAndroid.csproj'
         outputDirectory: '$(outputDirectory)'
         configuration: '$(buildConfiguration)'
-        target: 'PackageForAndroid'
         jdkVersionOption: 1.8
 
     - task: DownloadSecureFile@1
@@ -93,6 +92,14 @@ stages:
         apksignerKeystoreAlias: 'ayuina-hello-app-keystore'
         apksignerKeyPassword: '$(apksignerKeyPassword)'
         zipalign: true
+
+    - task: MSBuild@1
+      displayName: 'build test project'
+      inputs:
+        solution: '**/HelloApp.XamarinAndroid.Test.csproj'
+        outputDirectory: '$(outputDirectory)'
+        configuration : $(buildConfiguration)
+        msbuildArguments: '/p:JavaSdkDirectory="$(JAVA_HOME_8_X64)"'
 
     - task: PublishBuildArtifacts@1
       displayName: 'Publish Build Artifact'
