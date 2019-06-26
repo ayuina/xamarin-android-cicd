@@ -97,9 +97,8 @@ stages:
       displayName: 'build test project'
       inputs:
         solution: '**/HelloApp.XamarinAndroid.Test.csproj'
-        outputDirectory: '$(outputDirectory)'
         configuration : $(buildConfiguration)
-        msbuildArguments: '/p:JavaSdkDirectory="$(JAVA_HOME_8_X64)"'
+        msbuildArguments: '/p:JavaSdkDirectory="$(JAVA_HOME_8_X64)" /p:OutDir="$(outputDirectory)"'
 
     - task: PublishBuildArtifacts@1
       displayName: 'Publish Build Artifact'
@@ -120,7 +119,7 @@ stages:
 
     - task: AppCenterTest@1
       inputs:
-        appFile: '''$(outputDirectory)/**/*.apk'''
+        appFile: '$(outputDirectory)/**/*.apk'
         artifactsDirectory: '$(Build.ArtifactStagingDirectory)/AppCenterTest'
         prepareTests: false
         credentialsOption: 'serviceEndpoint'
