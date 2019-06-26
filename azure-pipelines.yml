@@ -45,12 +45,6 @@ stages:
         feedsToUse: 'select' # Options: select, config
         vstsFeed: AyuInaFeed # Required when feedsToUse == Select
 
-    - script: '%NUGETEXETOOLPATH% locals all -list'
-
-    - powershell: 'dir env:'
-
-    - powershell: 'tree $(build.sourcesdirectory)'
-
     - task: 'richardfennellBM.BM-VSTS-Versioning-Task.Version-AndroidManifest-Task.VersionAndroidManifest@2'
       displayName: 'Define apk version'
       inputs:
@@ -107,9 +101,7 @@ stages:
 
     - powershell: 'dir env:'
 
-    - powershell: 'tree $(build.sourcesdirectory)'
-
-
+    - powershell: 'dir "$env:userprofile/.nuget/packages/xamarin.uitest/"'
 
     - task: AppCenterTest@1
       inputs:
@@ -124,5 +116,5 @@ stages:
         appSlug: 'ayuina-demo1/MyFirstApp'
         devices: 'cb86963a'
         series: master
-        uiTestToolsDirectory: '$(build.sourcesdirectory)/packages/Xamarin.UITest.*/tools'
+        uiTestToolsDirectory: '$(userprofile)/.nuget/packages/Xamarin.UITest/*/tools'
         localeOption: 'en_US'
