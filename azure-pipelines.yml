@@ -72,7 +72,7 @@ stages:
     - task: XamarinAndroid@1
       displayName: 'Build Xamarin.Android project'
       inputs:
-        projectFile: '**/*droid*.csproj'
+        projectFile: '**/ayuina-xamarin-helloapp.sln'
         outputDirectory: '$(outputDirectory)'
         configuration: '$(buildConfiguration)'
         jdkVersionOption: 1.8
