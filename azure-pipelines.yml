@@ -45,6 +45,10 @@ stages:
         feedsToUse: 'select' # Options: select, config
         vstsFeed: AyuInaFeed # Required when feedsToUse == Select
 
+    - powershell: 'dir env:'
+
+    - powershell: 'tree $(build.sourcesdirectory)'
+
     - task: 'richardfennellBM.BM-VSTS-Versioning-Task.Version-AndroidManifest-Task.VersionAndroidManifest@2'
       displayName: 'Define apk version'
       inputs:
@@ -99,9 +103,11 @@ stages:
         isMandatory: true
         distributionGroupId: 'b9b01d0d-098a-4d75-b416-99f6590ed25b'
 
-    - script: 'tree "$(build.sourcesdirectory)/packages/"'
+    - powershell: 'dir env:'
 
-    - script: 'dir env:'
+    - powershell: 'tree $(build.sourcesdirectory)'
+
+
 
     - task: AppCenterTest@1
       inputs:
