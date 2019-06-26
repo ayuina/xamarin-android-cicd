@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloApp.XamarinAndroid", "HelloApp.XamarinAndroid\HelloApp.XamarinAndroid.csproj", "{9596CCFD-7E27-4FA3-AF7C-21D6C11977F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloApp.XamarinAndroid.Test", "HelloApp.XamarinAndroid.Test\HelloApp.XamarinAndroid.Test.csproj", "{7070A47D-5FA6-4005-9575-D25003659D3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,12 @@ Global
 		{9596CCFD-7E27-4FA3-AF7C-21D6C11977F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9596CCFD-7E27-4FA3-AF7C-21D6C11977F4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9596CCFD-7E27-4FA3-AF7C-21D6C11977F4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7070A47D-5FA6-4005-9575-D25003659D3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7070A47D-5FA6-4005-9575-D25003659D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7070A47D-5FA6-4005-9575-D25003659D3D}.LibOnly|Any CPU.ActiveCfg = Release|Any CPU
+		{7070A47D-5FA6-4005-9575-D25003659D3D}.LibOnly|Any CPU.Build.0 = Release|Any CPU
+		{7070A47D-5FA6-4005-9575-D25003659D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7070A47D-5FA6-4005-9575-D25003659D3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
