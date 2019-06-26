@@ -106,7 +106,7 @@ stages:
         prepareTests: true
         frameworkOption: uitest
         uiTestBuildDirectory: $(outputDirectory)
-        runTests:true
+        runTests: true
         credentialsOption: 'serviceEndpoint'
         serverEndpoint: 'appcenter-connection-ainaba-mscom-pipeline'
         appSlug: 'ayuina-demo1/MyFirstApp'
