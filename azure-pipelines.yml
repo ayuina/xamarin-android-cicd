@@ -108,3 +108,15 @@ stages:
         releaseNotesInput: 'Builded By Azure Pipeline - $(Build.BuildNumber)'
         isMandatory: true
         distributionGroupId: 'b9b01d0d-098a-4d75-b416-99f6590ed25b'
+
+
+    - task: AppCenterTest@1
+      inputs:
+        appFile: '''$(outputDirectory)/**/*.apk'''
+        artifactsDirectory: '$(Build.ArtifactStagingDirectory)/AppCenterTest'
+        prepareTests: false
+        credentialsOption: 'serviceEndpoint'
+        serverEndpoint: 'appcenter-connection-ainaba-mscom-pipeline'
+        appSlug: 'ayuina-demo1/MyFirstApp'
+        devices: 'cb86963a'
+        localeOption: 'en_US'
