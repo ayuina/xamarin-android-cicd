@@ -101,7 +101,7 @@ stages:
 
     - powershell: 'dir env:'
 
-    - powershell: 'dir "$env:userprofile/.nuget/packages/xamarin.uitest/"'
+    - powershell: 'get-childitem -Path "$env:userprofile/.nuget/packages/xamarin.uitest/" -Recurse'
 
     - task: AppCenterTest@1
       inputs:
@@ -116,5 +116,5 @@ stages:
         appSlug: 'ayuina-demo1/MyFirstApp'
         devices: 'cb86963a'
         series: master
-        uiTestToolsDirectory: '$(userprofile)/.nuget/packages/Xamarin.UITest/*/tools'
+        uiTestToolsDirectory: '$(userprofile)/.nuget/packages/xamarin.uitest/**/tools'
         localeOption: 'en_US'
