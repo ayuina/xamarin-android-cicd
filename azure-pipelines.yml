@@ -45,6 +45,8 @@ stages:
         feedsToUse: 'select' # Options: select, config
         vstsFeed: AyuInaFeed # Required when feedsToUse == Select
 
+    - script: '%NUGETEXETOOLPATH% locals all -list'
+
     - powershell: 'dir env:'
 
     - powershell: 'tree $(build.sourcesdirectory)'
