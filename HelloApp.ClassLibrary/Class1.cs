@@ -10,7 +10,7 @@ namespace HelloApp.ClassLibrary
             {
                 return $"Hello Anonymous ???";
             }
-            return $"Hello {name}-san !!!";
+            return $"Hello {name}-san Sony !!!";
         }
     }
 }
