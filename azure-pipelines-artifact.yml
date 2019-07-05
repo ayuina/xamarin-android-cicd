@@ -2,8 +2,11 @@
 name: $(BuildDefinitionName)_$(Build.BuildId)_$(Date:yyyyMMdd)$(Rev:.r)
 
 variables:
-  buildConfiguration: 'Release'
-  outputDirectory: '$(build.ArtifactStagingDirectory)/$(buildConfiguration)'
+  - group: android_cicd
+  - name: buildConfiguration
+    value: 'Release'
+  - name: outputDirectory
+    value: '$(build.ArtifactStagingDirectory)/$(buildConfiguration)'
 
 trigger:
 - none
@@ -72,7 +75,7 @@ stages:
       inputs:
         command: push
         nuGetFeedType: 'internal'
-        publishVstsFeed: 'AyuInaFeed'
+        publishVstsFeed: $(artifact_feed)
         packagesToPush: '$(outputDirectory)/**/*.nupkg'
 
     - task: PublishBuildArtifacts@1

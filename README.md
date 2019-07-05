@@ -17,3 +17,8 @@ Github + Azure DevOps + Visual Studio AppCenter を使用した Android アプ�
 - [Demo1 : 手動トリガによるビルドと Azure Artifacts Feed への発行](./docs/demo1.md)
 - [Demo2 : Pull Request トリガによるビルドと App Center への発行](./docs/demo2.md)
 - [Demo3 : Push トリガによる並列ビルド](./docs/demo3.md)
+
+## 実行には以下の環境が必要です。
+- GitHub アカウント
+- Azure DevOps アカウント
+- Visual Studio App Center アカウント
