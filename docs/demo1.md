@@ -23,6 +23,7 @@ Pipeline メニューの Library から Variable Group を  `android_cicd`  と�
 |:--|:--|:--|
 | artifact_feed | AyuInaFeed | ビルド結果を NuGet パッケージとして共有するための Feed 名 |
 
+![変数グループ](./demo1-define-variable-group.png)
 
 ## ビルド定義の作成
 
