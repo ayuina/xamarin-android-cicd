@@ -1,7 +1,7 @@
 # Demo1 : 手動トリガによるビルドと Azure Artifacts Feed への発行
 
-ここでは最もシンプルな手動トリガによるクラスライブラリのビルド、生成したライブラリのテスト、パッケージリポジトリへの発行を行います。
-ビルドパイプラインの定義は [azure-pipelines-artifact.yml](../azure-pipelines-artifact.yml) に記載されています。
+ここでは最もシンプルな手動トリガによるクラスライブラリのビルド、生成したライブラリのテスト、パッケージリポジトリへの発行を行うパイプラインを実行します。
+パイプラインの定義は [azure-pipelines-artifact.yml](../azure-pipelines-artifact.yml) に記載されています。
 
 ## 事前セットアップ
 
@@ -25,12 +25,13 @@ Pipeline メニューの Library から Variable Group を  `android_cicd`  と�
 
 ![変数グループ](./demo1-define-variable-group.png)
 
-## ビルド定義の作成
+## パイプライン定義の作成
 
-Azure Pipeline にビルド定義を作成します。
-パイプラインの定義が既定の名前 (`azure-pipelines.yml`) ではないので、ここではいったんクラシックエディタを使用して明示的に YAML ファイルを指定する手順としています。
+Azure Pipeline に新しいパイプラインを作成します。
+パイプラインの定義ファイルが既定の名前 (`azure-pipelines.yml`) ではないので、
+ここではいったんクラシックエディタを使用して明示的に YAML ファイルを指定する手順としています。
 
-1. ビルド定義を新規に作成する
+1. パイプラインを新規に作成する
 1. ”クラシックエディタ” を使用する
 1. GitHub のリポジトリとブランチを選択する
 1. YAML ファイルを使用するテンプレートを選択する
@@ -38,7 +39,52 @@ Azure Pipeline にビルド定義を作成します。
 
 ![ビルド定義の作成](./demo1-create-build-pipeline.png)
 
+## パイプライン実行
+
+パイプラインの定義が出来上がったら `Run Pipeline` から実行してみましょう。
+
+![パイプライン実行](./demo1-run-pipeline.png)
+
+## 実行結果の確認
+
+このパイプラインはシングルステージ、シングルジョブで定義されているので実行結果はシンプルです。
+
+![パイプライン結果](./demo1-pipeline-result.png)
+
+パイプライン定義で VSTest タスクを実行しているため、テストプロジェクトが実行され、
+その結果が Test タブで表示されています。
+
+```yaml
+    - task: VSTest@2
+      displayName: 'run unit test'
+      inputs:
+        testSelector: 'testAssemblies'
+        testAssemblyVer2: '$(outputDirectory)/**/*.Tests.dll'
+
+```
+
+パイプライン定義で Nuget Push コマンドを実行しているため、
+事前準備で用意したフィードに Nuget パッケージが発行されています。
+
+```yaml
+    - task: NuGetCommand@2
+      displayName: 'NuGet push'
+      inputs:
+        command: push
+        nuGetFeedType: 'internal'
+        publishVstsFeed: $(artifact_feed)
+        packagesToPush: '$(outputDirectory)/**/*.nupkg'
+```
+
+これは Azure Artifact 側でも確認できます。
 
 
+またパイプライン定義で Publish Pipeline Artifact タスクによって成果物を発行しているので、
+DLL や nupkg 等の成果物をダウンロードすることができるようになっています。
 
-
+```yaml
+    - task: PublishPipelineArtifact@1
+      displayName: 'Publish Pipeline Artifact'
+      inputs:
+        targetPath: '$(outputDirectory)'
+```

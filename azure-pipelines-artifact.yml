@@ -84,5 +84,6 @@ stages:
         PathtoPublish: '$(outputDirectory)'
 
     - task: PublishPipelineArtifact@1
+      displayName: 'Publish Pipeline Artifact'
       inputs:
         targetPath: '$(outputDirectory)'
