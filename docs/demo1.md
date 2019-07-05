@@ -20,6 +20,7 @@ Pipeline メニューの Library から Variable Group を  `android_cicd`  と�
 値はご自身の環境に合わせて設定してください。
 
 | Name | Value | 用途 |
+|:--|:--|:--|
 | artifact_feed | AyuInaFeed | ビルド結果を NuGet パッケージとして共有するための Feed 名 |
 
 
