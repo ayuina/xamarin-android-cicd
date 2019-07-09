@@ -3,6 +3,18 @@
 ここでは最もシンプルな手動トリガによるクラスライブラリのビルド、生成したライブラリのテスト、パッケージリポジトリへの発行を行うパイプラインを実行します。
 パイプラインの定義は [azure-pipelines-artifact.yml](../azure-pipelines-artifact.yml) に記載されています。
 
+## 環境準備
+
+### [DevOps] Artifact Feed の作成
+
+このデモでは NuGet パッケージの管理サービスとして Azure Artifact を使用します。
+同じプロジェクト内にフィードを作成しておいてください。
+
+![フィード](./docs/create-artifact-feed.png)
+
+作成したら前述の Variable Group に値を設定します。
+
+
 ## パイプライン定義の作成
 
 Azure Pipeline に新しいパイプラインを作成します。

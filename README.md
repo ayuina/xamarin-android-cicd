@@ -35,23 +35,33 @@ DevOps チームプロジェクトを作成しておき、この中に Pipeline 
 
 ![フィード](./docs/create-artifact-feed.png)
 
+
+### [App Center] Organization の作成
+
+### [App Center] App の作成
+
+
 ### [DevOps] Pipeline Variable Group の作成
 
 各パイプライン間で共有する値を格納する変数を設定します。
 Pipeline メニューの Library から Variable Group を  `android_cicd`  という名前で作成します。
-変数の名前はビルド定義の中から参照していますので下記の表とそろえる必要がありますが、
+変数の名前はパイプライン定義の中から参照していますので下記の表とそろえる必要がありますが、
 値はご自身の環境に合わせて設定してください。
 
 | Name | Value | 用途 |
 |:--|:--|:--|
 | artifact_feed | AyuInaFeed | ビルド結果を NuGet パッケージとして共有するための Feed 名 |
+| apksignerKeystore_filename | .ketstore | キーストアファイルの名前 |
+| apksignerKeystoreAlias | your-keystore-alias | キーストアのエイリアス |
+| apksignerKeystorePassword | **パスワード** | パスワード |
+| apksignerKeyPassword | **パスワード** | パスワード 
+| appcenter_serverendpointname |  | テストや配布に使用する AppCenter への接続名 |
+| appcenter_appslug | orgname/appname | テストや配布対象とする AppCenter 上のアプリの名前 |
+| appcenter_distributionGroupId | guid | ビルド後のアプリを配布するテスターグループのID |
+| appcenter_testdevices | orgname/devicesetname | 自動テストを行うデバイスセットの名前 |
 
 ![変数グループ](./docs/define-variable-group.png)
 
-
-### [App Center] Organization の作成
-
-### [App Center] App の作成
 
 
 ## デモ手順
