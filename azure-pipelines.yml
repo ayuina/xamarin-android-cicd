@@ -6,8 +6,11 @@
 name: $(BuildDefinitionName)_$(Build.BuildId)_$(Date:yyyyMMdd)$(Rev:.r)
 
 variables:
-  buildConfiguration: 'Release'
-  outputDirectory: '$(build.ArtifactStagingDirectory)/$(buildConfiguration)'
+  - group: android_cicd
+  - name: buildConfiguration
+    value: 'Release'
+  - name: outputDirectory
+    value: '$(build.ArtifactStagingDirectory)/$(buildConfiguration)'
 
 # trigger:
 # - none
@@ -42,8 +45,8 @@ stages:
       inputs:
         command: restore
         restoreSolution: '**/ayuina-xamarin-helloapp.sln'
-        feedsToUse: 'select' # Options: select, config
-        vstsFeed: AyuInaFeed # Required when feedsToUse == Select
+        feedsToUse: 'select' 
+        vstsFeed: $(artifact_feed) 
 
     - task: 'richardfennellBM.BM-VSTS-Versioning-Task.Version-AndroidManifest-Task.VersionAndroidManifest@2'
       displayName: 'Define apk version'
@@ -63,16 +66,16 @@ stages:
     - task: DownloadSecureFile@1
       displayName: 'Download keytore'
       inputs:
-        secureFile: '.keystore'
+        secureFile: '$(apksignerKeystore_filename)'
 
     - task: AndroidSigning@3
       displayName: 'Sign and Zipalign apk'
       inputs:
         apkFiles: '$(outputDirectory)/**/*.apk'
         apksign: true
-        apksignerKeystoreFile: '.keystore'
+        apksignerKeystoreFile: '$(apksignerKeystore_filename)'
         apksignerKeystorePassword: '$(apksignerKeystorePassword)'
-        apksignerKeystoreAlias: 'ayuina-hello-app-keystore'
+        apksignerKeystoreAlias: '$(apksignerKeystoreAlias)'
         apksignerKeyPassword: '$(apksignerKeyPassword)'
         zipalign: true
 
@@ -91,13 +94,13 @@ stages:
     - task: AppCenterDistribute@2
       displayName: 'Push to AppCenter Release'
       inputs: 
-        serverEndpoint: 'appcenter-connection-ainaba-mscom-pipeline'
-        appSlug: 'ayuina-demo1/MyFirstApp'
+        serverEndpoint: '$(appcenter_serverendpointname)'
+        appSlug: '$(appcenter_appslug)'
         appFile: '$(outputDirectory)/**/*.apk'
         symbolsIncludeParentDirectory: false
         releaseNotesInput: 'Builded By Azure Pipeline - $(Build.BuildNumber)'
         isMandatory: true
-        distributionGroupId: 'b9b01d0d-098a-4d75-b416-99f6590ed25b'
+        distributionGroupId: '$(appcenter_distributionGroupId)'
 
     - powershell: 'dir env:'
 
@@ -112,9 +115,9 @@ stages:
         uiTestBuildDirectory: $(outputDirectory)
         runTests: true
         credentialsOption: 'serviceEndpoint'
-        serverEndpoint: 'appcenter-connection-ainaba-mscom-pipeline'
-        appSlug: 'ayuina-demo1/MyFirstApp'
-        devices: 'ayuina-demo1/testdev1'
+        serverEndpoint: '$(appcenter_serverendpointname)'
+        appSlug: '$(appcenter_appslug)'
+        devices: '$(appcenter_testdevices)'
         series: master
         uiTestToolsDirectory: '$(userprofile)/.nuget/packages/xamarin.uitest/2.2.7/tools'
         localeOption: 'en_US'
