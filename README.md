@@ -35,7 +35,12 @@ Github + Azure DevOps + Visual Studio AppCenter を使用した Android アプ�
 
 ### [GitHub] リポジトリのフォーク
 
+パイプラインを仕掛ける際にリポジトリへのアクセス権が必要になりますので、
+本リポジトリをフォークして自身のアカウントの中にコピーしておいてください。
+
 ### [DevOps] プロジェクトの作成
+
+DevOps チームプロジェクトを作成しておき、この中に Pipeline や Artifact を構成していきます。
 
 ### [DevOps] Artifact Feed の作成
 
@@ -46,7 +51,7 @@ Github + Azure DevOps + Visual Studio AppCenter を使用した Android アプ�
 
 ### [DevOps] Pipeline Variable Group の作成
 
-各ビルド間で共有する値を格納する変数を設定します。
+各パイプライン間で共有する値を格納する変数を設定します。
 Pipeline メニューの Library から Variable Group を  `android_cicd`  という名前で作成します。
 変数の名前はビルド定義の中から参照していますので下記の表とそろえる必要がありますが、
 値はご自身の環境に合わせて設定してください。
